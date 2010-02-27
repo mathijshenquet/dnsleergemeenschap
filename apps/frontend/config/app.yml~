@@ -1,0 +1,109 @@
+dev:
+  sfCombinePlugin:
+    enabled:		false
+  sf_google_analytics_plugin:
+    enabled:      off
+    profile_id:   UA-11396238-2
+    tracker:      google
+    
+all:
+  posts_op_nieuwspagina: 5
+  deadpixel:
+    active: false
+  gravity:
+    active: false
+  cowboy:
+    active: true
+  chicken:
+    active: true
+  cufon:
+    active: true
+  sf_guard_plugin:
+    profile_class:      sfGuardUserProfile
+    profile_field_name: user_id
+  sfCombinePlugin:
+    enabled:        true     # enabling the plugin will combine script and css files into a single file
+    asset_version:  1        # key to the asset version (see below)
+    client_cache_max_age: 10 # enable the browser to keep a copy of the files for x days (false to disable)
+    gzip:           false     # allow PHP gzipping of the combined JavaScript and CSS files to reduce bandwidth usage (false to disable)
+    js:
+      combine_skip: ~         # these files will not be combined (necessary when js code is based on js file name)
+       # - main.js
+      minify:       false     # minification removes whitespaces and comments
+      minify_skip:          # these files will not be minified (useful when code is already minified)
+        - jquery.js
+      pack:         false    # packing reduces the filesize by using a JavaScript compression (warning: see below)
+      pack_skip:    ~        # these files will not be packed (necessary when a third party js lib doesn't support packing)
+    css:
+      minify:       false     # only minification is available for css
+  swToolbox:
+    cross_link_application:
+      frontend:
+        enabled: on                         # enable the feature
+        load:
+          backend:
+            routes:   ~                      # routes to load, leave empty will load all the routes
+            env:                            # define the environment
+              dev: dns.loc/backend_dev.php   # define the full path for the dev environnement
+              cache: dns.loc/backend_dev.php   # define the full path for the dev environnement
+              prod: beheer.dnsleerroutes.net      # define the full path for the prod environnement
+      backend:
+        enabled: on
+        load:
+          frontend:
+            routes: ~
+            env:
+              dev: dns.loc/frontend_dev.php
+              cache: dns.loc/frontend_cache.php
+              prod: dnsleerroutes.net
+  sf_google_analytics_plugin:
+    enabled:      on
+    profile_id:   UA-11396238-1
+    tracker:      google
+  nahoWikiPlugin:
+    # General config
+    start_page:             index         # Default start page
+    pagename_format:        "a-z0-9\-_"   # Pagename authorized characters (format compatible with PCRE)
+    ns_separator:           ":"           # Namespace separator character
+    max_breadcrumbs:        5             # Maximum number of links stored in the breadcrumbs
+    breadcrumbs_separator:  " » "         # Separator between breadcrumbs items
+    include_breadcrumbs:    off            # Include breadcrumbs slot (disable if you include the slot in your layout) ?
+    include_actions:        on            # Include actions list slot (disable if you include the slot in your layout) ?
+    include_pagename:       off            # Display page's name when viewing content ?
+    include_toc:            on            # Display Table of Contents at top of every page
+    routes_register:        on            # Enable embedded routing rules ?
+    wrap_class:             nahoWiki      # All pages are wrapped in a <div class="..."> tag. This is its class name.
+    compress_old_revisions: on            # With this option enabled, old revisions are stored as gzip-compressed (saves space)
+
+    # Rendering for internal links, you may need to customize the *_model options if you change rendering engine
+    internal_links:              ["[[%name% %title%]]", "[[%name%]]"]
+    internal_link_model:         "[%title%](%link%)"
+    internal_link_broken_model:  "[%title%(?)](%link%)"
+    interwiki_links:             ["[[%key%>%name% %title%]]", "[[%key%>%name%]]"]
+    interwiki_link_model:        "[![%alttext%](%image%) %title%](%link%)"
+
+    # Regular expressions replacements *before* conversion
+    replace_before:     []
+      # - { from: "/a pcre mask/i", to: "something" }  # replace "a pcre mask" with "something"
+      # Example for typos : [{from: '/"(.*?)"/', to: '«$1»'}, {from: '/-+>/', to: '&rarr;'}, {from: '/<-+/', to: '&larr;'}]
+
+    # Regular expressions replacements *after* conversion
+    replace_after:     []
+      # - { from: "/a pcre mask/i", to: "something" }  # replace "a pcre mask" with "something"
+
+    # Strip some tags (and their contents) for security (this comes after conversion)
+    strip_tags:  [script, embed, object]
+
+    # Permissions
+    credentials_edit:      []  # Credentials required to be able to edit a page
+    allow_anonymous_edit:  off  # Are anonymous (not authenticated) users able to edit a page ?
+
+    # Long named namespaces
+    namespaces:
+      # Put here "human" names for your namespaces, example :
+      # ns: NameSpace
+
+    # Form names
+    # You cannot change form names directly in the configure method : it would not impact the actions and forms wouldn't work anymore
+    edit_form_name: wiki_edit
+    diff_form_name: wiki_diff

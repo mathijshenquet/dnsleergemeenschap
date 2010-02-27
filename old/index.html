@@ -1,0 +1,192 @@
+<?php
+include 'config.php';
+setlocale(LC_ALL, 'nl_NL' );
+open();
+
+$type = 'page';
+// DETERMAIN REQUEST TYPE //
+if(!isset($_GET['q'])){
+	$query = "SELECT * FROM page WHERE title='home'";
+}
+else{
+	$q = addslashes($_GET['q']);
+        if(substr($q, strlen($q) -1) == '/'){
+                $q = substr($q, 0, strlen($q) -1);
+        }
+	$query = "SELECT * FROM page WHERE title='" . $q . "'";
+	if(mysql_num_rows(mysql_query($query)) < 1){
+                $type = 'node';
+		$query = "SELECT * FROM nodes WHERE title='" . $q . "'";
+                if(mysql_num_rows(mysql_query($query)) < 1){
+		        $query = "SELECT * FROM nodes WHERE title='404'";
+                }
+	}
+}
+$row = mysql_fetch_array(mysql_query($query));
+if($type == 'page'){
+	$title = $row[title];
+	$id = $row[id];
+        $bread = '/ <a href="/" title="Ga naar de Home page">Home</a>';
+        if($title != 'home'){
+	        $bread .= ' / <a href="/' . urlencode($title) . '" title="Ga naar de pagina ' . $title . '">' . $row[title] . '</a>';
+        }
+	$nodes = mysql_query("SELECT * FROM `nodes` WHERE id_page='" . $id . "' ORDER BY `sticky` DESC, `date` DESC LIMIT 0, 10");
+	$content = '';
+	while($node = mysql_fetch_array($nodes)){
+		$a = substr($node['content'], 0, 2000);
+		if(strlen($a) != strlen($node['content'])){
+                        $b = substr($a, 0, strrpos($a, "\n") - 1);
+		        if(strlen($b) < 600){
+			        $b = substr($a, 0, strrpos($a, ' '));	
+		        }
+                }
+                else{
+                        $b = $node['content'];
+                        $cropped = false;
+                }
+		$content .= '<div class="item" id="' . $node['title'] . '">
+				<h2><img src="/images/gezicht.png" alt="+" /><a href="' . urlencode($node['title']) . '">' . $node['title'] . '</a></h2>
+				<div class="h2_line"><hr /></div>';
+		$content .= '<p>
+					' . nl2br($b) . '
+				</p>';
+		// $content .= '<div class="h2_line"><hr /></div><div class="sub"> | <a href="#top" title="Ga terug naar boven">[^] Ga terug naar boven</a> | Geplaatst op ' . strftime("%a %d %b %Y", $node['date']) . ' |';
+                 //               <a href="' . $node['title'] . '">Directe link</a> |</div>
+                  //              <div class="h2_line"><hr /></div>
+				$content .= '<div class="clear"></div>
+			</div>
+			';
+	}
+}
+if($type == 'node'){
+	$title = $row[title];
+        $page = mysql_fetch_row(mysql_query("SELECT title FROM page WHERE id='" . $row[id_page] . "'"));
+        $page = $page[0];
+        $bread = '/ <a href="." title="Ga naar de Home page">Home</a>';
+        if($page != 'home'){
+		if(!empty($page)){
+	        	$bread .= ' / <a href="' . urlencode($page) . '" title="Ga naar de pagina ' . $page . '">' . $page . '</a>';
+		}
+        }
+        $bread .= ' / <a href="/' . urlencode($title) . '" title="Ga naar de pagina ' . $title . '">' . $title . '</a>';
+	$content = '<div class="item">
+				<h2><img src="/images/gezicht.png" alt="+" /><a href="/' . urlencode($row['title']) . '">' . $row['title'] . '</a></h2>
+				<div class="h2_line"><hr /></div>
+                                <p>
+					' . nl2br($row['content']) . '
+				</p>';
+                               // $content .= '<div class="h2_line"><hr /></div>
+                                //<div class="sub"> | <a href="#top" title="Ga terug naar boven">[^] Ga naar boven</a> |';
+        //if( strpos(getenv("HTTP_REFERER"), getenv("HTTP_HOST")) ){
+         //     $content .= ' <a href="' . getenv("HTTP_REFERER") . '" title="Ga terug naar de overzicht pagina">[&lt;]Ga terug</a> |';
+       // }
+        //$content .= ' Geplaatst op ' . strftime("%a %d %b %Y", $row['date']) . ' | Link: <input class="perma" onclick="this.select()" type="text" value="http://' . getenv("HTTP_HOST") . '/' . $row['title'] . '" /> | </div><div class="h2_line"><hr /></div>';
+				$content .= '<div class="clear"></div>
+			</div>';
+}
+$quicks = mysql_query("SELECT * FROM quick LEFT JOIN nodes ON(quick.id_node=nodes.id)");
+$quick = '';
+
+while($row = mysql_fetch_array($quicks)){
+	$quick .= '<li><a href="/' . urlencode($row[title]) . '" title="Ga naar ' . $row[qtitle] . '">' . $row[qtitle] . '</a></li>';
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+<head>
+<title>De Nieuwste School - <?=$title;?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="DNS, De Nieuwste School, Tilburg, Middelbareschool, Voortgezet Onderwijs, VWO, HAVO, VMBO, Onderwijs" />
+<meta name="copyright" content="Copyright 2008 De Nieuwste School. Alle Rechten Voorbehouden." />
+<meta name="author" content="Mathijs Henquet en Cas Cornelissen" />
+<meta name="language" content="nl" />
+<link href="/default.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body id="top">
+<!-- Bye Bye little spambot -->
+<p style="display: none"><a href="http://english-143330081236.spampoison.com">Dude check out this page</a></p>
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<a href="/"><img src="/images/logo.jpg" title="De Nieuwste School - Verder in verwondering" alt="De Nieuwste School" /></a>
+		</div>
+		<div id="quickmenu_box">
+			<div id="quickmenu_field">
+				<a href="http://www.omo.nl/"><img class="right" src="/images/omo.gif" alt="Ons Middelbaar Onderwijs" /></a>
+                                <div class="clear"></div>
+				<div id="quick_links">
+					<ul class="vertical" id="quickmenu">
+                                        <?=$quick;?>
+					</ul>
+                                        <div class="clear"></div>
+				</div>
+				<form action="search.php" method="get">
+				<div id="search">
+					<p><input id="search_submit" class="search_fields" name="sa" type="submit" value="Zoek" /></p>
+					<p id="search_text_wrapper"><input id="search_text" class="search_fields" type="text" name="q" /></p>
+                                        <div class="clear"></div>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+   	<div id="navigation_box">
+    		<ul class="vertical" id="navigation">
+    			<?php
+        		$menus = mysql_query("SELECT * FROM menu LEFT JOIN page ON (menu.id_page=page.id)");
+        		while($row = mysql_fetch_array($menus)){
+        			echo '<li class="top"><a href="/' . urlencode($row[4]) . '">' . $row[1] . '</a>';
+            			$items = mysql_query("SELECT * FROM page WHERE id_menu='$row[0]'");
+				if(mysql_num_rows($items) > 0){
+					echo '<ul>';
+					while($item = mysql_fetch_array($items)){
+                				echo '<li><a href="/' . urlencode($item[title]) . '">' . $item[title] . '</a></li>';
+					}
+					echo '</ul>';
+				}
+			echo '</li>';
+       			}
+        		?>
+		</ul>
+	</div>
+	<div id="bread">
+		<?=$bread;?>
+	</div>
+	<div id="content_box">
+		<div id="content">
+			<?=$content;?>&nbsp;
+		</div>
+		<div id="right_side">
+			<?php
+			$result = mysql_query("SELECT * FROM items LEFT JOIN nodes ON (items.node=nodes.id)");
+			while($item = mysql_fetch_array($result)){ ?>
+			<div class="right_item">
+				<div class="right_item_img_wrap"><a href="/<?=urlencode($item[title]);?>"><img src="<?=$item[image];?>" alt="<?=$item[title];?>"/></a></div>
+				<div class="right_item_link"><a href="/<?=urlencode($item[title]);?>"><?=$item[title];?></a></div>
+			</div><?php } ?>
+		</div>
+	<hr id="line"/>
+	</div>
+	<div id="comment_ie">
+		<img src="images/ie.jpg" alt="IE" class="left" />You are trying to view this in a old verion of Internet Explorer that does not display this page corectly. <br /><br />There for we advise you to get the new version: <a href="http://www.microsoft.com/downloads/info.aspx?na=90&amp;p=&amp;SrcDisplayLang=nl&amp;SrcCategoryId=&amp;SrcFamilyId=9ae91ebe-3385-447c-8a30-081805b2f90b&amp;u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2f4%2f3%2f3%2f433d9e80-2b31-4bf3-844f-c11eece20da5%2fIE7-WindowsXP-x86-nld.exe">Download Internet Explorer 7</a><br /><br />
+		U probeert deze pagina te bekijken in een verouderde versie van Internet Explorer. Deze geeft helaas deze website niet goed weer. <br /><br />Daarom adviseren we u de meest recente versie te downloaden: <a href="http://www.microsoft.com/downloads/info.aspx?na=90&amp;p=&amp;SrcDisplayLang=nl&amp;SrcCategoryId=&amp;SrcFamilyId=9ae91ebe-3385-447c-8a30-081805b2f90b&amp;u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2f4%2f3%2f3%2f433d9e80-2b31-4bf3-844f-c11eece20da5%2fIE7-WindowsXP-x86-nld.exe">Download Internet Explorer 7</a>
+	<div class="clear"></div></div>
+	<div id="comment_op">
+		<img src="images/opera.gif" alt="Opera" class="left" />You are trying to view this page in a old version of Opera that does not display this page corectly. <br /><br />There for we advise you to get the new version: <a href="http://www.opera.com/">Download the last version of Opera</a>
+	<div class="clear"></div></div>
+</div>
+<div id="footer_box">
+	<hr id="footer_line"/>
+	<div id="footer_content">
+		&copy; 2004 - <?=date("Y");?> <span>De Nieuwste School</span> - Alle rechten voorbehouden<br />
+
+		Gemaakt door <a href="http://mathijsnet.nl">MathijsNET Webdesign Tilburg</a> &bull; Ontwerp door <a href="http://rawox.byethost11.com">Rawox Design Tilburg</a> &bull; Logo en kleurschema <a href="http://www.dvision.nl/">dVision</a><br />
+	</div>
+</div>
+</body>
+</html>
+<?php close(); ?>
+			

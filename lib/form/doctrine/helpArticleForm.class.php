@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * helpArticle form.
+ *
+ * @package    form
+ * @subpackage helpArticle
+ * @version    SVN: $Id: sfDoctrineFormTemplate.php 6174 2007-11-27 06:22:40Z fabien $
+ */
+class helpArticleForm extends BasehelpArticleForm
+{
+  public function configure()
+  {
+    
+  }
+}

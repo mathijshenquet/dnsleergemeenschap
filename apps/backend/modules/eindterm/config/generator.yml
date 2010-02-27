@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnEindterm
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_eindterm_eindterm
+    with_doctrine_route:   1
+
+    config:
+      actions: ~
+      fields:
+        domein_id: {label: Domein}
+        kernbegrip_list: {label: Kernbegrippen}
+        summary: {label: Samenvatting}
+        image: {label: Afbeelding}
+        description: {label: Omschrijving}
+        kernbegrip_list: {label: Kernbegrippen, help: Zet de kernbegrippen die bij dit eindterm horen in het linker lijstje}
+      list:
+        display: [=name, image, summary]
+      filter:
+        display: [name, summary, description, domein_id]
+      form:
+        display: [name, image, summary, description, domein_id]
+      edit:    ~
+      new:     ~

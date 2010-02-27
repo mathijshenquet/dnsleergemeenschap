@@ -1,0 +1,701 @@
+leerlijnKern: 
+  leerlijnKern_1:
+    name: Visualiseren
+    summary: ''
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnKern_2:
+    name: 'Creatief denken'
+    summary: 'Je leert dat het maken van beelden een creatief proces is, waarin vormgevingsvraagstukken meer dan één oplossing hebben. Die oplossingen bereik je in een complex proces waarin nadenken, schetsen en beeldend experimenteren hand in hand gaan.'
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnKern_3:
+    name: Beschouwen
+    summary: ''
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+leerlijnKernbegrip:
+  leerlijnKernbegrip_1:
+    name: Zeggingskracht
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_2:
+    name: Zeggingskracht
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_3:
+    name: 'Toegepaste Kunst'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_4:
+    name: Media
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_5:
+    name: Identiteit
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_6:
+    name: 'Materiaal / Techniek'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_7:
+    name: Beeldaspecten
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_8:
+    name: Presenteren
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_9:
+    name: Verwonderen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_10:
+    name: 'Onderzoek doen'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_11:
+    name: 'Onderzoek doen'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_12:
+    name: Schetsen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_13:
+    name: Experimenteren
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_14:
+    name: Verzamelen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_15:
+    name: Verzamelen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_16:
+    name: Ideevorming
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_17:
+    name: Verkennen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_18:
+    name: Reflectie
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_19:
+    name: 'Mening vormen'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_20:
+    name: Hofcultuur
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_21:
+    name: 'Burgerlijke Cultuur'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_22:
+    name: 'Cultuur van het Moderne'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_23:
+    name: Massacultuur
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_24:
+    name: 'Termen/begrippen dans'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_25:
+    name: 'Termen/ begrippen beeldend'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_26:
+    name: 'Termen/ begrippen drama'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_27:
+    name: 'Termen/ begrippen muziek'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_28:
+    name: 'Termen/ begrippen muziek'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_29:
+    name: Bronnen
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_30:
+    name: 'Kunst en religie, levensbeschouwing'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_31:
+    name: 'Kunst en esthetica'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_32:
+    name: 'Kunstenaar en opdrachtgever, politiek en economische macht'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_33:
+    name: 'Kunst en vermaak'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_34:
+    name: 'Kunst, wetenschap en techniek'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+  leerlijnKernbegrip_35:
+    name: 'Kunst intercultureel'
+    summary: null
+    description: null
+    image: null
+    Kern: [ leerlijnKern_1 ]
+    Eindterm: [ leerlijnEindterm_1 ]
+    thema_id: null
+leerlijnLeergebied:
+  leerlijnLeergebied_1:
+    name: Arts
+    description: 'Op ontdekkingsreis in de wereld van kunst en cultuur.'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_2:
+    name: Linguistics
+    description: 'Linguistics is het leergebied waarin de verschillende talen worden beschouwd en benaderd'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_3:
+    name: Science
+    description: 'Science proefjes'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_4:
+    name: Humanics
+    description: ''
+    image: null
+    image_desc: ''
+leerlijnSleutelinzicht:
+  leerlijnSleutelinzicht_6:
+    description: 'Je kan met een beeld een idee/ gedachte/gevoel overbrengen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_2
+  leerlijnSleutelinzicht_7:
+    description: 'Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_8:
+    description: 'Je komt via de ontwerpcyclus tot een bruikbaar product.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_9:
+    description: 'Je hebt tijdens onderzoeken gebruik gemaakt van verschillende media.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_4
+    
+  leerlijnSleutelinzicht_10:
+    description: 'Je kan beelden maken die iets over jou als persoon zeggen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_5
+    
+  leerlijnSleutelinzicht_11:
+    description: "Je kan minimaal 2 van de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_6
+    
+  leerlijnSleutelinzicht_12:
+    description: "Je weet hoe je de volgende materialen en gereedschappen op de juiste manier gebruikt om tot een 3- dimensionaal beeld te komen:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, lijmpistool.\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_6
+    
+  leerlijnSleutelinzicht_13:
+    description: "Je hebt kennis gemaakt met de volgende apparaten, programma’s en hulpmiddelen om tot een 4- dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_6
+    
+  leerlijnSleutelinzicht_14:
+    description: "Je kan met hulp de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_7
+    
+  leerlijnSleutelinzicht_15:
+    description: "Je kan met hulp de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal,\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_7
+    
+  leerlijnSleutelinzicht_16:
+    description: "Je kan met hulp de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_7
+    
+  leerlijnSleutelinzicht_17:
+    description: 'Je gebruikt in je presentatie de belangrijkste beelden die je in de loop van je onderzoek hebt gemaakt.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_8
+    
+  leerlijnSleutelinzicht_18:
+    description: 'Je hebt je laten inspireren door kunstenaars en vormgevers om onderzoek te gaan doen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_9
+    
+  leerlijnSleutelinzicht_19:
+    description: 'Je kan met hulp een beeldend onderzoek doen aan de hand van de denkcirkel.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_11
+    
+  leerlijnSleutelinzicht_20:
+    description: 'Je kan door een  schets ideeën een eerste vorm  geven.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_12
+    
+  leerlijnSleutelinzicht_21:
+    description: 'Je maakt kennis met de wereld van de kunsten door het bezoeken van musea en andere culturele activiteiten.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_17
+    
+  leerlijnSleutelinzicht_22:
+    description: 'Je kan reageren op jouw werk en dat van anderen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_18
+    
+  leerlijnSleutelinzicht_23:
+    description: 'Je kan aangeven wat jouw mening is over kunstwerken. Je onderbouwt die mening met argumenten.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    
+    
+    Kernbegrip: leerlijnKernbegrip_19
+    
+  leerlijnSleutelinzicht_24:
+    description: 'Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_25:
+    description: 'Je komt via de ontwerpcyclus tot een bruikbaar product.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_26:
+    description: 'In een onderzoek naar toegepaste kunst gebruik je een werkplan dat gebaseerd is op de ontwerpcyclus.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_27:
+    description: 'Je doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_28:
+    description: 'In een onderzoek naar toegepaste kunst kan je de functionaliteit van je werk benoemen.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_29:
+    description: 'In een onderzoek naar toegepaste kunst loopt je ontwerpproces via de ontwerpcyclus.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_30:
+    description: 'Je doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_31:
+    description: 'In een onderzoek naar toegepaste kunst houdt je rekening met de functionaliteit van je product.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_32:
+    description: 'Je kunt met hulp beelden produceren die tot stand komen via onderzoek binnen de toegepaste kunst.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_33:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    
+    
+    Kernbegrip: leerlijnKernbegrip_3
+    
+  leerlijnSleutelinzicht_34:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    
+    
+    Kernbegrip: leerlijnKernbegrip_1
+leerlijnVak:
+  leerlijnVak_1:
+    name: 'Culturele Kunstzinnige Vorming'
+    summary: 'Culturele Kunstzinnige Vorming is een verplicht examenvak voor HAVO en Atheneum. Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_2:
+    name: 'Kunst Algemeen'
+    summary: 'Kunst Algemeen is een theoretisch vak voor HAVO en Atheneum dat wordt afgesloten met een Centraal Examen. Je leert dans, drama, beeldende kunst en muziek te analyseren aan de hand van verschillende tijdsperioden en invalshoeken.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_3:
+    name: 'Kunst Beeldende Vormgeving'
+    summary: 'Kunst Beeldende Vormgeving is een praktisch vak voor HAVO en Atheneum dat wordt afgesloten met een Schoolexamen. Je ontwikkelt je vermogen om 2-D, 3-D en 4-D beelden vorm te geven op een persoonlijke wijze.'
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_4:
+    name: 'Kunstvakken 1'
+    summary: 'Kunstvakken 1 is een verplicht examenvak voor VMBO-T.  Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_5:
+    name: 'Kunstvakken 2'
+    summary: 'Kunstvakken 2 beeldende vakken is een examenvak voor VMBO-T wat we (nog) niet aanbieden. Het schoolexamen is praktisch. Je leert 2-D, 3-D of 4-D beelden vorm te geven. Het Centraal Examen is theoretisch en gaat over het beschouwen van kunstwerken.'
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+leerlijnDomein:
+  leerlijnDomein_1:
+    name: 'Domein 1'
+    summary: ''
+    description: ''
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_2:
+    name: 'Domein 2'
+    summary: ''
+    description: ''
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_3:
+    name: 'Domein 3'
+    summary: ''
+    description: ''
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_4:
+    name: 'Domein 4'
+    summary: ''
+    description: ''
+    image: null
+    Vak: leerlijnVak_1
+leerlijnEindterm:
+  leerlijnEindterm_1:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_1
+  leerlijnEindterm_2:
+    name: 'Eindterm 2'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_1
+  leerlijnEindterm_3:
+    name: 'Eindterm 3'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_1
+  leerlijnEindterm_4:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_2
+  leerlijnEindterm_5:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_2
+  leerlijnEindterm_6:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_3
+  leerlijnEindterm_7:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_3
+  leerlijnEindterm_8:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_4
+  leerlijnEindterm_9:
+    name: 'Eindterm 1'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_4
+  leerlijnEindterm_10:
+    name: 'Eindterm 10'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_4
+leerlijnNiveau:
+  leerlijnNiveau_1:
+    name: '1 vmbot/havo'
+    position: '0'
+  leerlijnNiveau_2:
+    name: '1 havo/atheneum'
+    position: '1'
+  leerlijnNiveau_3:
+    name: '2 vmbot/havo'
+    position: '2'
+  leerlijnNiveau_4:
+    name: '2 havo/atheneum'
+    position: '3'
+  leerlijnNiveau_5:
+    name: '3 vmbot'
+    position: '4'
+  leerlijnNiveau_6:
+    name: '3 havo/atheneum'
+    position: '5'
+  leerlijnNiveau_8:
+    name: '4 havo/atheneum'
+    position: '7'
+  leerlijnNiveau_9:
+    name: '5 havo'
+    position: '8'
+  leerlijnNiveau_10:
+    name: '5 atheneum'
+    position: '9'
+  leerlijnNiveau_11:
+    name: '6 atheneum'
+    position: '10'
+  leerlijnNiveau_12:
+    name: '4 vmbot'
+    position: '6'

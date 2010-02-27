@@ -1,0 +1,44 @@
+dev:
+  sfCombinePlugin:
+    enabled:		false
+
+all:
+  sf_guard_plugin:
+    profile_class:      sfGuardUserProfile
+    profile_field_name: user_id
+  sfCombinePlugin:
+    enabled:        false     # enabling the plugin will combine script and css files into a single file
+    asset_version:  1        # key to the asset version (see below)
+    client_cache_max_age: 10 # enable the browser to keep a copy of the files for x days (false to disable)
+    gzip:           false     # allow PHP gzipping of the combined JavaScript and CSS files to reduce bandwidth usage (false to disable)
+    js:
+      combine_skip:          # these files will not be combined (necessary when js code is based on js file name)
+        - main.js
+      minify:       false     # minification removes whitespaces and comments
+      minify_skip:          # these files will not be minified (useful when code is already minified)
+        - jquery.js
+      pack:         false    # packing reduces the filesize by using a JavaScript compression (warning: see below)
+      pack_skip:    ~        # these files will not be packed (necessary when a third party js lib doesn't support packing)
+    css:
+      minify:       false     # only minification is available for css
+  swToolbox:
+    cross_link_application:
+      frontend:
+        enabled: on                         # enable the feature
+        load:
+          backend:
+            routes:   ~                      # routes to load, leave empty will load all the routes
+            env:                            # define the environment
+              dev: dns.loc/backend_dev.php   # define the full path for the dev environnement
+              cache: dns.loc/backend_dev.php   # define the full path for the dev environnement
+              prod: beheer.dnsleerroutes.net      # define the full path for the prod environnement
+      backend:
+        enabled: on
+        load:
+          frontend:
+            routes: ~
+            env:
+              dev: dns.loc/frontend_dev.php
+              cache: dns.loc/frontend_cache.php
+              prod: dnsleerroutes.net
+      

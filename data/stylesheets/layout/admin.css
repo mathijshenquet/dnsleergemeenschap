@@ -1,0 +1,109 @@
+#sf_admin_container{
+	font-size: 1.2em;
+}
+#header #logo{
+	margin: 10px 0;
+	float: none;
+}
+
+#content{
+	width: auto;
+	margin: 0 50px;
+}
+
+.leerlijn{
+	width: 900px;
+	margin: 0 auto;
+}
+
+html
+{
+  background-color: #fff;
+}
+
+body
+{
+  padding: 0;
+  text-align: left;
+}
+ul li{
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+#userbar{
+	background: url(../images/backend_topbar_fill.png);
+}
+#userbar.signin .username input, #userbar .password input{
+	color: #dcdcdc;
+}
+#navigation{
+	background: url(../images/backend_menu_fill.png);
+	margin: 0 0 20px 0;
+}
+#navigation ul li{
+	background: url(../images/backend_menu_sep.png);
+}
+#navigation ul li a{
+	background: url(../images/backend_menu_fill.png);
+}
+#navigation ul li a:hover{
+	background: url(../images/backend_menu_hover.png);
+}
+#footer hr{
+	background: url(../images/backend_footer_fill.png);
+}
+#userbar a, #navigation a{
+	color: #dcdcdc;
+}
+#userbar a:hover, #navigation a:hover{
+	color: #fff;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #777;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+	color: #999;
+}
+#sf_admin_container{
+	overflow: hidden;
+}
+#sf_admin_container h1{
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	color: #777;
+}
+
+#footer div{
+	color: #333;
+}
+
+#sf_admin_content .sf_admin_form_row input{
+	width: 500px;
+	font-size: 16px;
+	padding: 6px;
+}
+#sf_admin_content .sf_admin_form_row textarea{
+	width: 600px;
+	height: 200px;
+	padding: 3px;
+}
+#sf_admin_content .sf_admin_form_field_image input, #sf_admin_content .sf_admin_boolean input{
+	width: auto;
+}
+#sf_admin_content .sf_admin_form_field_image img{
+	display: block;
+	margin: 0 0 10px 0;
+}
+#sf_admin_container ul li.sf_admin_action_promote a{
+	background: url(/images/icons/arrow_up.png) no-repeat;
+}
+#sf_admin_container ul li.sf_admin_action_demote a{
+	background: url(/images/icons/arrow_down.png) no-repeat;
+}
+#sf_admin_container ul li a{
+	min-height: 32px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}

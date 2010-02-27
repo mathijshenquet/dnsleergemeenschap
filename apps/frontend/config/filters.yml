@@ -1,0 +1,14 @@
+rendering: ~
+security:
+  class: sfGuardBasicSecurityFilter
+
+invite:
+  class: inviteFilter
+
+# insert your own filters here
+sf_google_analytics_plugin:
+  class: sfGoogleAnalyticsFilter
+
+cache:     ~
+common: {class: sfCombineFilter}
+execution: ~

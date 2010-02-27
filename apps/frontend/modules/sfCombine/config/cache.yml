@@ -1,0 +1,8 @@
+css:
+  enabled: on
+  with_layout: true
+  lifetime:    290304000
+js:
+  enabled: on
+  with_layout: true
+  lifetime:    290304000

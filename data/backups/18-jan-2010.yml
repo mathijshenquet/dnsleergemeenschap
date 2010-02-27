@@ -1,0 +1,1839 @@
+
+Links:
+  Links_1:
+    title: 'De Nieuwste School'
+    image: 1.png
+    url: 'http://www.denieuwsteschool.nl/'
+    is_active: true
+  Links_2:
+    title: Magister
+    image: 2.png
+    url: 'http://denieuwsteschool.schoolwerkplek.nl/MWP'
+    is_active: true
+leerlijnKern:
+  leerlijnKern_1:
+    name: Visualiseren
+    summary: ''
+    description: ''
+    image: f05b12508593a44a6b2338e4ffbf540e2e4e575e.jpg
+    Leergebied: leerlijnLeergebied_1
+  leerlijnKern_2:
+    name: 'Creatief denken'
+    summary: 'Je leert dat het maken van beelden een creatief proces is, waarin vormgevingsvraagstukken meer dan één oplossing hebben. Die oplossingen bereik je in een complex proces waarin nadenken, schetsen en beeldend experimenteren hand in hand gaan.'
+    description: ''
+    image: 50de7b65fa3e740939de7fc7bf6cceee469e09f4.jpg
+    Leergebied: leerlijnLeergebied_1
+  leerlijnKern_3:
+    name: Beschouwen
+    summary: ''
+    description: ''
+    image: 7f7b24753f0fef08dcefcdb90c518d840db4f6e9.jpg
+    Leergebied: leerlijnLeergebied_1
+leerlijnKernbegrip:
+  leerlijnKernbegrip_1:
+    name: Zeggingskracht
+    summary: ''
+    description: ''
+    image: 65a8c71ed219111db1488c7519d1bba4e70a5cc7.jpg
+    thema_id: null
+  leerlijnKernbegrip_3:
+    name: 'Toegepaste Kunst'
+    summary: ''
+    description: ''
+    image: ab0e8838de1f598e9293f8168ce754f25c08aa69.jpg
+    thema_id: null
+  leerlijnKernbegrip_4:
+    name: Media
+    summary: ''
+    description: ''
+    image: 05c0a839384c01ff37454a2f268170f415fcbe20.jpg
+    thema_id: null
+  leerlijnKernbegrip_5:
+    name: Identiteit
+    summary: ''
+    description: ''
+    image: 79d6271566c7c676ad1df63d3734ae56532cb8d2.jpg
+    thema_id: null
+  leerlijnKernbegrip_6:
+    name: 'Materiaal / Techniek'
+    summary: ''
+    description: ''
+    image: eddcaac8295c92150420d95d353d190b3859502d.jpg
+    thema_id: null
+  leerlijnKernbegrip_7:
+    name: Beeldaspecten
+    summary: null
+    description: null
+    image: null
+    thema_id: null
+  leerlijnKernbegrip_8:
+    name: Presenteren
+    summary: ''
+    description: ''
+    image: 3a3d6f1e63d5a9aa7a1f21d74221005a970a5f45.jpg
+    thema_id: null
+  leerlijnKernbegrip_9:
+    name: Verwonderen
+    summary: ''
+    description: ''
+    image: 5238a204af794b7165a106fa2e4aec879f31c82a.jpg
+    thema_id: null
+  leerlijnKernbegrip_10:
+    name: 'Onderzoek doen'
+    summary: ''
+    description: ''
+    image: e8034049135bc0059454edd90e10ff156195c1eb.jpg
+    thema_id: null
+  leerlijnKernbegrip_12:
+    name: Schetsen
+    summary: ''
+    description: ''
+    image: 042112e813be10fb3aa3bb868fb834387f3cf3f3.jpg
+    thema_id: null
+  leerlijnKernbegrip_13:
+    name: Experimenteren
+    summary: ''
+    description: ''
+    image: 5fec10cce3d7c4715c973f98de2ebaa9b7b14965.jpg
+    thema_id: null
+  leerlijnKernbegrip_14:
+    name: Verzamelen
+    summary: ''
+    description: ''
+    image: 838bed645e620ce805af85af62123cbbd7649fcf.jpg
+    thema_id: null
+  leerlijnKernbegrip_16:
+    name: Ideevorming
+    summary: ''
+    description: ''
+    image: 7f706c4ce578bbe90820bbc0899c01b14e7e2272.jpg
+    thema_id: null
+  leerlijnKernbegrip_17:
+    name: Verkennen
+    summary: ''
+    description: ''
+    image: 1494679590282a1c50c2e3d27f36c8bba7b37c55.jpg
+    thema_id: null
+  leerlijnKernbegrip_18:
+    name: Reflectie
+    summary: ''
+    description: ''
+    image: 2d069739d6ce2f521c3040676865d7cf7233ad82.jpg
+    thema_id: null
+  leerlijnKernbegrip_19:
+    name: 'Mening vormen'
+    summary: ''
+    description: ''
+    image: a1e7ac85fd1b3424864039afd6f4fcfdf31f956b.jpg
+    thema_id: null
+  leerlijnKernbegrip_20:
+    name: 'Examenonderwerp 2 Hofcultuur'
+    summary: ''
+    description: ''
+    image: 720b0d210240a6bcd5c543e3b17c3fe9ccc52cf6.jpg
+    thema_id: null
+  leerlijnKernbegrip_21:
+    name: 'Examenonderwerp 3 Burgerlijke Cultuur'
+    summary: ''
+    description: ''
+    image: ee942f3ecb5ae862482753ae8106c30e553e6d25.jpg
+    thema_id: null
+  leerlijnKernbegrip_22:
+    name: 'Examenonderwerp 5 Cultuur van het Moderne'
+    summary: ''
+    description: ''
+    image: 86a6b410f3a0b1e5c368d0fe655d05305847bbcf.jpg
+    thema_id: null
+  leerlijnKernbegrip_23:
+    name: 'Examenonderwerp 6 Massacultuur'
+    summary: ''
+    description: ''
+    image: 064162297c467bd11e1a2ce88ef39a51c9cc8179.jpg
+    thema_id: null
+  leerlijnKernbegrip_29:
+    name: Bronnen
+    summary: ''
+    description: ''
+    image: 5e79107d7ca78844f0c88904bace9bf00fdb7eca.jpg
+    thema_id: null
+  leerlijnKernbegrip_30:
+    name: '1 Kunst en religie, levensbeschouwing'
+    summary: ''
+    description: ''
+    image: c8377ad72c3ce5696bd234e42ee96feb5d8f0cc5.jpg
+    thema_id: null
+  leerlijnKernbegrip_31:
+    name: '2 Kunst en esthetica'
+    summary: ''
+    description: ''
+    image: 809201184ce3d73de791a0aab27b7a0affa15c08.jpg
+    thema_id: null
+  leerlijnKernbegrip_32:
+    name: '3 Kunstenaar en opdrachtgever, politiek en economische macht'
+    summary: ''
+    description: ''
+    image: e903870805692eb46e52f9fbffbe6bfef60cb568.jpg
+    thema_id: null
+  leerlijnKernbegrip_33:
+    name: '4 Kunst en vermaak'
+    summary: ''
+    description: ''
+    image: 1ae8b07b9054365d179dfa564514358d2f911c49.jpg
+    thema_id: null
+  leerlijnKernbegrip_34:
+    name: '5 Kunst, wetenschap en techniek'
+    summary: ''
+    description: ''
+    image: 6a99b537080dfc13812b6d3e4d64c6cfd4763c89.jpg
+    thema_id: null
+  leerlijnKernbegrip_35:
+    name: '6 Kunst intercultureel'
+    summary: ''
+    description: ''
+    image: 078d25e3a9e91a210a8555012ee0043fe2ae9950.jpg
+    thema_id: null
+  leerlijnKernbegrip_36:
+    name: Product
+    summary: ''
+    description: ''
+    image: 3fa4aa59e77a66f24aea6db17c2e26abc495eec6.jpg
+    thema_id: null
+  leerlijnKernbegrip_37:
+    name: Herkennen
+    summary: ''
+    description: ''
+    image: fb74f0f7330431c11e635cf5e5269298b53fe044.jpg
+    thema_id: null
+  leerlijnKernbegrip_39:
+    name: Interpretatie
+    summary: ''
+    description: ''
+    image: 0f55d534bda1c2787f349b538317b9f9f1bb9aa5.jpg
+    thema_id: null
+  leerlijnKernbegrip_40:
+    name: 'Analyse beeldend'
+    summary: ''
+    description: ''
+    image: 5a65db0a0844087f9f2c0d61680cfc962c0f86f8.jpg
+    thema_id: null
+  leerlijnKernbegrip_41:
+    name: 'Analyse muziek'
+    summary: ''
+    description: ''
+    image: ce53acbc3e549d0426812131aa0fe571aee08e58.jpg
+    thema_id: null
+  leerlijnKernbegrip_42:
+    name: 'Analyse drama'
+    summary: ''
+    description: ''
+    image: fc362f4ef75c0e8fb72f95a158a96c0f8c4b42ff.jpg
+    thema_id: null
+  leerlijnKernbegrip_43:
+    name: 'Analyse dans'
+    summary: ''
+    description: ''
+    image: 927a5ab30fa37bac14ba1902936010bebea3b980.jpg
+    thema_id: null
+  leerlijnKernbegrip_44:
+    name: 'Examenonderwerp 4 Romantiek en realisme'
+    summary: ''
+    description: ''
+    image: 2d49cf36c9e30815126df2b4d058d41115727632.jpg
+    thema_id: null
+  leerlijnKernbegrip_45:
+    name: Examentraining
+    summary: ''
+    description: ''
+    image: 191941cf9f8c7d7ec2b95921b0f7637ab6725e35.jpg
+    thema_id: null
+leerlijnKernbegripThema:
+  leerlijnKernbegripThema_3_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_3
+    leerlijnThema: leerlijnThema_1
+  leerlijnKernbegripThema_6_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_6
+    leerlijnThema: leerlijnThema_1
+  leerlijnKernbegripThema_1_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_3_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_3
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_6_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_6
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_8_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_8
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_9_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_10_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_10
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_12_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_12
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_13_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_13
+    leerlijnThema: leerlijnThema_13
+  leerlijnKernbegripThema_16_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_16
+    leerlijnThema: leerlijnThema_13
+leerlijnLeergebied:
+  leerlijnLeergebied_1:
+    name: Arts
+    description: 'Op ontdekkingsreis in de wereld van kunst en cultuur.'
+    image: d843de5979c10a82f1de4dcaa11021973b1681b3.jpg
+    image_desc: ''
+  leerlijnLeergebied_2:
+    name: Linguistics
+    description: ''
+    image: d441c0683a01d6c284885aa7b549491f25e3b760.jpg
+    image_desc: ''
+  leerlijnLeergebied_3:
+    name: Science
+    description: ''
+    image: e2a5e04902af6c51ba9af44c2f9f1e5509e41caa.jpg
+    image_desc: ''
+  leerlijnLeergebied_4:
+    name: Humanics
+    description: ''
+    image: 32f1603739a31a59f5feeb43f17c3d4932459c8a.jpg
+    image_desc: ''
+leerlijnLeerjaarThema:
+  leerlijnLeerjaarThema_1_1:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_1
+  leerlijnLeerjaarThema_2_1:
+    leerlijnLeerjaar: leerlijnLeerjaar_2
+    leerlijnThema: leerlijnThema_1
+  leerlijnLeerjaarThema_1_2:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_2
+  leerlijnLeerjaarThema_1_3:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_3
+  leerlijnLeerjaarThema_1_4:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_4
+  leerlijnLeerjaarThema_1_5:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_5
+  leerlijnLeerjaarThema_1_6:
+    leerlijnLeerjaar: leerlijnLeerjaar_1
+    leerlijnThema: leerlijnThema_6
+  leerlijnLeerjaarThema_3_7:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_7
+  leerlijnLeerjaarThema_3_8:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_8
+  leerlijnLeerjaarThema_3_9:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_9
+  leerlijnLeerjaarThema_3_10:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_10
+  leerlijnLeerjaarThema_3_11:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_11
+  leerlijnLeerjaarThema_3_12:
+    leerlijnLeerjaar: leerlijnLeerjaar_3
+    leerlijnThema: leerlijnThema_12
+  leerlijnLeerjaarThema_5_13:
+    leerlijnLeerjaar: leerlijnLeerjaar_5
+    leerlijnThema: leerlijnThema_13
+  leerlijnLeerjaarThema_5_14:
+    leerlijnLeerjaar: leerlijnLeerjaar_5
+    leerlijnThema: leerlijnThema_14
+  leerlijnLeerjaarThema_5_15:
+    leerlijnLeerjaar: leerlijnLeerjaar_5
+    leerlijnThema: leerlijnThema_15
+  leerlijnLeerjaarThema_5_16:
+    leerlijnLeerjaar: leerlijnLeerjaar_5
+    leerlijnThema: leerlijnThema_16
+  leerlijnLeerjaarThema_5_17:
+    leerlijnLeerjaar: leerlijnLeerjaar_5
+    leerlijnThema: leerlijnThema_17
+  leerlijnLeerjaarThema_7_18:
+    leerlijnLeerjaar: leerlijnLeerjaar_7
+    leerlijnThema: leerlijnThema_18
+  leerlijnLeerjaarThema_7_19:
+    leerlijnLeerjaar: leerlijnLeerjaar_7
+    leerlijnThema: leerlijnThema_19
+  leerlijnLeerjaarThema_7_20:
+    leerlijnLeerjaar: leerlijnLeerjaar_7
+    leerlijnThema: leerlijnThema_20
+  leerlijnLeerjaarThema_7_21:
+    leerlijnLeerjaar: leerlijnLeerjaar_7
+    leerlijnThema: leerlijnThema_21
+  leerlijnLeerjaarThema_7_22:
+    leerlijnLeerjaar: leerlijnLeerjaar_7
+    leerlijnThema: leerlijnThema_22
+  leerlijnLeerjaarThema_9_23:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_23
+  leerlijnLeerjaarThema_9_24:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_24
+  leerlijnLeerjaarThema_8_25:
+    leerlijnLeerjaar: leerlijnLeerjaar_8
+    leerlijnThema: leerlijnThema_25
+  leerlijnLeerjaarThema_8_26:
+    leerlijnLeerjaar: leerlijnLeerjaar_8
+    leerlijnThema: leerlijnThema_26
+  leerlijnLeerjaarThema_8_27:
+    leerlijnLeerjaar: leerlijnLeerjaar_8
+    leerlijnThema: leerlijnThema_27
+  leerlijnLeerjaarThema_9_28:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_28
+  leerlijnLeerjaarThema_9_29:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_29
+  leerlijnLeerjaarThema_10_30:
+    leerlijnLeerjaar: leerlijnLeerjaar_10
+    leerlijnThema: leerlijnThema_30
+  leerlijnLeerjaarThema_10_31:
+    leerlijnLeerjaar: leerlijnLeerjaar_10
+    leerlijnThema: leerlijnThema_31
+  leerlijnLeerjaarThema_9_32:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_32
+  leerlijnLeerjaarThema_9_33:
+    leerlijnLeerjaar: leerlijnLeerjaar_9
+    leerlijnThema: leerlijnThema_33
+  leerlijnLeerjaarThema_10_34:
+    leerlijnLeerjaar: leerlijnLeerjaar_10
+    leerlijnThema: leerlijnThema_34
+  leerlijnLeerjaarThema_10_35:
+    leerlijnLeerjaar: leerlijnLeerjaar_10
+    leerlijnThema: leerlijnThema_35
+leerlijnKernbegripKern:
+  leerlijnKernbegripKern_1_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_3_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_3
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_4_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_5_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_5
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_6_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_6
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_7_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_7
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_8_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_8
+    leerlijnKern: leerlijnKern_1
+  leerlijnKernbegripKern_9_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_10_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_10
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_12_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_12
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_13_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_13
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_14_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_16_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_16
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_36_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_36
+    leerlijnKern: leerlijnKern_2
+  leerlijnKernbegripKern_1_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_4_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_17_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_17
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_18_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_19_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_19
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_20_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_20
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_21_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_21
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_22_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_22
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_23_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_23
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_29_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_29
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_30_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_30
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_31_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_31
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_32_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_32
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_33_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_33
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_34_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_34
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_35_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_35
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_37_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_37
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_39_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_40_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_41_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_42_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_43_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_44_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_44
+    leerlijnKern: leerlijnKern_3
+  leerlijnKernbegripKern_45_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnKern: leerlijnKern_3
+leerlijnSleutelinzicht:
+  leerlijnSleutelinzicht_4:
+    description: 'Je hebt tijdens onderzoeken gebruik gemaakt van verschillende media.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_5:
+    description: 'Je kan beelden maken die iets over jou als persoon zeggen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_13:
+    description: 'Je hebt je laten inspireren door kunstenaars en vormgevers om onderzoek te gaan doen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_16:
+    description: 'Je maakt kennis met de wereld van de kunsten door het bezoeken van musea en andere culturele activiteiten.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_17
+  leerlijnSleutelinzicht_17:
+    description: 'Je kan reageren op jouw werk en dat van anderen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_18
+  leerlijnSleutelinzicht_18:
+    description: 'Je kan aangeven wat jouw mening is over kunstwerken. Je onderbouwt die mening met argumenten.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_19
+  leerlijnSleutelinzicht_30:
+    description: 'Je kan met een beeld een idee/ gedachte/gevoel overbrengen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_33:
+    description: 'Je kan met een beeld een idee/ gedachte/gevoel overbrengen.'
+    image: null
+    Niveau: leerlijnNiveau_4
+    Kernbegrip: leerlijnKernbegrip_17
+  leerlijnSleutelinzicht_43:
+    description: 'Je kunt met een beeld een idee/ gedachte/gevoel overbrengen.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_44:
+    description: 'Je kunt beelden maken die zeggingskracht hebben.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_45:
+    description: 'Je kunt een door jou ontwikkeld idee uitvoeren in beelden met zeggingskracht.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_46:
+    description: 'Je kunt door jou ontwikkelde ideeën uitvoeren in beelden met zeggingskracht.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_47:
+    description: 'Je kunt door jou ontwikkelde ideeën uitvoeren in beelden met zeggingskracht.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_48:
+    description: 'Je kunt door jou ontwikkelde ideeën uitvoeren in beelden met zeggingskracht.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_49:
+    description: 'Je kunt door jou ontwikkelde ideeën uitvoeren in beelden met zeggingskracht.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_1
+  leerlijnSleutelinzicht_50:
+    description: "Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.\n\nJe komt via de ontwerpcyclus tot een bruikbaar product.\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_51:
+    description: "Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.\n\nJe komt via de ontwerpcyclus tot een bruikbaar product.\n"
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_52:
+    description: "In een onderzoek naar toegepaste kunst gebruik je een werkplan dat gebaseerd is op de ontwerpcyclus.\n\nJe doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.\n\nIn een onderzoek naar toegepaste kunst kan je de functionaliteit van je werk benoemen.\n"
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_53:
+    description: "In een onderzoek naar toegepaste kunst loopt je ontwerpproces via de ontwerpcyclus.\n\nJe doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.\n\nIn een onderzoek naar toegepaste kunst houdt je rekening met de functionaliteit van je product.\n"
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_54:
+    description: 'Je kunt met hulp beelden produceren die tot stand komen via onderzoek binnen de toegepaste kunst.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_55:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_56:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_57:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_3
+  leerlijnSleutelinzicht_58:
+    description: 'Je hebt tijdens onderzoeken gebruik gemaakt van verschillende media.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_59:
+    description: "Je kan via beelden een boodschap communiceren.\n\nJe kan na onderzoek benoemen welke strategie je kan gebruiken om met beelden te manipuleren.\n"
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_60:
+    description: "Je kan in een onderzoek naar media tot beeldende oplossingen komen om je boodschap te communiceren.\n\nVia onderzoek ontdek je welke beeldende middelen je kan inzetten om te manipuleren.\n"
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_61:
+    description: 'Je kunt met hulp beelden produceren die tot stand komen via onderzoek naar media.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_62:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste of autonome kunst beelden produceren'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_63:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste of autonome kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_64:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste of autonome kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_4
+  leerlijnSleutelinzicht_65:
+    description: 'Je kan beelden maken die iets over jou als persoon zeggen.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_66:
+    description: "Je kan via beelden een gevoel van jou of een groep uitdrukken.\n\nJe gebruikt beeldende middelen die iets zeggen over jou, je identiteit, je voorkeuren.\n"
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_67:
+    description: "Je kan via beelden een gevoel van jou of een groep uitdrukken.\n\nJe gebruikt beeldende middelen die iets zeggen over jou, je identiteit, je voorkeuren.\n"
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_68:
+    description: 'Je kunt met hulp beelden produceren die tot stand komen via onderzoek naar identiteit.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_69:
+    description: 'Je kunt via gestructureerd onderzoek binnen de autonome kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_70:
+    description: 'Je kunt via gestructureerd onderzoek binnen de autonome kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_71:
+    description: 'Je kunt via gestructureerd onderzoek binnen de autonome kunst beelden produceren.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_5
+  leerlijnSleutelinzicht_72:
+    description: "Je kan minimaal 2 van de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n\nJe weet hoe je de volgende materialen en gereedschappen op de juiste manier gebruikt om tot een 3- dimensionaal beeld te komen:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, lijmpistool.\n\nJe hebt kennis gemaakt met de volgende apparaten, programma’s en hulpmiddelen om tot een 4- dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_73:
+    description: "Je kan minimaal 2 van de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n\nJe weet hoe je de volgende materialen en gereedschappen op de juiste manier gebruikt om tot een 3- dimensionaal beeld te komen:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, lijmpistool.\n\nJe hebt kennis gemaakt met de volgende apparaten, programma’s en hulpmiddelen om tot een 4- dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_74:
+    description: "Je kan de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en/of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n\nJe kan de volgende materialen en gereedschappen om tot een 3-dimensionaal beeld te komen op de juiste manier inzetten:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, soldeerbout.\n\nJe kan de volgende apparaten,  programma’s en hulpmiddelen gebruiken om tot een 4-dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_75:
+    description: "Je kan de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en/of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n\nJe kan de volgende materialen en gereedschappen om tot een 3-dimensionaal beeld te komen op de juiste manier inzetten:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, soldeerbout.\n\nJe kan de volgende apparaten,  programma’s en hulpmiddelen gebruiken om tot een 4-dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_76:
+    description: 'Je kunt met hulp passende materialen en gereedschappen kiezen bij de beelden die je wilt produceren.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_77:
+    description: 'Je kunt tijdens het onderzoek doelgericht materialen en gereedschappen inzetten.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_78:
+    description: 'Je kunt tijdens het onderzoek doelgericht materialen en gereedschappen inzetten.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_79:
+    description: 'Je kunt tijdens het onderzoek doelgericht materialen en gereedschappen inzetten.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_6
+  leerlijnSleutelinzicht_80:
+    description: "Je kan met hulp de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n\nJe kan met hulp de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal,\n\nJe kan met hulp de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_81:
+    description: "Je kan met hulp de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n\nJe kan met hulp de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal,\n\nJe kan met hulp de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_82:
+    description: "Je kan de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n\nJe kan de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal\n\nJe kan de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_83:
+    description: "Je kan de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n\nJe kan de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal\n\nJe kan de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_84:
+    description: 'Je kunt aan de hand van beeldaspecten reflecteren op je product en dat van anderen.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_85:
+    description: 'Je onderzoekt beeldaspecten om de kwaliteit van je beelden te verhogen.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_86:
+    description: 'Je onderzoekt beeldaspecten om de kwaliteit van je beelden te verhogen.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_87:
+    description: 'Je onderzoekt beeldaspecten om de kwaliteit van je beelden te verhogen.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_7
+  leerlijnSleutelinzicht_88:
+    description: 'Je gebruikt in je presentatie de belangrijkste beelden die je in de loop van je onderzoek hebt gemaakt.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_89:
+    description: 'Je gebruikt in je presentatie de belangrijkste beelden die je in de loop van je onderzoek hebt gemaakt.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_90:
+    description: 'Je kan je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  verloop van het onderzoek.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_91:
+    description: 'Je kan je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  verloop van het onderzoek.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_92:
+    description: 'Je kan je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  verloop van het onderzoek.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_93:
+    description: 'Je kunt je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_94:
+    description: 'Je kunt je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_95:
+    description: 'Je kunt je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_96:
+    description: 'Je kunt je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_97:
+    description: 'Je kunt je onderzoek zo presenteren dat de toeschouwers inzicht krijgen in het  werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_8
+  leerlijnSleutelinzicht_98:
+    description: 'Je hebt je laten inspireren door kunstenaars en vormgevers om onderzoek te gaan doen.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_99:
+    description: 'Je hebt je laten inspireren door kunstenaars en vormgevers om onderzoek te gaan doen.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_100:
+    description: 'Je herkent het verband tussen  het beeldend werk van kunstenaars en vormgevers en jouw eigen werk en dat van anderen.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_101:
+    description: 'Je kan aspecten van getoonde voorbeelden van beeldende kunst en vormgeving toepassen in je onderzoek. Je stelt vragen.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_102:
+    description: 'Je gaat in je onderzoek op zoek naar voorbeelden van beeldende kunst en vormgeving. Je stelt vragen.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_103:
+    description: 'Je onderzoekt het beeldend werk van kunstenaars en vormgevers in relatie tot je eigen beeldend werk.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_104:
+    description: 'Je onderzoekt het beeldend werk van kunstenaars en vormgevers in relatie tot je eigen beeldend werk.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_105:
+    description: 'Je onderzoekt het beeldend werk van kunstenaars en vormgevers in relatie tot je eigen beeldend werk.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_106:
+    description: "Je onderzoekt het beeldend werk van kunstenaars en vormgevers in relatie tot je eigen beeldend werk.\n\nJe onderzoekt het werk van kunstenaars in de disciplines dans/ drama/ muziek in relatie tot je eigen beeldend werk."
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_107:
+    description: "Je onderzoekt het beeldend werk van kunstenaars en vormgevers in relatie tot je eigen beeldend werk.\n\nJe onderzoekt het werk van kunstenaars in de disciplines dans/ drama/ muziek in relatie tot je eigen beeldend werk."
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_9
+  leerlijnSleutelinzicht_108:
+    description: 'Je kan met hulp een beeldend onderzoek doen aan de hand van de denkcirkel.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_109:
+    description: 'Je kan met hulp een beeldend onderzoek doen aan de hand van de denkcirkel.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_110:
+    description: 'Je kan met hulp een werkplan opstellen, het werkproces vastleggen en er op reflecteren.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_111:
+    description: 'Je kan met hulp een werkplan opstellen, het werkproces vastleggen en er op reflecteren. In je werkplan neem je ruimte om te experimenteren.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_112:
+    description: 'Je kan met hulp een praktisch en theoretisch onderzoeksplan opstellen, het werkproces vastleggen en er op reflecteren. In je onderzoeksplan neem je ruimte om te experimenteren.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_113:
+    description: 'Je doet zelfstandig praktisch en theoretisch onderzoek.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_114:
+    description: "Je doet veelzijdig theoretisch onderzoek.\n\nJe onderzoekt jouw persoonlijke visie en werkwijze in het beeldend proces en praktisch onderzoek.\n"
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_115:
+    description: "Je doet veelzijdig theoretisch onderzoek.\n\nJe onderzoekt jouw persoonlijke visie en werkwijze in het beeldend proces en praktisch onderzoek.\n"
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_10
+  leerlijnSleutelinzicht_116:
+    description: 'Je kan door een schets ideeën een eerste vorm geven.'
+    image: null
+    Niveau: leerlijnNiveau_1
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_117:
+    description: 'Je kan door een schets ideeën een eerste vorm geven.'
+    image: null
+    Niveau: leerlijnNiveau_2
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_118:
+    description: 'Je legt ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen.'
+    image: null
+    Niveau: leerlijnNiveau_5
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_119:
+    description: 'Je legt ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen.'
+    image: null
+    Niveau: leerlijnNiveau_6
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_120:
+    description: 'Je legt zelfstandig ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen.'
+    image: null
+    Niveau: leerlijnNiveau_7
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_121:
+    description: 'Je legt ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen gedurende het werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_8
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_122:
+    description: 'Je legt ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen gedurende het werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_9
+    Kernbegrip: leerlijnKernbegrip_12
+  leerlijnSleutelinzicht_123:
+    description: 'Je legt ideeën, inzichten en plannen vast in tweedimensionale (tekenen), driedimensionale (modellen), en vierdimensionale (foto/film) schetsen gedurende het werkproces.'
+    image: null
+    Niveau: leerlijnNiveau_10
+    Kernbegrip: leerlijnKernbegrip_12
+leerlijnVak:
+  leerlijnVak_1:
+    name: 'Culturele Kunstzinnige Vorming'
+    summary: 'Culturele Kunstzinnige Vorming is een verplicht examenvak voor HAVO en Atheneum. Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: ''
+    image: e6c95d4bb96914c30bcfb8749b4354c888e917f4.jpg
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_2:
+    name: 'Kunst Algemeen'
+    summary: 'Kunst Algemeen is een theoretisch vak voor HAVO en Atheneum dat wordt afgesloten met een Centraal Examen. Je leert dans, drama, beeldende kunst en muziek te analyseren aan de hand van verschillende tijdsperioden en invalshoeken.'
+    description: ''
+    image: 52587089a07ff6b62a0bdd3edecd25ecad369d0f.jpg
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_3:
+    name: 'Kunst Beeldende Vormgeving'
+    summary: 'Kunst Beeldende Vormgeving is een praktisch vak voor HAVO en Atheneum dat wordt afgesloten met een Schoolexamen. Je ontwikkelt je vermogen om 2-D, 3-D en 4-D beelden vorm te geven op een persoonlijke wijze.'
+    description: ''
+    image: 6872b36c2a3a8b7d3e7a79821884fe8a408cc1f3.jpg
+    Leergebied: leerlijnLeergebied_1
+  leerlijnVak_4:
+    name: 'Kunstvakken 1'
+    summary: 'Kunstvakken 1 is een verplicht examenvak voor VMBO-T.  Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: ''
+    image: null
+    Leergebied: leerlijnLeergebied_1
+leerlijnLeerjaar:
+  leerlijnLeerjaar_1:
+    image: c4bb767a8b042d89add161baad84d9dd058a3c38.jpg
+    name: 'Leerjaar 1 VMBO-T HAVO'
+  leerlijnLeerjaar_2:
+    image: 0fcac2d3782df2746bed9c0739e3ecd70e1c974a.jpg
+    name: 'Leerjaar 1 HAVO/Atheneum'
+  leerlijnLeerjaar_3:
+    image: null
+    name: 'Leerjaar 2 VMBO- T HAVO'
+  leerlijnLeerjaar_4:
+    image: null
+    name: 'Leerjaar 2 HAVO/ Atheneum'
+  leerlijnLeerjaar_5:
+    image: d89c20a301867b514ece15f798d7edce4cb953db.jpg
+    name: 'Leerjaar 3 VMBO-T'
+  leerlijnLeerjaar_6:
+    image: 0ed0ad11c1bbf5ca159593c4b89465398567c43c.jpg
+    name: 'Leerjaar 3 HAVO/Atheneum'
+  leerlijnLeerjaar_7:
+    image: 70de6e9a410cb2ecad5eef27186daf16b1d5957d.jpg
+    name: 'Leerjaar 4 HAVO/Atheneum'
+  leerlijnLeerjaar_8:
+    image: 6eb3c07d74af25d5ad7e32a67a2229e59e608b20.jpg
+    name: 'Leerjaar 5 HAVO'
+  leerlijnLeerjaar_9:
+    image: 36b96ef78d5e555daf6693c14db7ab264511858a.jpg
+    name: 'Leerjaar 5 Atheneum'
+  leerlijnLeerjaar_10:
+    image: 37eb52c13564b921389d1dc0d14aeadc2c63c8f4.jpg
+    name: 'Leerjaar 6 Atheneum'
+leerlijnEindterm:
+  leerlijnEindterm_1:
+    name: 'KV1/K1: Oriëntatie op leren en werken'
+    summary: ''
+    description: 'De kandidaat kan zich oriënteren op de eigen loopbaan en het belang van kunst en cultuur in de maatschappij.'
+    image: null
+    Domein: leerlijnDomein_3
+  leerlijnEindterm_2:
+    name: 'KV1/K2: Basisvaardigheden'
+    summary: ''
+    description: 'De kandidaat kan basisvaardigheden toepassen die betrekking hebben op communiceren, samenwerken en informatie verwerven en verwerken.'
+    image: null
+    Domein: leerlijnDomein_2
+  leerlijnEindterm_3:
+    name: 'CKV/ K3: Culturele Activiteiten'
+    summary: ''
+    description: "De kandidaat heeft actief deelgenomen aan tenminste 4 culturele activiteiten en kan een eigen keuze maken uit het culturele aanbod.\nDe culturele activiteiten zijn daarbij gespreid over verschillende kunstdisciplines."
+    image: null
+    Domein: leerlijnDomein_1
+  leerlijnEindterm_4:
+    name: 'CKV/K4: Reflectie en kunstdossier'
+    summary: ''
+    description: "De kandidaat kan met betrekking tot de culturele activiteiten:\n- een kunstdossier samenstellen waarbij hij verslag doet van het voorbereiden en ondernemen van culturele activiteiten;\n- aan de hand daarvan reflecteren op zijn ervaringen, interpretaties en waarderingen."
+    image: null
+    Domein: leerlijnDomein_4
+  leerlijnEindterm_5:
+    name: 'KUA- A: Vaardigheden'
+    summary: ''
+    description: "1. De kandidaat kan:\n\n- de belangrijkste termen en begrippen hanteren uit de kunstdisciplines\nbeeldende vormgeving, dans, drama en muziek die voorwaardelijk zijn voor\nadequate receptie en reflectie, en noodzakelijk voor begrip van verbanden\ntussen kunst en cultuur;\n\n- informatie over kunst en cultuur herkennen, benoemen en toepassen om\nverbanden aan te geven;\n\n- bij het reflecteren bronnenmateriaal op een adequate wijze hanteren;\n\n- overeenkomsten en verschillen noemen en beargumenteren met betrekking tot\nhet beschouwingsapparaat bij de vier kunstdisciplines (alleen vwo)."
+    image: null
+    Domein: leerlijnDomein_9
+  leerlijnEindterm_6:
+    name: 'KUA- B1: Kunst en religie, levensbeschouwing'
+    summary: ''
+    description: "De kandidaat kan aangeven met welke visies, doelen, middelen en inhouden\nde kunsten religieuze en/of levensbeschouwelijke uitgangspunten vertolken."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_7:
+    name: 'KUA- B2: Kunst en esthetica'
+    summary: ''
+    description: "De kandidaat kan aangeven welke ideeën over schoonheid in kunst en\nkunstwaardering een rol spelen."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_8:
+    name: 'KUA- B3: Kunstenaar en opdrachtgever; politieke en economische'
+    summary: ''
+    description: "De kandidaat kan aangeven welke invloed opdrachtgevers en politieke ideeën\nhebben op de rol en de inhoud van kunst en op de positie van de kunstenaar."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_9:
+    name: 'KUA- B4: Kunst en vermaak'
+    summary: ''
+    description: "De kandidaat kan aangeven hoe vorm en inhoud bepaald worden door de\nvermaaksfuncties van kunst in relatie tot het daarbij betrokken publiek."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_10:
+    name: 'KUA- B5: Kunst, wetenschap en techniek'
+    summary: ''
+    description: "De kandidaat kan aangeven hoe kunst en wetenschap/techniek op elkaar\ninwerken."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_11:
+    name: 'KUA- B6: Kunst intercultureel'
+    summary: ''
+    description: "De kandidaat kan aangeven hoe Westerse en niet-Westerse kunst en cultuur\nelkaar wederzijds beïnvloeden."
+    image: null
+    Domein: leerlijnDomein_10
+  leerlijnEindterm_12:
+    name: 'KUA- C: Onderwerpen'
+    summary: ''
+    description: "De kandidaat kan de eindtermen van domein A en B toepassen op\nvoorbeelden uit de volgende onderwerpen:\n\n- de cultuur van de kerk in de elfde tot en met veertiende eeuw;\n\n- de hofcultuur in de zestiende en zeventiende eeuw;\n\n- de burgerlijke cultuur van Nederland in de zeventiende eeuw;\n\n- de cultuur van Romantiek en realisme in de negentiende eeuw;\n\n- de cultuur van het moderne in de eerste helft van de twintigste eeuw;\n\n- de massacultuur vanaf 1950."
+    image: null
+    Domein: leerlijnDomein_11
+  leerlijnEindterm_13:
+    name: 'KBV- A1: Beeldend werk van kunstenaars en vormgevers'
+    summary: ''
+    description: "De kandidaat kan mede op basis van bronnenmateriaal het beeldend werk van\nkunstenaars en vormgevers beschrijven, onderzoeken en interpreteren,\nrekening houdend met visies, doelen, tijd, plaats, functie, kunstopvattingen,\nnormen en waarden en de historische ontwikkeling."
+    image: null
+    Domein: leerlijnDomein_12
+  leerlijnEindterm_14:
+    name: 'KBV- A2: Beeldend werk van kunstenaars en vormgevers in relatie tot'
+    summary: ''
+    description: "De kandidaat kan beeldend werk van kunstenaars en vormgevers\nonderzoeken in relatie tot het eigen beeldend werk."
+    image: null
+    Domein: leerlijnDomein_12
+  leerlijnEindterm_15:
+    name: 'KBV- A3: Eigen beeldend werk'
+    summary: ''
+    description: "De kandidaat kan eigen beeldend werk en werkproces beschrijven en\nbeargumenteerd evalueren."
+    image: null
+    Domein: leerlijnDomein_12
+  leerlijnEindterm_16:
+    name: 'KBV- B: Praktijk'
+    summary: ''
+    description: "De kandidaat kan gestructureerde probleemstellingen met betrekking tot zowel\nautonome als toegepaste beeldende kunst en vormgeving onderzoeken en de\ndaaruit ontwikkelde ideeën in een beeldende verwerking uitvoeren, daarbij\nbeeldende middelen aanwenden in een doelgericht werkproces, en het werk\nzo presenteren dat de beschouwer inzicht krijgt in het werkproces."
+    image: null
+    Domein: leerlijnDomein_13
+  leerlijnEindterm_17:
+    name: 'KBV- C: Oriëntatie op studie en beroep'
+    summary: ''
+    description: ''
+    image: null
+    Domein: leerlijnDomein_14
+  leerlijnEindterm_18:
+    name: 'CKV- A: Culturele Activiteiten'
+    summary: ''
+    description: "De kandidaat heeft actief deelgenomen aan tenminste 6 (havo), respectievelijk\n8 (vwo) culturele activiteiten.\nDe culturele activiteiten zijn gespreid naar de verschillende kunstdisciplines in\nbeeldende vormgeving, dans, drama, literatuur en muziek."
+    image: null
+    Domein: leerlijnDomein_5
+  leerlijnEindterm_19:
+    name: 'CKV- B: Kennis van kunst en cultuur'
+    summary: ''
+    description: "De kandidaat kan vorm, inhoud, functie en historische achtergronden\naangeven van kunstuitingen en daarbij ingaan op:\n- onderlinge relaties tussen deze aspecten;\n- relaties tussen kunstdisciplines;\n- invloeden die (sub)culturen op elkaar kunnen hebben."
+    image: null
+    Domein: leerlijnDomein_6
+  leerlijnEindterm_20:
+    name: 'CKV- C: Praktische Activiteiten'
+    summary: ''
+    description: "De kandidaat heeft actief deelgenomen aan praktische activiteiten gericht op\nhet maken van een eigen werkstuk of productie binnen een of meer\nkunstdisciplines."
+    image: null
+    Domein: leerlijnDomein_7
+  leerlijnEindterm_21:
+    name: 'CKV- D: Reflectie'
+    summary: ''
+    description: "De kandidaat kan met betrekking tot de culturele activiteiten:\n- verslag doen van zijn ervaringen, interpretaties en waarderingen;\n- deze toelichten onder verwijzing naar vorm, inhoud, functie en historische\nachtergronden;\n- deze koppelen aan ervaringen met praktische activiteiten;\n- aan de hand daarvan reflecteren op zijn keuzen en zijn ervaringen."
+    image: null
+    Domein: leerlijnDomein_8
+leerlijnKernbegripEindterm:
+  leerlijnKernbegripEindterm_18_1:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_1
+  leerlijnKernbegripEindterm_1_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_4_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_17_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_17
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_39_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_40_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_41_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_42_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_43_2:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnEindterm: leerlijnEindterm_2
+  leerlijnKernbegripEindterm_17_3:
+    leerlijnKernbegrip: leerlijnKernbegrip_17
+    leerlijnEindterm: leerlijnEindterm_3
+  leerlijnKernbegripEindterm_1_4:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnEindterm: leerlijnEindterm_4
+  leerlijnKernbegripEindterm_4_4:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_4
+  leerlijnKernbegripEindterm_14_4:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnEindterm: leerlijnEindterm_4
+  leerlijnKernbegripEindterm_18_4:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_4
+  leerlijnKernbegripEindterm_19_4:
+    leerlijnKernbegrip: leerlijnKernbegrip_19
+    leerlijnEindterm: leerlijnEindterm_4
+  leerlijnKernbegripEindterm_1_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_4_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_18_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_29_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_29
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_37_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_37
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_40_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_41_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_42_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_43_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_45_5:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_5
+  leerlijnKernbegripEindterm_18_6:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_6
+  leerlijnKernbegripEindterm_30_6:
+    leerlijnKernbegrip: leerlijnKernbegrip_30
+    leerlijnEindterm: leerlijnEindterm_6
+  leerlijnKernbegripEindterm_39_6:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_6
+  leerlijnKernbegripEindterm_45_6:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_6
+  leerlijnKernbegripEindterm_18_7:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_7
+  leerlijnKernbegripEindterm_31_7:
+    leerlijnKernbegrip: leerlijnKernbegrip_31
+    leerlijnEindterm: leerlijnEindterm_7
+  leerlijnKernbegripEindterm_39_7:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_7
+  leerlijnKernbegripEindterm_45_7:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_7
+  leerlijnKernbegripEindterm_18_8:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_8
+  leerlijnKernbegripEindterm_32_8:
+    leerlijnKernbegrip: leerlijnKernbegrip_32
+    leerlijnEindterm: leerlijnEindterm_8
+  leerlijnKernbegripEindterm_39_8:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_8
+  leerlijnKernbegripEindterm_45_8:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_8
+  leerlijnKernbegripEindterm_18_9:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_9
+  leerlijnKernbegripEindterm_33_9:
+    leerlijnKernbegrip: leerlijnKernbegrip_33
+    leerlijnEindterm: leerlijnEindterm_9
+  leerlijnKernbegripEindterm_39_9:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_9
+  leerlijnKernbegripEindterm_45_9:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_9
+  leerlijnKernbegripEindterm_18_10:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_10
+  leerlijnKernbegripEindterm_34_10:
+    leerlijnKernbegrip: leerlijnKernbegrip_34
+    leerlijnEindterm: leerlijnEindterm_10
+  leerlijnKernbegripEindterm_39_10:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_10
+  leerlijnKernbegripEindterm_45_10:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_10
+  leerlijnKernbegripEindterm_18_11:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_11
+  leerlijnKernbegripEindterm_35_11:
+    leerlijnKernbegrip: leerlijnKernbegrip_35
+    leerlijnEindterm: leerlijnEindterm_11
+  leerlijnKernbegripEindterm_39_11:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_11
+  leerlijnKernbegripEindterm_45_11:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_11
+  leerlijnKernbegripEindterm_20_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_20
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_21_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_21
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_22_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_22
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_23_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_23
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_44_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_44
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_45_12:
+    leerlijnKernbegrip: leerlijnKernbegrip_45
+    leerlijnEindterm: leerlijnEindterm_12
+  leerlijnKernbegripEindterm_9_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnEindterm: leerlijnEindterm_13
+  leerlijnKernbegripEindterm_14_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnEindterm: leerlijnEindterm_13
+  leerlijnKernbegripEindterm_18_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_13
+  leerlijnKernbegripEindterm_29_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_29
+    leerlijnEindterm: leerlijnEindterm_13
+  leerlijnKernbegripEindterm_37_13:
+    leerlijnKernbegrip: leerlijnKernbegrip_37
+    leerlijnEindterm: leerlijnEindterm_13
+  leerlijnKernbegripEindterm_3_14:
+    leerlijnKernbegrip: leerlijnKernbegrip_3
+    leerlijnEindterm: leerlijnEindterm_14
+  leerlijnKernbegripEindterm_9_14:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnEindterm: leerlijnEindterm_14
+  leerlijnKernbegripEindterm_14_14:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnEindterm: leerlijnEindterm_14
+  leerlijnKernbegripEindterm_18_14:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_14
+  leerlijnKernbegripEindterm_8_15:
+    leerlijnKernbegrip: leerlijnKernbegrip_8
+    leerlijnEindterm: leerlijnEindterm_15
+  leerlijnKernbegripEindterm_9_15:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnEindterm: leerlijnEindterm_15
+  leerlijnKernbegripEindterm_18_15:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_15
+  leerlijnKernbegripEindterm_1_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_1
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_3_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_3
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_4_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_5_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_5
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_6_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_6
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_8_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_8
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_9_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_9
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_10_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_10
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_12_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_12
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_13_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_13
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_14_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_16_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_16
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_18_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_36_16:
+    leerlijnKernbegrip: leerlijnKernbegrip_36
+    leerlijnEindterm: leerlijnEindterm_16
+  leerlijnKernbegripEindterm_18_17:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_17
+  leerlijnKernbegripEindterm_17_18:
+    leerlijnKernbegrip: leerlijnKernbegrip_17
+    leerlijnEindterm: leerlijnEindterm_18
+  leerlijnKernbegripEindterm_4_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_14_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_14
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_17_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_17
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_39_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_39
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_40_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_41_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_42_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_43_19:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnEindterm: leerlijnEindterm_19
+  leerlijnKernbegripEindterm_40_20:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnEindterm: leerlijnEindterm_20
+  leerlijnKernbegripEindterm_41_20:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnEindterm: leerlijnEindterm_20
+  leerlijnKernbegripEindterm_42_20:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnEindterm: leerlijnEindterm_20
+  leerlijnKernbegripEindterm_43_20:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnEindterm: leerlijnEindterm_20
+  leerlijnKernbegripEindterm_4_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_4
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_18_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_18
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_19_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_19
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_40_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_40
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_41_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_41
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_42_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_42
+    leerlijnEindterm: leerlijnEindterm_21
+  leerlijnKernbegripEindterm_43_21:
+    leerlijnKernbegrip: leerlijnKernbegrip_43
+    leerlijnEindterm: leerlijnEindterm_21
+leerlijnDomein:
+  leerlijnDomein_1:
+    name: CKV/K3
+    summary: ''
+    description: 'Culturele activiteiten'
+    image: null
+    Vak: leerlijnVak_4
+  leerlijnDomein_2:
+    name: KV1/K2
+    summary: ''
+    description: Basisvaardigheden
+    image: null
+    Vak: leerlijnVak_4
+  leerlijnDomein_3:
+    name: KV1/K1
+    summary: ''
+    description: 'Oriëntatie op leren en werken'
+    image: null
+    Vak: leerlijnVak_4
+  leerlijnDomein_4:
+    name: CKV/K4
+    summary: ''
+    description: 'Reflectie en kunstdossier'
+    image: null
+    Vak: leerlijnVak_4
+  leerlijnDomein_5:
+    name: 'CKV- Domein A'
+    summary: ''
+    description: 'Culturele activiteiten'
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_6:
+    name: 'CKV- Domein B'
+    summary: ''
+    description: 'Kennis van kunst en cultuur'
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_7:
+    name: 'CKV- Domein C'
+    summary: ''
+    description: 'Praktische Activiteiten'
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_8:
+    name: 'CKV- Domein D'
+    summary: ''
+    description: Reflectie
+    image: null
+    Vak: leerlijnVak_1
+  leerlijnDomein_9:
+    name: 'KUA- Domein A'
+    summary: ''
+    description: Vaardigheden
+    image: null
+    Vak: leerlijnVak_2
+  leerlijnDomein_10:
+    name: 'KUA- Domein B'
+    summary: ''
+    description: 'Invalshoeken voor reflectie'
+    image: null
+    Vak: leerlijnVak_2
+  leerlijnDomein_11:
+    name: 'KUA- Domein C'
+    summary: ''
+    description: Onderwerpen
+    image: null
+    Vak: leerlijnVak_2
+  leerlijnDomein_12:
+    name: 'KBV- Domein A'
+    summary: ''
+    description: Vaktheorie
+    image: null
+    Vak: leerlijnVak_3
+  leerlijnDomein_13:
+    name: 'KBV- Domein B'
+    summary: ''
+    description: Praktijk
+    image: null
+    Vak: leerlijnVak_3
+  leerlijnDomein_14:
+    name: 'KBV- Domein C'
+    summary: ''
+    description: 'Oriëntatie op studie en beroep'
+    image: null
+    Vak: leerlijnVak_3
+leerlijnThema:
+  leerlijnThema_1:
+    name: Eten
+    description_humanics: test
+    description_arts: 'In het thema ‘Eten’ ga je werken aan een verpakking voor etenswaren. Deze verpakking is zorgvuldig gemaakt, zoals een echte verpakking er ook uitziet. Je gaat onderzoeken hoe verschillende merken verpakkingen voor jouw gekozen product hebben ontworpen. Je bedenkt een nieuwe naam, ontwerpt een logo en maakt een verpakking.'
+    description_science: test
+    description_linguistics: test
+    image: b958999e4c441153f255d014ee4d4fedb7fc9496.jpg
+  leerlijnThema_2:
+    name: 'De Stad'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_3:
+    name: 'Vincent van Gogh en zijn tijdgenoten'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: 929a012f7c41fa3299a668d6de7ca6f314134cac.jpg
+  leerlijnThema_4:
+    name: Natuurverschijnselen
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: 31c587ff74c78bc9999f3a98c9969f8a9a4fcb50.png
+  leerlijnThema_5:
+    name: Leven
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_6:
+    name: Beweging
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_7:
+    name: Waarnemen
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_8:
+    name: Verkiezingen
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_9:
+    name: Hofcultuur
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_10:
+    name: Energie
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_11:
+    name: 'Werk en Geld'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_12:
+    name: 'De Mens'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_13:
+    name: 'Reversed Design'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_14:
+    name: 'Optische Verwondering'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_15:
+    name: Constructies
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_16:
+    name: Fotografie
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_17:
+    name: Klanken
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_18:
+    name: 'Geometrische Vormen'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_19:
+    name: 'Massacultuur I'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_20:
+    name: Ontdekkingsreis
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_21:
+    name: 'Cultuur van het Moderne I'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_22:
+    name: 'Romantiek & Realisme I'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_23:
+    name: 'Massacultuur II'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_24:
+    name: 'Cultuur van het Moderne II'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_25:
+    name: 'Examenonderwerpen HAVO'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_26:
+    name: 'Termen & Tools'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_27:
+    name: 'Eigen Onderzoek I'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_28:
+    name: Multidisciplinair
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_29:
+    name: 'Creatieve processen'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_30:
+    name: 'Examenonderwerpen Atheneum'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_31:
+    name: 'Termen & Tools'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_32:
+    name: Hofcultuur
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_33:
+    name: 'Burgerlijke Cultuur'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_34:
+    name: 'Eigen Onderzoek I'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+  leerlijnThema_35:
+    name: 'Eigen Onderzoek II'
+    description_humanics: null
+    description_arts: null
+    description_science: null
+    description_linguistics: null
+    image: null
+leerlijnNiveau:
+  leerlijnNiveau_1:
+    name: '1/2 vmbot/havo'
+    image: ac283193a801027eaba96d4ba9679f2c4826ad5e.jpg
+    position: null
+  leerlijnNiveau_2:
+    name: '1/2 havo/atheneum'
+    image: fa69300b8d02054f6fbac83ed910a917d34c2c24.jpg
+    position: null
+  leerlijnNiveau_3:
+    name: '2 vmbot/havo'
+    image: null
+    position: '3'
+  leerlijnNiveau_4:
+    name: '2 havo/atheneum'
+    image: null
+    position: '4'
+  leerlijnNiveau_5:
+    name: '3 vmbot'
+    image: cabf0c66978e4494bbba0c2aa58bb79db689543f.jpg
+    position: null
+  leerlijnNiveau_6:
+    name: '3 havo/atheneum'
+    image: 945272924892b5d4157af085e70c1f56e4f8a765.jpg
+    position: null
+  leerlijnNiveau_7:
+    name: '4 havo/atheneum'
+    image: bc797a84f9dea33204366089815c532e2939bb99.jpg
+    position: null
+  leerlijnNiveau_8:
+    name: '5 havo'
+    image: aef4872a1196b2c62db4ebf08d13c94a304c69b3.jpg
+    position: null
+  leerlijnNiveau_9:
+    name: '5 atheneum'
+    image: 2e569aaa6fe3e82877b15eee7c033312bb772df4.jpg
+    position: null
+  leerlijnNiveau_10:
+    name: '6 atheneum'
+    image: 03a6a930912d988c0401accadfc18c2ae8804253.jpg
+    position: null
+  leerlijnNiveau_11:
+    name: '4 vmbot'
+    image: null
+    position: '11'

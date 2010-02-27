@@ -1,0 +1,35 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnNiveau
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_niveau_niveau
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields: 
+        name: {label: 'Naam'}
+      list:
+        sort: [position, asc]
+        object_actions:
+          promote:
+            action: promote
+            label: Omhoog
+            class: admin_up
+          demote:
+            action: demote
+            label: Omlaag
+            class: admin_down
+          _edit: ~
+          _delete: ~
+        display: [=name]
+      filter:  ~
+      form:
+        display: [name, leerjaar_id, image]
+      edit:    ~
+      new:     ~

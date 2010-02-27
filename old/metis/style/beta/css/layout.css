@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: url(../images/head.gif);
+	height: 102px;
+}
+#header img{
+	margin: 20px 0 0 50px;	
+}
+#logo p{
+	margin: 0 0 0 54px;	
+	color: #6decff;
+	font-size: 13px;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 0;
+}
+
+#foot{
+	background: url(../images/foot.gif);
+	height: 66px;
+}
+#menu_box{
+	position: absolute;
+	width: 780px;
+}
+#menu{
+	float: right;
+	margin: 27px 17px 0 0;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li a{
+	color: #6decff;
+	height: 29px;
+	display:block;
+	padding: 17px 0 0 30px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	text-decoration: underline;
+}
+#menu ul li img{
+	margin: 0;
+	padding: 0;
+}
+#logo{
+	position:absolute;
+}
+#menu #nieuws{
+	background: url(../images/nieuws.gif) no-repeat; 
+	width: 50px;
+}
+#menu #proj{
+	background: url(../images/proj.gif) no-repeat; 
+	width: 68px;
+}
+#menu #port{
+	background: url(../images/port.gif) no-repeat; 
+	width: 59px;
+}
+#menu #comp{
+	background: url(../images/comp.gif) no-repeat; 
+	width: 95px;
+}
+#menu #info{
+	background: url(../images/info.gif) no-repeat; 
+	width: 85px;
+}
+#menu #mail{
+	background: url(../images/mail.gif) no-repeat; 
+	width: 33px;
+}
+#actions{
+	position: absolute;
+	width: 780px;
+}
+#actions div{
+	margin: 74px 37px 0 0;
+	float: right;
+	background: url(../images/act.gif) no-repeat;
+	height: 28px;
+	width: 204px;
+}
+#actions .a{
+	padding: 11px 16px 0 16px;
+	text-align: center;
+	margin: 0;
+	float: none;
+	background: none;
+	height: auto;
+	width: auto;
+}
+#actions .a ul {	
+	visibility: hidden;
+	position: absolute;
+	width: 170px;
+	margin: 0 0 0 -8px;
+	padding: 10px 0 0 0;
+}
+
+#actions div div:hover ul {
+	visibility: visible;
+	z-index: 100;
+}
+#actions .a ul li {
+	display: inline;
+	padding: 3px 10px 4px 5px;
+	border-right: 1px solid #43D5FF;
+}
+.survey{
+	clear: both;
+	background: #AEF5FF;
+}
+.survey textarea{
+	width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+}
+.survey td{
+	background: #F0FFFF;
+	padding: 10px;
+	line-height: 20px;
+}
+.survey td.nopad{
+	padding: 0;
+}
+.survey div{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.survey input{
+	margin: 0;
+}
+.survey th{
+	background: #E1FDFF;
+	padding: 3px 10px;
+}
+.survey h4{
+	margin: 0;
+	padding:0;
+}
+.survey #error td div{
+	overflow : auto;
+	max-height: 200px;
+	padding: 3px 10px;
+	width: auto;
+}
+.survey .error{
+	color: #E41417;
+}
+.survey .error td{
+	background: #FFF0F0;
+}

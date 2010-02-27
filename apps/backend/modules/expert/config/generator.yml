@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           expert
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          expert
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:
+        name: {label: Naam}
+        type: {label: Soort}
+        profession: {label: Expertise}
+        description: {label: Omschrijving}
+        email: {label: Email}
+        active: {label: Geactiveerd}
+      list:
+        display: [active, =profession, name, type]
+      filter:  ~
+      form:    ~
+      edit:
+        title: Aanpassen van expert "%%name%%"
+      new:
+        title: Nieuwe expert aanmaken

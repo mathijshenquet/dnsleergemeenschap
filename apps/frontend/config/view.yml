@@ -1,0 +1,16 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [default, prettyPhoto, main]
+  javascripts:    [jquery, cookie, prettyPhoto, main]
+
+  has_layout:     on
+  layout:         layout

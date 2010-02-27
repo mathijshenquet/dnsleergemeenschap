@@ -1,0 +1,49 @@
+sfDoctrineSimpleForumCategory:
+  sfDoctrineSimpleForumCategory_1:
+    name: 'School'
+    stripped_name: null
+    description: 'Bespreek hier schoolzaken'
+    rank: '1'
+    deleted: false
+  sfDoctrineSimpleForumCategory_2:
+    name: 'Meta'
+    stripped_name: null
+    description: 'Bespreek hier dingen over de site'
+    rank: '2'
+    deleted: false
+sfDoctrineSimpleForumForum:
+  sfDoctrineSimpleForumForum_7:
+    name: 'Algemeen en Overig'
+    description: 'Bespreek hier zaken die niet in de andere meta categorieën passen.'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_7:
+    name: 'Site'
+    description: 'Bespreek hier zaken over de site.'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_3:
+    name: 'Leerlijn'
+    description: 'Bespreek hier de Leerlijn'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_4:
+    name: 'Expertisebank'
+    description: 'Bespreek hier de Expertisebank.'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_5:
+    name: 'Wall of fame'
+    description: 'Bespreek hier de Wall of fame.'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_6:
+    name: 'Forum'
+    description: 'Bespreek hier het Forum.'
+    Category: sfDoctrineSimpleForumCategory_2
+    deleted: false
+  sfDoctrineSimpleForumForum_8:
+    name: 'Algemeen'
+    description: 'Bespreek hier zaken over school.'
+    Category: sfDoctrineSimpleForumCategory_1
+    deleted: false

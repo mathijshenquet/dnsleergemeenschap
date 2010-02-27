@@ -1,0 +1,189 @@
+/*-----------------------------------------------------------------------------
+[client] Screen Stylesheet
+
+version:   1.0
+date:      01/03/07
+author:    [your name]
+email:     [you at domain dot com]
+
+website:   [your domain]
+
+version history: [location of file]
+-----------------------------------------------------------------------------*/
+
+
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+
+/* @import url("otherstylesheet.css"); */
+
+
+/* Remove margin, padding and border from everything
+-----------------------------------------------------------------------------*/
+
+#userbar *, #header *, #navigation *, #footer *, img, html, body
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+.clear
+	{
+	clear:both;
+	display: block;
+}
+
+
+
+.right
+	{
+	float: right;
+}
+
+
+
+.left
+	{
+	float: left;
+}
+
+/* Set up the document
+-----------------------------------------------------------------------------*/
+
+body
+	{
+	font: 62.5%/1.5 "Lucida Grande", Arial, Verdana, sans-serif;
+	color: #333;
+	font-weigth: normal;
+}
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1
+	{
+	font-size: 3.6em; /* Equivalent to 22pt */
+}
+	
+h2
+	{
+	font-size: 2.6em; /* Equivalent to 20pt */
+}
+	
+h3
+	{
+	font-size: 2.2em; /* Equivalent to 18pt */
+}
+	
+h4
+	{
+	font-size: 2.0em; /* Equivalent to 18pt */
+}
+	
+h5
+	{
+	font-size: 1.8em; /* Equivalent to 14pt */
+}
+
+h6{
+	font-size: 1.6em; /* Equivalent to 12pt */
+}
+	
+p, q, cite
+	{
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+p{
+	margin: 0 0 24px 0;
+}
+
+dl, ul, ol
+	{
+	list-style: none;
+}
+
+dd, dt
+	{
+	font-size: 1.2em; /* Equivalent to 12pt */	
+}
+
+
+a{
+	text-decoration: none;
+	color: #FCB100;
+	border: 0;
+}
+a:hover{
+	color: #FCB100;
+	text-decoration: underline;
+}
+
+.clickable{
+	cursor: pointer;	
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #0d83c4;
+	font-weight: normal;
+	margin: 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
+	font-weight: bold;
+	color: #0d83c4;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+
+
+/* Navigation
+-----------------------------------------------------------------------------*/
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+
+
+/* Homepage
+-----------------------------------------------------------------------------*/
+
+
+
+/* Your template
+-----------------------------------------------------------------------------*/
+
+
+/* Forms
+-----------------------------------------------------------------------------*/
+
+/* Tables 
+-----------------------------------------------------------------------------*/
+
+
+
+table
+ 	
+	{ 
+  	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td 
+	
+	{
+  	text-align: left;
+	font-weight: normal;
+}

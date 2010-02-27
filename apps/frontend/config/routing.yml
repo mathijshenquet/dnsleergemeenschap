@@ -1,0 +1,220 @@
+# default rules
+homepage:
+  url: /
+  param: { action: overview, module: leerlijn }
+  
+nieuws:
+  url: /nieuws
+  param: { action: page, module: nieuws, page: 1 }
+  
+nieuws_page:
+  url: /nieuws/:page
+  param: { action: page, module: nieuws }
+  
+nieuws_item:
+  url: /nieuws/:id/:slug
+  param: { action: show, module: nieuws }
+  
+in_the_news:
+  url: /in-het-nieuws
+  param: { action: inTheNews, module: nieuws }
+
+##################
+#  Leerlijn API  #
+##################
+
+leerlijn_api:
+  url: /api/:sf_format/leerlijn
+  param: { action: overview, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+
+leerlijn_leergebied_api:
+  url: /api/:sf_format/leerlijn/leergebied/:id/:slug
+  param: { action: leergebiedOverview, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+    
+leerlijn_leerjaar_api:
+  url: /api/:sf_format/leerlijn/leerjaar/:id/:slug
+  param: { action: leerjaarOverview, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+
+leerlijn_kern_api:
+  url: /api/:sf_format/leerlijn/kern/:id/:slug
+  param: { action: kern, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+
+leerlijn_vak_api:
+  url: /api/:sf_format/leerlijn/vak/:id/:slug
+  param: { action: vak, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+  
+leerlijn_kernbegrip_api:
+  url: /api/:sf_format/leerlijn/kernbegrip/:id/:slug
+  param: { action: kernbegrip, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+  
+leerlijn_sleutelinzicht_api:
+  url: /api/:sf_format/leerlijn/sleutelinzicht/:id/:slug
+  param: { action: sleutelinzicht, module: leerlijn_api }
+  requirements:
+    sf_format: (xml)
+
+##############
+#  Leerlijn  #
+##############
+
+leerlijn:
+  url: /leerlijn
+  param: { action: overview, module: leerlijn }
+
+leerlijn_leergebied:
+  url: /leerlijn/leergebied/:id/:slug
+  param: { action: leergebiedOverview, module: leerlijn }
+
+leerlijn_kern:
+  url: /leerlijn/kern/:id/:slug
+  param: { action: kern, module: leerlijn }
+
+leerlijn_vak:
+  url: /leerlijn/vak/:id/:slug
+  param: { action: vak, module: leerlijn }
+  
+leerlijn_eindterm:
+  url: /leerkaar/eindterm/:id/:slug
+  param: { action: eindterm, module: leerlijn }
+  
+leerlijn_kernbegrip:
+  url: /leerlijn/kernbegrip/:id/:slug
+  param: { action: kernbegrip, module: leerlijn }
+  
+leerlijn_sleutelinzicht:
+  url: /leerlijn/sleutelinzicht/:id/:slug
+  param: { action: sleutelinzicht, module: leerlijn }
+
+leerlijn_leerjaar:
+  url: /leerlijn/leerjaar/:id/:slug
+  param: { action: leerjaar, module: leerlijn }
+
+leerlijn_thema:
+  url: /leerlijn/thema/:id/:slug
+  param: { action: thema, module: leerlijn }
+
+sf_guard_signin:
+  url:   /login
+  param: { module: user, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /wachtwoord-vergeten
+  param: { module: user, action: password }
+  
+sf_guard_change_password:
+  url: /wachtwoord-veranderen/:auth
+  param: { module: user, action: changepassword }
+  
+profile:
+  url: /profiel
+  param: { module: user, action: my }
+  
+viewProfile:
+  url: /profiel/:username
+  param: { module: user, action: view }
+  
+feedback:
+  url: /feedback
+  param: { module: user, action: feedback }
+  
+invite:
+  url: /uitnodigen
+  param: { module: user, action: invite }
+
+invite_accept:
+  url: /uitnodiging/:username
+  param: { module: user, action: inviteAccept }
+
+showcase:
+  url: /wall-of-fame
+  param: { module: showcase, action: wall }
+  
+showcase_item:
+  url: /wall-of-fame/:id/:slug
+  param: { module: showcase, action: item }
+
+mailbox:
+  url: /profiel/mailbox
+  param: { module: user, action: mailbox }
+api_nieuws_list:
+  url: /api/nieuws/list.:sf_format/:amount
+  param: { module: nieuws, action: apiList, type: xml }
+  requirements: { amount: \d+}
+deadpixel:
+  url: /easteregg/deadpixel
+  param: { module: easteregg, action: deadpixel }
+links:
+  url: /links
+  param: { module: links, action: index }
+
+expertbank:
+  url: /expertbank
+  param: { module: expertbank, action: index }
+  
+expertbank_show:
+  url: /expertbank/expert/:id/:name_slug/:profession_slug
+  param: { module: expertbank, action: contact }
+expertbank_send:
+  url: /expertbank/verstuur/:id/
+  param: { module: expertbank, action: send }
+
+##########
+#  Help  #
+##########
+
+help:
+  url: /help
+  param: { module: help, action: index, id: 1 }
+
+help_page:
+  url: /help/:id/:slug
+  param: { module: help, action: page }
+
+#############
+#  Ideabox  #
+#############
+
+ideabox:
+  url: /ideeenbox
+  param: { module: ideabox, action: index }
+  
+###########
+#  Forum  #
+###########
+
+sf_doctrine_simple_forum_view_board:
+  url: /forum/board/view/:id/:slug
+  params: { module: sfDoctrineSimpleForum, action: viewBoard }
+sf_doctrine_simple_forum_view_board_noslug:
+  url: /forum/board/view/:id/
+  params: { module: sfDoctrineSimpleForum, action: viewBoard }
+sf_doctrine_simple_forum_index:
+  url: /forum
+  params: { module: sfDoctrineSimpleForum, action: index }
+sf_doctrine_simple_forum_view_topic:
+  url: /forum/topic/view/:id/:slug
+  params: { module: sfDoctrineSimpleForum, action: viewTopic }
+sf_doctrine_simple_forum_create_topic:
+  url: /forum/topic/:id/create
+  params: { module: sfDoctrineSimpleForum, action: createTopic }
+sf_doctrine_simple_forum_view_latest_feed:
+  url: /forum/latest/feed
+  params: { module: sfDoctrineSimpleForum, action: viewLatestFeed, sf_format: xml }
+default:
+  url: /:module/:action/*

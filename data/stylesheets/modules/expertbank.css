@@ -1,0 +1,79 @@
+<?php
+header("Content-type: text/css");
+echo <<<CSS
+/* --- start of css --- */
+
+ul.expertbank{
+	margin: 20px 0;
+	border-top: 1px dotted #FBB03F;
+}
+ul.expertbank li{
+	padding: 10px;
+	border-bottom: 1px dotted #FBB03F;
+	overflow: hidden;
+}
+ul.expertbank .right{
+	overflow: hidden;
+	margin: 5px 5px 0 0;
+}
+ul.expertbank .right *{
+	float: left;
+}
+ul.expertbank .right img{
+	margin-right: 3px;
+}
+
+.expertbank h1{
+	text-align: center;
+	border-bottom: 1px dotted #FBB03F;
+}
+
+.expertbank h3{
+	overflow: hidden;
+}
+.expertbank h3 img{
+	padding-top: 5px;
+	margin-left: 4px;
+}
+.expertbank h3 img, .expertbank h3 span{
+	float: right;
+}
+.expertbank h3 span.type.hidden{
+	display: none;	
+}
+.expertbank h3 span.type{
+	color: #999;
+	font-size: 16px;
+	display: block;
+}
+.expertbank ul.kernbegrippen{
+	overflow: hidden;
+}
+.expertbank ul.kernbegrippen li{
+	float: left;
+	padding: 0 10px 0 0;	
+	border: none;
+	font-size: 13px;
+	font-weigth: bold;
+	color: #666;
+}
+.expertbank li.signup_button{
+	border: none;
+	padding: 35px 0 5px 0 ;
+}
+li.signup_button .form{
+	display: none;
+}
+.expertbank ul.kernbegrippen li a{
+	color: #0D83C4;
+	font-size: 11px;
+}
+.expertbank .content{
+	width: 810px;
+}
+.expertbank .right{
+	padding: 0 0 0 15px;
+}
+/* --- end of css --- */
+CSS;
+?>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width: 703px;
+	margin: 0 auto;
+}
+
+#header{
+	background: url(../images/login_head.jpg);
+	height: 102px;
+}
+#header img{
+	margin: 20px 0 0 50px;	
+}
+#header p{
+	margin: 0 0 0 54px;	
+	color: #6decff;
+	font-size: 13px;
+	font-family:Tahoma, Geneva, sans-serif
+}
+
+#foot{
+	background: url(../images/login_foot.gif);
+	height: 68px;
+}
+#content_box{
+	background: url(../images/login_fill.gif);
+}
+#top{
+	background: url(../images/login_top.gif);
+	height:18px;
+}
+#bot{
+	background: url(../images/login_bot.gif);
+	height:16px;
+}
+.content{
+	padding: 0 50px 0 50px;
+}
+#content{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.box{
+	width: 285px;
+	float: left;
+}
+#left{
+	padding-right: 30px;	
+}
+.dark{
+	background: url(../images/login_fill_dark.gif);
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.text{
+	width: 100%;	
+	margin: 0 0 10px 0;
+	padding: 2px;
+	border: solid 1px #fd9e00;
+	color: #0083b5;
+}
+.submit{
+	border: solid 1px #fd9e00;	
+	padding: 1px;
+	color: #0083b5;
+	background: #FFF;
+}
+.submit_w{
+	border: solid 1px #fd9e00;	
+	padding: 1px;
+	color: #0083b5;
+	width:100%;
+	background: #FFF;
+}
+.center{
+	text-align:center;
+}
+#help p{
+	padding: 25px 0 5px;
+}

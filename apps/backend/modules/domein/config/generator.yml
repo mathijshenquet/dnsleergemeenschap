@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnDomein
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_domein_domein
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:
+        vak_id: {label: Vakken}
+        eindterm_list: {label: Eindtermen}
+        summary: {label: Samenvatting}
+        image: {label: Afbeelding}
+        description: {label: Omschrijving}
+      list:
+        display: [=name, image, summary]
+      filter:  ~
+      form:
+        display: [name, image, summary, description, vak_id]
+      edit:    ~
+      new:     ~

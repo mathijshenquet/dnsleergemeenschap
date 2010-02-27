@@ -1,0 +1,29 @@
+<?php header("Content-type: text/css"); ?>
+
+.text{
+	font-size: 13px;
+}
+
+.text p, .text ul, .text ol, .text blockquote{
+	margin-bottom: 1em;	
+}
+
+.text ol{
+	list-style: decimal outside none;
+	padding-left: 40px;
+	font-size: 1.2em;
+}
+
+.text ul{
+	list-style: disc outside none;
+	padding-left: 40px;
+	font-size: 1.2em;
+}
+
+.text blockquote{
+	border:1px solid #0A4F74;
+	background:#0072B1 url(/images/information_box_fill.png) repeat-x scroll 0 0;
+	padding: 10px;
+	color: #fff;
+	font-style: italic;
+}

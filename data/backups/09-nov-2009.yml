@@ -1,0 +1,236 @@
+leerlijnKern:
+  leerlijnKern_1:
+    name: Visualiseren
+    summary: ''
+    leergebied: leerlijnLeergebied_1
+  leerlijnKern_2:
+    name: 'Creatief denken'
+    summary: 'Je leert dat het maken van beelden een creatief proces is, waarin vormgevingsvraagstukken meer dan één oplossing hebben. Die oplossingen bereik je in een complex proces waarin nadenken, schetsen en beeldend experimenteren hand in hand gaan.'
+    leergebied: leerlijnLeergebied_1
+  leerlijnKern_3:
+    name: Beschouwen
+    summary: ''
+    leergebied: leerlijnLeergebied_1
+leerlijnKernbegrip:
+  leerlijnKernbegrip_1:
+    name: Zeggingskracht
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_1
+  leerlijnKernbegrip_2:
+    name: Zeggingskracht
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_3:
+    name: 'Toegepaste Kunst'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_4:
+    name: Media
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_5:
+    name: Identiteit
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_6:
+    name: 'Materiaal/ Techniek'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_7:
+    name: Beeldaspecten
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_8:
+    name: Presenteren
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_9:
+    name: Verwonderen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_10:
+    name: 'Onderzoek doen'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_11:
+    name: 'Onderzoek doen'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_12:
+    name: Schetsen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_13:
+    name: Experimenteren
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_14:
+    name: Verzamelen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_15:
+    name: Verzamelen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_16:
+    name: Ideevorming
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_17:
+    name: Verkennen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_18:
+    name: Reflectie
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_19:
+    name: 'Mening vormen'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+  leerlijnKernbegrip_20:
+    name: Hofcultuur
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_21:
+    name: 'Burgerlijke Cultuur'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_22:
+    name: 'Cultuur van het Moderne'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_23:
+    name: Massacultuur
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_24:
+    name: 'Termen/begrippen dans'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_25:
+    name: 'Termen/ begrippen beeldend'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_26:
+    name: 'Termen/ begrippen drama'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_27:
+    name: 'Termen/ begrippen muziek'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_28:
+    name: 'Termen/ begrippen muziek'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_29:
+    name: Bronnen
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_30:
+    name: 'Kunst en religie, levensbeschouwing'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_31:
+    name: 'Kunst en esthetica'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_32:
+    name: 'Kunstenaar en opdrachtgever, politiek en economische macht'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_33:
+    name: 'Kunst en vermaak'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_1
+  leerlijnKernbegrip_34:
+    name: 'Kunst, wetenschap en techniek'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+  leerlijnKernbegrip_35:
+    name: 'Kunst intercultureel'
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+leerlijnLeergebied:
+  leerlijnLeergebied_1:
+    name: Arts
+    description: 'Op ontdekkingsreis in de wereld van kunst en cultuur.'
+    image: bf40470b767ef64696cdd3f20b80e52062cab4aa.jpg
+    image_desc: ''
+  leerlijnLeergebied_2:
+    name: Linguistics
+    description: 'Linguistics is het leergebied waarin de verschillende talen worden beschouwd en benaderd'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_3:
+    name: Science
+    description: 'Science proefjes'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_4:
+    name: Humanics
+    description: ''
+    image: null
+    image_desc: ''
+leerlijnVak:
+  leerlijnVak_1:
+    name: 'Culturele Kunstzinnige Vorming'
+    summary: 'Culturele Kunstzinnige Vorming is een verplicht examenvak voor HAVO en Atheneum. Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_2:
+    name: 'Kunst Algemeen'
+    summary: 'Kunst Algemeen is een theoretisch vak voor HAVO en Atheneum dat wordt afgesloten met een Centraal Examen. Je leert dans, drama, beeldende kunst en muziek te analyseren aan de hand van verschillende tijdsperioden en invalshoeken.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_3:
+    name: 'Kunst Beeldende Vormgeving'
+    summary: 'Kunst Beeldende Vormgeving is een praktisch vak voor HAVO en Atheneum dat wordt afgesloten met een Schoolexamen. Je ontwikkelt je vermogen om 2-D, 3-D en 4-D beelden vorm te geven op een persoonlijke wijze.'
+    description: ''
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_4:
+    name: 'Kunstvakken 1'
+    summary: 'Kunstvakken 1 is een verplicht examenvak voor VMBO-T.  Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: ''
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_5:
+    name: 'Kunstvakken 2'
+    summary: 'Kunstvakken 2 beeldende vakken is een examenvak voor VMBO-T wat we (nog) niet aanbieden. Het schoolexamen is praktisch. Je leert 2-D, 3-D of 4-D beelden vorm te geven. Het Centraal Examen is theoretisch en gaat over het beschouwen van kunstwerken.'
+    description: ''
+    leergebied: leerlijnLeergebied_1

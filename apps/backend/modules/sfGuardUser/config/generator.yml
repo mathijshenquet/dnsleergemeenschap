@@ -1,0 +1,42 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_doctrine_route:     1
+
+    config:
+      fields:
+        password_again: { label: "Wachtwoord (herhaling)" }
+        username: { label: "Gebruikersnaam" }
+        password: { label: "Wachtwoord" }
+        profile|first_name: { label: "Voornaam" }
+        profile|preposition: { label: "Tussenvoegsel" }
+        profile|last_name: { label: "Achternaam" }
+        profile|email: {label: "Email"}
+        is_active: { label: "Actief" }
+        is_super_admin: { label: "Super Beheerder" }
+        groups: { label: "Groepen" }
+
+      list:
+        title:   User list
+        display: [=username, first_name, last_name, email]
+        fields:
+           email: { sort_method: sortByEmail }
+
+      form:
+        class: sfGuardUserAdminForm
+        display:
+          "NONE":                   [username, password, password_again, profile|email, profile|first_name, profile|preposition, profile|last_name]
+          "Permissions and groups": [is_active, is_super_admin, groups_list]
+
+      edit:
+        title: Editing User "%%username%%"
+
+      new:
+        title: New User

@@ -1,0 +1,4 @@
+inviteAccept:
+  is_secure: off
+default:
+  is_secure: on

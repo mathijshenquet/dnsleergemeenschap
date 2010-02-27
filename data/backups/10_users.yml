@@ -1,0 +1,163 @@
+
+sfGuardUser:
+  user_mathijs:
+    username:			 mathijshenquet
+    password:			 swordfish
+    is_super_admin:		 true
+  user_robin:
+    username:			 robinkanters
+    password:			 welkom
+    is_super_admin:		 true
+  user_cas:
+    username:			 cascornelissen
+    password:			 swordfish
+    is_super_admin:		 true
+  user_annemarieke:
+    username:			 AnnemariekeS
+    password:			 welkom
+  user_mark:
+    username:			 MarkL
+    password:			 welkom
+  user_toine:
+    username:			 ToineP
+    password:			 welkom
+  user_linda:
+    username:	         LindaR
+    password:            welkom
+  user_leraar:
+    username:            leraar
+    password:            welkom
+  user_leerling:
+    username:            leerling
+    password:            welkom
+  user_gast:
+    username: 			 gast
+    password:			 dnswelkom2010
+
+sfGuardPermission:
+  perms_admin:
+    name:                admin
+    description:         Administrator rechten
+  perms_leraar:
+    name:                leraar
+    description:         Leraar rechten
+
+sfGuardGroup:
+  group_admin:
+    name:                beheerder
+    description:         Beheerder van de DNS Leerlingensite
+  group_leraar:
+    name:                leraar
+    description:         Alle leraren van De Nieuwste School
+  group_leerling:
+    name:                leerling
+    description:         Alle leerlingen van De Nieuwste School
+  group_makers:
+    name:                makers
+    description:         Makers van deze site
+    
+sfGuardUserGroup:
+  -
+    sfGuardGroup:        group_makers
+    sfGuardUser:         user_mathijs
+  -
+    sfGuardGroup:        group_makers
+    sfGuardUser:         user_robin
+  -
+    sfGuardGroup:        group_makers
+    sfGuardUser:         user_cas
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_mathijs
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_robin
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_cas
+  -
+    sfGuardGroup:        group_leerling
+    sfGuardUser:         user_mathijs
+  -
+    sfGuardGroup:        group_leerling
+    sfGuardUser:         user_robin
+  -
+    sfGuardGroup:        group_leerling
+    sfGuardUser:         user_cas
+  -
+    sfGuardGroup:        group_admin
+    sfGuardUser:         user_mathijs
+  -
+    sfGuardGroup:        group_admin
+    sfGuardUser:         user_robin
+  -
+    sfGuardGroup:        group_admin
+    sfGuardUser:         user_cas
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_annemarieke
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_mark
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_linda
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_toine
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardUser:         user_leraar
+  -
+    sfGuardGroup:        group_leerling
+    sfGuardUser:         user_leerling
+
+sfGuardGroupPermission:
+  -
+    sfGuardGroup:        group_admin
+    sfGuardPermission:   perms_admin
+  -
+    sfGuardGroup:        group_admin
+    sfGuardPermission:   perms_leraar
+  -
+    sfGuardGroup:        group_leraar
+    sfGuardPermission:   perms_leraar
+
+
+sfGuardUserProfile:
+  mathijshenquet:
+    User:         user_mathijs
+    email:                mathijs.henquet@gmail.com
+    first_name:            Mathijs
+    last_name:            Henquet
+  robinkanters:
+    User:         user_robin
+    email:                robin@chalk-webdesign.nl
+    first_name:            Robin
+    last_name:            Kanters
+  cascornelissen:
+    User:         user_cas
+    email:                supercasje@gmail.com
+    first_name:            Cas
+    last_name:            Cornelissen
+  annemarieke:
+    User:         user_annemarieke
+    email:                foo@bar.baz
+    first_name:            Annemarieke
+    last_name:            Schepers
+  mark:
+    User:         user_mark
+    email:                foo@bar.baz
+    first_name:            Mark
+    last_name:            Langenwerf
+  linda:
+    User:         user_linda
+    email:                foo@bar.baz
+    first_name:            Linda
+    preposition:         van
+    last_name:            Rooij
+  toine:
+    User:         user_toine
+    email:                foo@bar.baz
+    first_name:            Toine
+    last_name:            Peerboom

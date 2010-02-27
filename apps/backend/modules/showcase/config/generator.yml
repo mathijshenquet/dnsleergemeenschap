@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           showcase
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          showcase
+    with_doctrine_route:   1
+
+    config:
+      actions: ~
+      fields:
+        title: { label: Titel }
+        user_id: { label: Gebruiker }
+        is_active: { label: 'Actief?' }
+        description: { label: Omschrijving }
+      list:
+        display: [=title, user_id, is_active]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

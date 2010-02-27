@@ -1,0 +1,171 @@
+expert:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                expert
+    module:               expert
+    prefix_path:          expertisebank
+    column:               id
+    with_wildcard_routes: true
+    
+expert_expertbank:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                expert
+    module:               expert
+    prefix_path:          expertisebank
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_eindterm_eindterm:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnEindterm
+    module:               eindterm
+    prefix_path:          eindterm
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_domein_domein:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnDomein
+    module:               domein
+    prefix_path:          domein
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_niveau_niveau:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnNiveau
+    module:               niveau
+    prefix_path:          niveau
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_thema_thema:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnThema
+    module:               thema
+    prefix_path:          thema
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_leerjaar_leerjaar:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnLeerjaar
+    module:               leerjaar
+    prefix_path:          leerjaar
+    column:               id
+    with_wildcard_routes: true
+
+help_article_help:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                helpArticle
+    module:               help
+    prefix_path:          help
+    column:               id
+    with_wildcard_routes: true
+
+showcase:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                showcase
+    module:               showcase
+    prefix_path:          showcase
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_sleutelinzicht_sleutelinzicht:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnSleutelinzicht
+    module:               sleutelinzicht
+    prefix_path:          sleutelinzicht
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_kernbegrip_kernbegrip:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnKernbegrip
+    module:               kernbegrip
+    prefix_path:          kernbegrip
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_kern_kern:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnKern
+    module:               kern
+    prefix_path:          kern
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_vak_vak:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnVak
+    module:               vak
+    prefix_path:          vak
+    column:               id
+    with_wildcard_routes: true
+
+leerlijn_leergebied_leergebied:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                leerlijnLeergebied
+    module:               leergebied
+    prefix_path:          leergebied
+    column:               id
+    with_wildcard_routes: true
+
+links:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Links
+    module:               links
+    prefix_path:          links
+    column:               id
+    with_wildcard_routes: true
+
+blog_posts_nieuws:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BlogPosts
+    module:               nieuws
+    prefix_path:          nieuws
+    column:               id
+    with_wildcard_routes: true
+
+blog_posts:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BlogPosts
+    module:               blog_posts
+    prefix_path:          blog_posts
+    column:               id
+    with_wildcard_routes: true
+    
+profile:
+  url: /profile
+
+leerlijn:
+  url: /leerlijn
+  param: { module: leerlijn, action: index }
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+  
+homepage:
+  url:   /
+  param: { module: home, action: index }

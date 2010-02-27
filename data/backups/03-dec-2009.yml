@@ -1,0 +1,971 @@
+Links:
+  Links_1:
+    title: 'De Nieuwste School'
+    image: 1.png
+    url: 'http://www.denieuwsteschool.nl/'
+    is_active: true
+  Links_2:
+    title: Magister
+    image: 2.png
+    url: 'http://denieuwsteschool.schoolwerkplek.nl/MWP'
+    is_active: true
+leerlijnKern:
+  leerlijnKern_1:
+    name: Visualiseren
+    summary: ''
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnKern_2:
+    name: 'Creatief denken'
+    summary: 'Je leert dat het maken van beelden een creatief proces is, waarin vormgevingsvraagstukken meer dan één oplossing hebben. Die oplossingen bereik je in een complex proces waarin nadenken, schetsen en beeldend experimenteren hand in hand gaan.'
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnKern_3:
+    name: Beschouwen
+    summary: ''
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+leerlijnKernbegrip:
+  leerlijnKernbegrip_1:
+    name: Zeggingskracht
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_1
+    thema_id: null
+  leerlijnKernbegrip_2:
+    name: Zeggingskracht
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_3:
+    name: 'Toegepaste Kunst'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_4:
+    name: Media
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_5:
+    name: Identiteit
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_6:
+    name: 'Materiaal/ Techniek'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_7:
+    name: Beeldaspecten
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_8:
+    name: Presenteren
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_9:
+    name: Verwonderen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_10:
+    name: 'Onderzoek doen'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_11:
+    name: 'Onderzoek doen'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_12:
+    name: Schetsen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_13:
+    name: Experimenteren
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_14:
+    name: Verzamelen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_15:
+    name: Verzamelen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_16:
+    name: Ideevorming
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_17:
+    name: Verkennen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_18:
+    name: Reflectie
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_19:
+    name: 'Mening vormen'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_3
+    thema_id: null
+  leerlijnKernbegrip_20:
+    name: Hofcultuur
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_21:
+    name: 'Burgerlijke Cultuur'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_22:
+    name: 'Cultuur van het Moderne'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_23:
+    name: Massacultuur
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_24:
+    name: 'Termen/begrippen dans'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_25:
+    name: 'Termen/ begrippen beeldend'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_26:
+    name: 'Termen/ begrippen drama'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_27:
+    name: 'Termen/ begrippen muziek'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_28:
+    name: 'Termen/ begrippen muziek'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_29:
+    name: Bronnen
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_30:
+    name: 'Kunst en religie, levensbeschouwing'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_31:
+    name: 'Kunst en esthetica'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_32:
+    name: 'Kunstenaar en opdrachtgever, politiek en economische macht'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_33:
+    name: 'Kunst en vermaak'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_1
+    thema_id: null
+  leerlijnKernbegrip_34:
+    name: 'Kunst, wetenschap en techniek'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+  leerlijnKernbegrip_35:
+    name: 'Kunst intercultureel'
+    summary: null
+    description: null
+    image: null
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    vak: leerlijnVak_2
+    thema_id: null
+leerlijnLeergebied:
+  leerlijnLeergebied_1:
+    name: Arts
+    description: 'Op ontdekkingsreis in de wereld van kunst en cultuur.'
+    image: null
+    image_desc: null
+  leerlijnLeergebied_2:
+    name: Linguistics
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_3:
+    name: Science
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_4:
+    name: Humanics
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_5:
+    name: Geletterdheid
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_6:
+    name: Gecijferdheid
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_7:
+    name: 'Moderne Vreemde Talen'
+    description: ''
+    image: null
+    image_desc: ''
+  leerlijnLeergebied_8:
+    name: Mentoraat
+    description: ''
+    image: null
+    image_desc: ''
+sfGuardUserProfile:
+  sfGuardUserProfile_1:
+    User: sfGuardUser_1
+    email: mathijs.henquet@gmail.com
+    first_name: Mathijs
+    last_name: Henquet
+    preposition: null
+  sfGuardUserProfile_2:
+    User: sfGuardUser_2
+    email: robin@chalk-webdesign.nl
+    first_name: Robin
+    last_name: Kanters
+    preposition: null
+  sfGuardUserProfile_3:
+    User: sfGuardUser_3
+    email: supercasje@gmail.com
+    first_name: Cas
+    last_name: Cornelissen
+    preposition: null
+  sfGuardUserProfile_4:
+    User: sfGuardUser_4
+    email: foo@bar.baz
+    first_name: Annemarieke
+    last_name: Schepers
+    preposition: null
+  sfGuardUserProfile_5:
+    User: sfGuardUser_5
+    email: foo@bar.baz
+    first_name: Mark
+    last_name: Langenwerf
+    preposition: null
+  sfGuardUserProfile_6:
+    User: sfGuardUser_7
+    email: foo@bar.baz
+    first_name: Linda
+    last_name: Rooij
+    preposition: van
+  sfGuardUserProfile_7:
+    User: sfGuardUser_6
+    email: foo@bar.baz
+    first_name: Toine
+    last_name: Peerboom
+    preposition: null
+sfGuardUserGroup:
+  sfGuardUserGroup_4_2:
+    sfGuardUser: sfGuardUser_4
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUserGroup_5_2:
+    sfGuardUser: sfGuardUser_5
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUserGroup_6_2:
+    sfGuardUser: sfGuardUser_6
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUserGroup_7_2:
+    sfGuardUser: sfGuardUser_7
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUserGroup_8_2:
+    sfGuardUser: sfGuardUser_8
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUserGroup_9_3:
+    sfGuardUser: sfGuardUser_9
+    sfGuardGroup: sfGuardGroup_3
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+sfGuardGroup:
+  sfGuardGroup_1:
+    name: beheerder
+    description: 'Beheerder van de DNS Leerlingensite'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardGroup_2:
+    name: leraar
+    description: 'Alle leraren van De Nieuwste School'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardGroup_3:
+    name: leerling
+    description: 'Alle leerlingen van De Nieuwste School'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+sfGuardPermission:
+  sfGuardPermission_1:
+    name: admin
+    description: 'Administrator rechten'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardPermission_2:
+    name: leraar
+    description: 'Leraar rechten'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+sfGuardGroupPermission:
+  sfGuardGroupPermission_1_1:
+    sfGuardGroup: sfGuardGroup_1
+    sfGuardPermission: sfGuardPermission_1
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardGroupPermission_1_2:
+    sfGuardGroup: sfGuardGroup_1
+    sfGuardPermission: sfGuardPermission_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardGroupPermission_2_2:
+    sfGuardGroup: sfGuardGroup_2
+    sfGuardPermission: sfGuardPermission_2
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+sfGuardUser:
+  sfGuardUser_1:
+    username: mathijshenquet
+    algorithm: sha1
+    salt: 03048b0338d0f277bc3905a8fd28f53a
+    password: 6fb2a492092ac252582655a9618ecea2dc769734
+    is_active: true
+    is_super_admin: true
+    last_login: '2009-12-03 02:47:48'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-03 02:47:48'
+  sfGuardUser_2:
+    username: robinkanters
+    algorithm: sha1
+    salt: 84effccb8028350e88bc3ed96b0a15c4
+    password: 0a3a68059c91d82b7b64680cf821b9f148a52328
+    is_active: true
+    is_super_admin: true
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_3:
+    username: cascornelissen
+    algorithm: sha1
+    salt: 4905ed1fa7042fa6c1b0b7e604ce6db1
+    password: 633b5ac5d4505349b03a0a8b7f803f560d187726
+    is_active: true
+    is_super_admin: true
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_4:
+    username: AnnemariekeS
+    algorithm: sha1
+    salt: 06d35c4336b47c28d6ad1f8713ef9c55
+    password: 082a8abd57bb1a8ab94a5b00fb790863fdb88641
+    is_active: true
+    is_super_admin: false
+    last_login: '2009-12-03 07:53:17'
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-03 07:53:17'
+  sfGuardUser_5:
+    username: MarkL
+    algorithm: sha1
+    salt: 74f68308c5327b2a8d14d3e10eea3d47
+    password: 1e30432112397166e22551071ef2052bf8c941af
+    is_active: true
+    is_super_admin: false
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_6:
+    username: ToineP
+    algorithm: sha1
+    salt: 8a506234d2506239f33808056369b6a0
+    password: 216cdc00bd709c55f839148aa07611f6d59ab2ad
+    is_active: true
+    is_super_admin: false
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_7:
+    username: LindaR
+    algorithm: sha1
+    salt: 688227fcc2efc1504c591c7a1d6d79ab
+    password: f7077bed992735c86e3bea2e546dde4194afe890
+    is_active: true
+    is_super_admin: false
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_8:
+    username: leraar
+    algorithm: sha1
+    salt: d5de61407426d4614973dd7cd598106f
+    password: 83b51c86bf354458498533ac8940bae55c6b5a25
+    is_active: true
+    is_super_admin: false
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+  sfGuardUser_9:
+    username: leerling
+    algorithm: sha1
+    salt: 76052b9c5b36b8fe36189a4ebd7c4495
+    password: 936800547de9b5051f394ceeafa1135bd449f39a
+    is_active: true
+    is_super_admin: false
+    last_login: null
+    created_at: '2009-12-02 07:33:37'
+    updated_at: '2009-12-02 07:33:37'
+leerlijnSleutelinzicht:
+  leerlijnSleutelinzicht_1:
+    description: 'Je kan met een beeld een idee/ gedachte/gevoel overbrengen.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_2
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_2:
+    description: 'Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_3:
+    description: 'Je komt via de ontwerpcyclus tot een bruikbaar product.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_4:
+    description: 'Je hebt tijdens onderzoeken gebruik gemaakt van verschillende media.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_4
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_5:
+    description: 'Je kan beelden maken die iets over jou als persoon zeggen.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_5
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_6:
+    description: "Je kan minimaal 2 van de volgende materialen om tot een 2- dimensionaal beeld te komen op de juiste manier inzetten:\nAcryl- en of plakkaatverf, houtskool, tekenpotlood, vetkrijt, oostindische inkt.\n"
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_6
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_7:
+    description: "Je weet hoe je de volgende materialen en gereedschappen op de juiste manier gebruikt om tot een 3- dimensionaal beeld te komen:\nKarton, hout, plexiglas, lijmpistool, stanleymes, ijzerdraad, lijmpistool.\n"
+    image: 950267df5ac36ac097765c1e00adf91a1613211c.jpg
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_6
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_8:
+    description: "Je hebt kennis gemaakt met de volgende apparaten, programma’s en hulpmiddelen om tot een 4- dimensionaal beeld te komen:\nFotocamera, videocamera, Adobe Photoshop, Adobe Première, script, storyboard.\n"
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_6
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_9:
+    description: "Je kan met hulp de volgende aspecten van een 2- dimensionaal beeld inzetten:\nLicht, kleur, ruimte, vorm, compositie,\n"
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_7
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_10:
+    description: "Je kan met hulp de volgende aspecten van een 3- dimensionaal beeld inzetten:\nVorm, constructie, schaal,\n"
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_7
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_11:
+    description: "Je kan met hulp de volgende aspecten van een 4- dimensionaal beeld inzetten:\nConcept, belichting, scherpte, shot, animatie, beeldbewerking, montage,\n"
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_7
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_12:
+    description: 'Je gebruikt in je presentatie de belangrijkste beelden die je in de loop van je onderzoek hebt gemaakt.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_8
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_13:
+    description: 'Je hebt je laten inspireren door kunstenaars en vormgevers om onderzoek te gaan doen.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_9
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_14:
+    description: 'Je kan met hulp een beeldend onderzoek doen aan de hand van de denkcirkel.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_11
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_15:
+    description: 'Je kan door een  schets ideeën een eerste vorm  geven.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_12
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_16:
+    description: 'Je maakt kennis met de wereld van de kunsten door het bezoeken van musea en andere culturele activiteiten.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_17
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_17:
+    description: 'Je kan reageren op jouw werk en dat van anderen.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_18
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_18:
+    description: 'Je kan aangeven wat jouw mening is over kunstwerken. Je onderbouwt die mening met argumenten.'
+    image: null
+    niveau: leerlijnNiveau_1
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_19
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_19:
+    description: 'Je kent de stappen van de ontwerpcyclus en kan ze tijdens een onderzoek met hulp doorlopen.'
+    image: null
+    niveau: leerlijnNiveau_2
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_20:
+    description: 'Je komt via de ontwerpcyclus tot een bruikbaar product.'
+    image: null
+    niveau: leerlijnNiveau_2
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_21:
+    description: 'In een onderzoek naar toegepaste kunst gebruik je een werkplan dat gebaseerd is op de ontwerpcyclus.'
+    image: null
+    niveau: leerlijnNiveau_5
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_22:
+    description: 'Je doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.'
+    image: null
+    niveau: leerlijnNiveau_5
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_23:
+    description: 'In een onderzoek naar toegepaste kunst kan je de functionaliteit van je werk benoemen.'
+    image: null
+    niveau: leerlijnNiveau_5
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_24:
+    description: 'In een onderzoek naar toegepaste kunst loopt je ontwerpproces via de ontwerpcyclus.'
+    image: null
+    niveau: leerlijnNiveau_6
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_25:
+    description: 'Je doet onderzoek naar toegepaste kunst en gebruikt in het werkproces inspiratiebronnen, die je krijgt aangereikt.'
+    image: null
+    niveau: leerlijnNiveau_6
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_26:
+    description: 'In een onderzoek naar toegepaste kunst houdt je rekening met de functionaliteit van je product.'
+    image: null
+    niveau: leerlijnNiveau_6
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_27:
+    description: 'Je kunt met hulp beelden produceren die tot stand komen via onderzoek binnen de toegepaste kunst.'
+    image: null
+    niveau: leerlijnNiveau_7
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_28:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    niveau: leerlijnNiveau_8
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_3
+    vak: leerlijnVak_3
+  leerlijnSleutelinzicht_29:
+    description: 'Je kunt via gestructureerd onderzoek binnen de toegepaste kunst beelden produceren.'
+    image: null
+    niveau: leerlijnNiveau_9
+    leergebied: leerlijnLeergebied_1
+    kern: leerlijnKern_1
+    kernbegrip: leerlijnKernbegrip_1
+    vak: leerlijnVak_1
+leerlijnVak:
+  leerlijnVak_1:
+    name: 'Culturele Kunstzinnige Vorming'
+    summary: 'Culturele Kunstzinnige Vorming is een verplicht examenvak voor HAVO en Atheneum. Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_2:
+    name: 'Kunst Algemeen'
+    summary: 'Kunst Algemeen is een theoretisch vak voor HAVO en Atheneum dat wordt afgesloten met een Centraal Examen. Je leert dans, drama, beeldende kunst en muziek te analyseren aan de hand van verschillende tijdsperioden en invalshoeken.'
+    description: 'Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving Hier komt een omschrijving.'
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_3:
+    name: 'Kunst Beeldende Vormgeving'
+    summary: 'Kunst Beeldende Vormgeving is een praktisch vak voor HAVO en Atheneum dat wordt afgesloten met een Schoolexamen. Je ontwikkelt je vermogen om 2-D, 3-D en 4-D beelden vorm te geven op een persoonlijke wijze.'
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_4:
+    name: 'Kunstvakken 1'
+    summary: 'Kunstvakken 1 is een verplicht examenvak voor VMBO-T.  Je neemt actief deel aan Culturele Activiteiten in de disciplines beeldend, audiovisueel, podiumkunsten, muziek, literatuur en cultureel erfgoed.'
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+  leerlijnVak_5:
+    name: 'Kunstvakken 2'
+    summary: 'Kunstvakken 2 beeldende vakken is een examenvak voor VMBO-T wat we (nog) niet aanbieden. Het schoolexamen is praktisch. Je leert 2-D, 3-D of 4-D beelden vorm te geven. Het Centraal Examen is theoretisch en gaat over het beschouwen van kunstwerken.'
+    description: ''
+    image: null
+    leergebied: leerlijnLeergebied_1
+leerlijnNiveau:
+  leerlijnNiveau_1:
+    name: '1 vmbot/havo'
+    position: '1'
+  leerlijnNiveau_2:
+    name: '1 havo/atheneum'
+    position: '2'
+  leerlijnNiveau_3:
+    name: '2 vmbot/havo'
+    position: '3'
+  leerlijnNiveau_4:
+    name: '2 havo/atheneum'
+    position: '4'
+  leerlijnNiveau_5:
+    name: '3 vmbot'
+    position: '5'
+  leerlijnNiveau_6:
+    name: '3 havo/atheneum'
+    position: '6'
+  leerlijnNiveau_7:
+    name: '4 havo/atheneum'
+    position: '8'
+  leerlijnNiveau_8:
+    name: '5 havo'
+    position: '9'
+  leerlijnNiveau_9:
+    name: '5 atheneum'
+    position: '10'
+  leerlijnNiveau_10:
+    name: '6 atheneum'
+    position: '11'
+  leerlijnNiveau_11:
+    name: '4 vmbot'
+    position: '7'
+PluginsfCombine:
+  PluginsfCombine_1e46e1af6bf38579bcd7d3ae754e338f:
+    files:
+      - default
+      - prettyPhoto
+      - main
+  PluginsfCombine_c2d43341f395e722718f344e81df137b:
+    files:
+      - jquery
+      - cookie
+      - easing
+      - prettyPhoto
+      - carousel
+      - cufon
+      - officina.font.js
+      - protoclass
+      - box2d
+      - gravity
+      - main
+      - deadpixel
+      - cowboy.js
+      - deadpixel.js
+  PluginsfCombine_d235c14b4e4d184390b22c0e099f1cb3:
+    files:
+      - jquery
+      - cookie
+      - easing
+      - prettyPhoto
+      - carousel
+      - cufon
+      - officina.font.js
+      - protoclass
+      - box2d
+      - gravity
+      - main
+      - deadpixel
+      - walloffame
+      - cowboy.js
+      - deadpixel.js
+sfCombine:
+  sfCombine_1e46e1af6bf38579bcd7d3ae754e338f:
+    files:
+      - default
+      - prettyPhoto
+      - main
+  sfCombine_c2d43341f395e722718f344e81df137b:
+    files:
+      - jquery
+      - cookie
+      - easing
+      - prettyPhoto
+      - carousel
+      - cufon
+      - officina.font.js
+      - protoclass
+      - box2d
+      - gravity
+      - main
+      - deadpixel
+      - cowboy.js
+      - deadpixel.js
+  sfCombine_d235c14b4e4d184390b22c0e099f1cb3:
+    files:
+      - jquery
+      - cookie
+      - easing
+      - prettyPhoto
+      - carousel
+      - cufon
+      - officina.font.js
+      - protoclass
+      - box2d
+      - gravity
+      - main
+      - deadpixel
+      - walloffame
+      - cowboy.js
+      - deadpixel.js

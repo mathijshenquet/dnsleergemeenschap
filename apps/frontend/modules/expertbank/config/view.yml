@@ -1,0 +1,3 @@
+all:
+  stylesheets:    [expertbank]
+  javascripts:    [expertbank]

@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Links
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          links
+    with_doctrine_route:     1
+
+    config:
+      actions:
+        _delete:
+          label: Verwijder
+        _new:
+          label: Nieuw
+        _edit:
+          label: Wijzig
+        _save:
+          label: Toevoegen
+        _save_and_add:
+          label: Voeg toe en maak nog een
+        _list:
+          label: Annuleren
+      fields:
+        title:
+          label: Titel
+        is_active:
+          label: Actief
+        image:
+          label: Afbeelding
+        url:
+          label: Link locatie
+          type: input_tag
+      list:
+        display: [is_active, =title, url]
+      filter:
+        display: [title, is_active]
+      form:    ~
+      edit:    ~
+      new:     ~

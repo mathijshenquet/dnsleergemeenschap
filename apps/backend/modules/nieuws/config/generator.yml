@@ -1,0 +1,49 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           BlogPosts
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          blog_posts_nieuws
+    with_doctrine_route:     1
+
+    config:
+      actions:
+        _delete:
+          label: Verwijder
+        _new:
+          label: Nieuw
+        _edit:
+          label: Wijzig
+        _save:
+          label: Opslaan
+        _save_and_add:
+          label: Voeg toe en maak nog een
+        _list:
+          label: Annuleren
+      fields: 
+        title:
+          label: Titel
+          help: De titel van het nieuwsbericht
+        body:
+          label: Inhoud
+          help: De inhoud van het nieuwbericht
+        created_at:
+          label: Aangemaakt op
+        updated_at:
+          label: Laatst aangepast op
+      list:    
+        title: Beheer van de Nieuwspagina's
+        display: [=title, created_at]
+        max_per_page: 10
+      filter: ~
+      form:    ~
+      edit:    
+        title: Bewerken van nieuwsbericht "%%title%%"
+        display: [title, body]
+      new:
+        title: Maak een nieuw nieuwsbericht aan
+        display: [title, body]

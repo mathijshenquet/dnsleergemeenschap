@@ -1,0 +1,10 @@
+Cufon.replace('#navigation ul li div');
+Cufon.replace('#content h1');
+Cufon.replace('#content h2');
+Cufon.replace('#content h3');
+Cufon.replace('#content h4');
+Cufon.replace('#content h5');
+Cufon.replace('#content h6');
+Cufon.replace('#header #logo .text');
+Cufon.replace('#nieuws p.date');
+Cufon.replace('table.form th');

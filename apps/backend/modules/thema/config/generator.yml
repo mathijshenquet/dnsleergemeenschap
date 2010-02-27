@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnThema
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_thema_thema
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:
+        name: {label: name}
+        description_humanics: {label: Omschrijving Humanics}
+        description_arts: {label: Omschrijving Arts}
+        description_science: {label: Omschrijving Science}
+        description_linguistics: {label: Omschrijvin Science}
+        image: {label: Afbeelding}
+      list:
+        display: [=name]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

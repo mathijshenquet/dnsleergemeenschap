@@ -1,0 +1,1 @@
+<?php echo link_to('Nieuws', '@nieuws', array('class'=>'currentpage')); ?>

@@ -1,0 +1,47 @@
+
+<Project LastDefaultTrackNum="1" apptag="SFP" platform="WIN" version="101">
+
+  <SoundTrackVolume>1.0000000000</SoundTrackVolume>
+
+  <LeftEdgeTime>0.0000000000</LeftEdgeTime>
+
+  <AdditionalInfo1></AdditionalInfo1>
+
+  <FileList>
+    <File>
+      <CueID>32016</CueID>
+      <CueName>The Chicken Experiment</CueName>
+      <Length>177.5369388000</Length>
+    </File>
+  </FileList>
+
+  <SeqTrack class="Sequence" enabled="true" hitFile="false" locked="false" name="" selected="false" solo="false">
+    <usage>Group</usage>
+    <SeqTrack class="Edit" enabled="true" locked="false" name="" selected="false" solo="false">
+      <usage>Markers</usage>
+    </SeqTrack>
+    <SeqTrack class="Sequence" enabled="true" hitFile="false" locked="false" name="The Chicken Experiment" selected="false" solo="false">
+      <usage>Audio</usage>
+      <ViewExtras>
+        <ExpandTrack>2</ExpandTrack>
+      </ViewExtras>
+      <Element enabled="true" name="Waddle" selected="true" type="SmartBlock">
+        <start>0.0000000000</start>
+        <length>240.1017686928</length>
+        <duration>240.1017686928</duration>
+        <flags>48</flags>
+        <SoundFileIndex>1</SoundFileIndex>
+        <VersionIndex>0</VersionIndex>
+      </Element>
+      <SeqTrack class="Param" enabled="true" locked="false" name="" selected="false">
+        <usage>Param</usage>
+        <usage>Volume</usage>
+        <Param selected="false">
+          <start>0.0000000000</start>
+          <value>1.0000000000</value>
+        </Param>
+      </SeqTrack>
+    </SeqTrack>
+  </SeqTrack>
+
+</Project>

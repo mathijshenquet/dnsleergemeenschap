@@ -1,0 +1,309 @@
+BlogPosts:
+  actAs: { Timestampable: ~ }
+  columns:
+    title: { type: string(255), notnull: true }
+    body: {type: string, notnull: true }
+    
+leerlijnLeergebied:
+  columns:
+    name: { type: string(255), notnull: true }
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    image_desc: {type: string(255) }
+
+leerlijnKern:
+  columns:
+    name: { type: string(255), notnull: true }
+    summary: { type: string(255) }
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    leergebied_id: { type: integer, notnull: true }
+  relations:
+    Leergebied: { class: leerlijnLeergebied, onDelete: CASCADE, local: leergebied_id, foreign: id, foreignAlias: Kern } 
+
+leerlijnVak:
+  columns:
+    name: { type: string(255), notnull: true }
+    summary: {type: string(255)}
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    leergebied_id: { type: integer, notnull: true}
+  relations:
+    Leergebied: { class: leerlijnLeergebied, onDelete: CASCADE, local: leergebied_id, foreign: id, foreignAlias: Vak }
+
+leerlijnDomein:
+  columns:
+    name: { type: string(255), notnull: true }
+    summary: {type: string(255)}
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    vak_id: { type: integer, notnull: true}
+  relations: 
+    Vak: { class: leerlijnVak, onDelete: CASCADE, local: vak_id, foreign: id, foreignAlias: Domein }
+
+leerlijnEindterm:
+  columns:
+    name: { type: string(255), notnull: true }
+    summary: {type: string(255)}
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    domein_id: { type: integer, notnull: true}
+  relations: 
+    Domein: { class: leerlijnDomein, onDelete: CASCADE, local: domein_id, foreign: id, foreignAlias: Eindterm }
+
+leerlijnKernbegrip:
+  columns:
+    name: { type: string(255), notnull: true}
+    summary: { type: string(255) }
+    description: { type: string(4000) }
+    image: { type: string(255) }
+    thema_id: { type: integer }
+  relations:
+    Kern:
+      class: leerlijnKern
+      refClass: leerlijnKernbegripKern
+      onDelete: CASCADE
+      local: kernbegrip_id
+      foreign: kern_id
+      foreignAlias: Kernbegrip
+    Eindterm:
+      class: leerlijnEindterm
+      refClass: leerlijnKernbegripEindterm
+      onDelete: CASCADE
+      local: kernbegrip_id
+      foreign: eindterm_id
+      foreignAlias: Kernbegrip
+    Thema: {class: leerlijnThema, refClass: leerlijnKernbegripThema, local: kernbegrip_id, foreign: thema_id, foreignAlias: Kernbegrip }  
+
+leerlijnSleutelinzicht:
+  columns:
+    description: { type: string(4000), notnull: true}
+    image: { type: string(255) }
+    niveau_id: { type: integer }
+    kernbegrip_id: {type: integer, notnull: true}
+  relations:
+    Kernbegrip: { class: leerlijnKernbegrip, onDelete: CASCADE, local: kernbegrip_id, foreign: id, foreignAlias: Sleutelinzicht }
+    Niveau: { class: leerlijnNiveau, local: niveau_id, foreign: id, foreignAlias: Sleutelinzicht }
+    Status:
+      class: leerlijnStatus
+      foreignType: many
+      local: id
+      foreign: sleutelinzicht_id
+
+leerlijnKernbegripEindterm:  
+  columns:
+    kernbegrip_id: {type: integer, primary: true }
+    eindterm_id: {type: integer, primary: true }
+  relations:
+    leerlijnKernbegrip: { local: kernbegrip_id, foreign: id, onDelete: CASCADE }
+    leerlijnEindterm: { local: eindterm_id, foreign: id, onDelete: CASCADE }    
+
+leerlijnKernbegripKern:  
+  columns:
+    kernbegrip_id: {type: integer, primary: true }
+    kern_id: {type: integer, primary: true }
+  relations:
+    leerlijnKernbegrip: { local: kernbegrip_id, foreign: id, onDelete: CASCADE }
+    leerlijnKern: { local: kern_id, foreign: id, onDelete: CASCADE }
+
+sfGuardUserProfile:
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    user_id: { type: integer(4) }
+    email:   { type: string(255) }
+    first_name: { type: string(255) }
+    last_name: { type: string(255) }
+    preposition: { type: string(255) }
+    is_invite: { type: boolean, default: false }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      type: one
+      foreignType: one
+      foreignAlias: Profile
+      onDelete: CASCADE
+
+leerlijnStatus:  
+  columns:
+    sleutelinzicht_id: { type: integer, notnull: true }
+    profile_id: { type: integer, notnull: true }
+    state: { type: integer(2) }
+  relations:
+    User:
+      class: sfGuardUserProfile
+      local: profile_id
+      foreign: id
+      foreignAlias: Status
+    Sleutelinzicht:
+      class: leerlijnSleutelinzicht
+      local: sleutelinzicht_id
+      foreign: id
+      foreignAlias: Status
+
+leerlijnNiveau:
+  actAs: [Sortable]
+  columns:
+    name: {type: string(255), notnull: true}
+    image: { type: string(255) }
+    leerjaar_id: { type: integer }
+  relations:
+    Leerjaar:
+      class: leerlijnLeerjaar
+      local: leerjaar_id
+      foreign: id
+      foreignAlias: Niveau
+
+leerlijnLeerjaar:
+  columns:
+    image: { type: string(255) }
+    name: {type: string(255), notnull: true}
+
+leerlijnThema:
+  columns:
+    name: {type: string(255), notnull: true}
+    description_humanics: { type: string(4000) }
+    description_arts: { type: string(4000) }
+    description_science: { type: string(4000) }
+    description_linguistics: { type: string(4000) }
+    image: { type: string(255) }
+  relations:
+    Leerjaar: {class: leerlijnLeerjaar, refClass: leerlijnLeerjaarThema, local: thema_id, foreign: leerjaar_id, foreignAlias: Thema}  
+
+#leerlijnThemaDescriptions:
+#  columuns:
+#    description: {type: string(4000)}
+#    thema_id: {type: integer, primary: true}
+#    leerjaar_id: {type: integer, primary: true}
+#  relations:
+#    Thema:
+#      class: leerlijnThema
+#      local: thema_id
+#      foreign: id
+#      onDelete: CASCADE
+#      foreignAlias: Description
+#    Leerjaar:
+#      class: leerlijnLeerjaar
+#      local: leerjaar_id
+#      foreign: id
+#      onDelete: CASCADE
+#      foreignAlias: Description
+      
+leerlijnLeerjaarThema:
+  columns:
+    leerjaar_id: {type: integer, primary: true }
+    thema_id: {type: integer, primary: true }
+  relations:
+    leerlijnThema: { local: thema_id, foreign: id, onDelete: CASCADE }
+    leerlijnLeerjaar: { local: leerjaar_id, foreign: id, onDelete: CASCADE }
+
+leerlijnKernbegripThema:  
+  columns:
+    kernbegrip_id: {type: integer, primary: true }
+    thema_id: {type: integer, primary: true }
+  relations:
+    leerlijnThema: { local: thema_id, foreign: id, onDelete: CASCADE }
+    leerlijnKernbegrip: { local: kernbegrip_id, foreign: id, onDelete: CASCADE }
+    
+leerlijnSleutelinzichtLeerjaar:  
+  columns:
+    leerjaar_id: {type: integer, primary: true }
+    sleutelinzicht_id: {type: integer, primary: true }
+  relations:
+    leerlijnLeerjaar: { local: leerjaar_id, foreign: id, onDelete: CASCADE }
+    leerlijnSleutelinzicht: { local: sleutelinzicht_id, foreign: id, onDelete: CASCADE }
+
+helpArticle:
+  columns:
+    title: { type: string(255), notnull: true }
+    body: { type: string, notnull: true }
+    
+Links:
+  columns:
+    title: { type: string(255), notnull: true }
+    image: { type: string(255), notnull: true }
+    url: { type: string(1000), notnull: true }
+    is_active: { type: boolean, notnull: true, default: 1}
+    
+showcase:
+  columns:
+    title: { type: string(255), notnull: true }
+    short_title: { type: string(32), notnull: true }
+    description: { type: string }
+    image: { type: string(1000), notnull: true }
+    user_id: { type: integer(4), notnull: true }
+    is_active: { type: boolean, notnull: true, default: true }
+  relations:
+    User: { class: sfGuardUser, local: user_id, foreign: id, foreignAlias: Showcase }
+    
+###############
+# Expert bank #
+###############
+
+expert:
+  actAs: [Taggable]
+  columns: 
+    name: { type: string(255), notnull: true }
+    type: { type: enum, values: [ leerling, ouder, leraar, anders ], default: ouder }
+    profession: { type: string(255), notnull: true }
+    description: { type: string(4000) }
+    email: { type: string(255), notnull: true }
+    active: { type: boolean, default: false }
+  relations:
+    Kernbegrip:
+      class: leerlijnKernbegrip
+      refClass: expertKernbegrip
+      local: expert_id
+      foreign: kernbegrip_id
+      foreignAlias: Expert
+    
+expertKernbegrip:
+  columns:
+    expert_id: {type: integer, primary: true}
+    kernbegrip_id: {type: integer, primary: true}
+  relations:
+    expert: { local: expert_id, foreign: id, onDelete: CASCADE }
+    leerlijnKernbegrip: { local: kernbegrip_id, foreign: id, onDelete: CASCADE }
+
+################
+#   Chickens   #
+################
+
+chicken:
+  columns:
+    name: { type: string(255), notnull: true }
+    
+#################
+#   Ideeënbox   #
+#################
+
+ideaItem:
+  columns:
+    title: { type: string(255), notnull: true }
+    body: { type: string(5000), notnull: true }
+    type: { type: enum, values: [ Vraag, Probleem, Idee ], notnull: true }
+    parent_id: { type: integer }
+    user_id: { type: integer, notnull: true }
+  relations:
+    Followup:
+      class: ideaItem
+      local: parent_id
+      foreign: id
+      foreignAlias: Parent
+    User:
+      local: user_id
+      foreign: id
+      foreignAlias: Idea
+
+ideaResponse:
+  columns:
+    body: { type: string(5000), notnull: true }
+    user_id: { type: integer, notnull: true }
+    item_id: { type: integer, notnull: true }
+  relations:
+    Item: { class: ideaItem, local: item_id, foreign: id, onDelete: CASCADE, foreignAlias: Response}
+    User:
+      local: user_id
+      foreign: id
+      foreignAlias: Idea

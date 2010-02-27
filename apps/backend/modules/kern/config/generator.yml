@@ -1,0 +1,38 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnKern
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_kern_kern
+    with_doctrine_route:     1
+
+    config:
+      actions:
+        _delete:
+          label: Verwijder
+        _new:
+          label: Nieuw
+        _edit:
+          label: Wijzig
+        _save:
+          label: Opslaan
+        _save_and_add:
+          label: Voeg toe en maak nog een
+        _list:
+          label: Annuleren
+      fields:
+        name: {label: Naam}
+        summary: {label: Samenvating}
+        leergebied_id: {label: Leergebied}
+        kernbegrip_list: {label: Kernbegrippen, type: admin_double_list }
+      list:
+        title: Kern beheer
+        display: [=name, summary, leergebied]
+      filter: ~
+      form:    ~
+      edit:    {title: Aanpassen van %%name%% (%%leergebied_id%%)}
+      new:     {title: Nieuw Kern}

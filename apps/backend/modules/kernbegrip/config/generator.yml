@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           leerlijnKernbegrip
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          leerlijn_kernbegrip_kernbegrip
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:
+        name: {label: Naam}
+        summary: {label: Samenvating}
+        description: {label: Omschrijving}
+        eindterm_list: {label: Eindtermen, help: Zet de eindtermen die bij dit kernbegrip horen in het linker lijstje}
+        kern_list: {label: Kernen, help: Zet de kernen die bij dit kernbegrip horen in het linker lijstje }
+      list:
+        title: Kernbegrip beheer
+        display: [=name, id,  summary]
+        sort: [id, desc]
+      filter:
+        display: [name, summary, description, eindterm_list, kern_list]
+      form: 
+        display: [name, image, eindterm_list, kern_list]
+      edit:
+        title: Aanpassen van "%%name%%"
+      new:
+        title: Nieuw Kernbegrip

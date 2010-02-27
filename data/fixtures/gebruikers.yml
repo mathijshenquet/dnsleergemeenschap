@@ -1,0 +1,215 @@
+
+sfGuardUser:
+  user_mathijs:
+    username:			 mathijshenquet
+    password:			 swordfish
+    is_super_admin:		 true
+    groups: 			 [group_beta, group_leerling, group_makers, group_leerlijn]
+    
+  user_robin:
+    username:			 robinkanters
+    password:			 welkom
+    is_super_admin:		 true
+    groups: 			 [group_beta, group_leerling, group_makers, group_leerlijn]
+    
+  user_cas:
+    username:			 cascornelissen
+    password:			 swordfish
+    is_super_admin:		 true
+    groups: 			 [group_beta, group_leerling, group_makers, group_leerlijn]
+    
+  user_annemarieke:
+    username:			 AnnemariekeS
+    password:			 welkom
+    is_super_admin:		 true
+    groups: 			 [group_leraar, group_makers, group_leerlijn]
+    
+  user_mark:
+    username:			 MarkL
+    password:			 welkom
+    groups: 			 [group_leraar, group_leerlijn]
+    
+  user_toine:
+    username:			 ToineP
+    password:			 welkom
+    groups: 			 [group_leraar, group_leerlijn]
+    
+  user_linda:
+    username:	         LindaR
+    password:            welkom
+    groups: 			 [group_leraar, group_leerlijn]
+    
+  user_gast:
+    username: 			 gast
+    password:			 dnswelkom2010
+    groups:     		 [group_ouder, group_leerling]
+    
+  user_sander:
+    username: 			 sander
+    password:			 swordfish
+    groups: 			 [group_leraar, group_expertbank]
+    
+  user_geert:
+    username: 			 geertkloosterman
+    password:			 welkom
+    groups: 			 [group_expertbank, group_ouder]
+    
+  user_leerling:
+    username:			 leerling
+    password:			 testing
+    groups:				 [group_leerling]
+  
+  user_ouder:
+    username:			 ouder
+    password:			 testing
+    groups:				 [group_ouder]
+  
+  user_beta:
+    username:			 beta
+    password:			 testing
+    groups:				 [group_beta]
+    
+sfGuardPermission:
+  # Expertbank rechten
+  perm_expertbank_use:
+    name:				 expertbank_use
+    description:		 Mag de expertisebank gebruiken
+  perm_expertbank_beta: # Cascade to use
+    name:				 expertbank_beta
+    description:		 Mag beta functies van de expertisebank gebruiken
+  perm_expertbank_admin: # Cascade to use
+    name:				 expertbank_admin
+    description:		 Mag de expertisebank beheren
+  
+  # Leerlijn rechten
+  perm_leerlijn_use:
+    name:				 leerlijn_use
+    description:		 Mag de leerlijn gebruiken
+  perm_leerlijn_beta: # Cascade to use
+    name:				 leerlijn_beta
+    description:		 Mag beta functies van de leerlijn gebruiken
+  perm_leerlijn_admin: # Cascade to use
+    name:				 leerlijn_admin
+    description:		 Mag de leerlijn beheren
+  
+  # Showcase rechten
+  perm_showcase_view:
+    name:				 showcase_view
+    description:		 Mag de wall of fame bekijken
+  perm_showcase_add: # Cascade to view
+    name:				 showcase_add
+    description:		 Mag items toevoegen aan de wall of fame
+  perm_showcase_admin: # Cascade to add
+    name:				 showcase_admin
+    description:		 Mag de wall of fame beheren
+  
+  # Site rechten
+  perm_site_beta:
+    name:				 site_beta
+    description:		 Mag beta functies van de site gebruiken
+    
+  # Nieuws rechten
+  perm_news_write:
+    name:				 news_write
+    description:		 Mag nieuws items aanmaken
+    
+  # Gebruikers rechten
+  perm_users_admin: # Cascade to invite
+    name:				 users_admin
+    description:		 Mag gebruikers beheren
+  perm_users_invite:
+    name:				 users_invite
+    description:		 Mag gebruikers uitnodigen voor de site
+  
+  # Forum rechten
+  perm_forum_use:
+    name:				 forum_use
+    description:		 Mag het forum gebruiken
+  perm_forum_beta: # Cascade to use
+    name:				 forum_beta
+    description:		 Mag beta functies van het forum gebruiken
+  perm_forum_moderate: # Cascade to use
+    name:				 forum_moderate
+    description:		 Mag het forum modereren
+  perm_forum_admin: # Cascade to moderate
+    name:				 forum_admin
+    description:		 Mag het forum beheren
+
+sfGuardGroup:
+  group_leraar:
+    name:                leraar
+    description:         Alle leraren van De Nieuwste School
+    permissions: 		 [perm_news_write, perm_users_admin, perm_forum_admin, perm_showcase_admin, perm_leerlijn_admin, perm_expertbank_admin]
+    
+  group_leerling:
+    name:                leerling
+    description:         Alle leerlingen van De Nieuwste School
+    permissions:		 [perm_forum_use, perm_showcase_view, perm_showcase_add, perm_leerlijn_use, perm_expertbank_use]
+    
+  group_ouder:
+    name:                ouders
+    description:         Alle ouders van De Nieuwste School
+    permissions:		 [perm_forum_use, perm_showcase_view, perm_showcase_view]
+    
+  group_makers:
+    name:                makers
+    description:         Makers van deze site
+    permissions:		 [perm_news_write, perm_users_admin, perm_forum_admin, perm_showcase_admin, perm_leerlijn_admin, perm_expertbank_admin]
+    
+  group_expertbank:
+    name:				 expertbank
+    description:		 Ontwikkelaars van de Expertbank
+    permissions:		 [perm_expertbank_admin]
+    
+  group_leerlijn:
+    name:				 leerlijn
+    description:		 Ontwikkelaars van de Leerlijn
+    permissions:		 [perm_expertbank_admin]
+    
+  group_beta:
+    name:				 beta
+    description:		 Deze gebruikers beheren de Leerlijn
+    permissions:		 [perm_forum_beta, perm_expertbank_beta, perm_leerlijn_beta, perm_site_beta]
+
+sfGuardUserProfile:
+  mathijshenquet:
+    User:         user_mathijs
+    email:                mathijs.henquet@gmail.com
+    first_name:            Mathijs
+    last_name:            Henquet
+  robinkanters:
+    User:         user_robin
+    email:                robin@chalk-webdesign.nl
+    first_name:            Robin
+    last_name:            Kanters
+  cascornelissen:
+    User:         user_cas
+    email:                supercasje@gmail.com
+    first_name:            Cas
+    last_name:            Cornelissen
+  annemarieke:
+    User:         user_annemarieke
+    email:                foo@bar.baz
+    first_name:            Annemarieke
+    last_name:            Schepers
+  mark:
+    User:         user_mark
+    email:                foo@bar.baz
+    first_name:            Mark
+    last_name:            Langenwerf
+  linda:
+    User:         user_linda
+    email:                foo@bar.baz
+    first_name:            Linda
+    preposition:         van
+    last_name:            Rooij
+  toine:
+    User:         user_toine
+    email:                foo@bar.baz
+    first_name:            Toine
+    last_name:            Peerboom
+  sander:
+    User:				 user_sander
+    email:				 SanderHolscher@denieuwsteschool.nl
+    first_name:			 Sander
+    last_name:			 Hölscher
