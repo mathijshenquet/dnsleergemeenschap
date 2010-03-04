@@ -38,7 +38,7 @@ require_once 'phing/filters/ChainableReader.php';
  *
  * @author    Yannick Lecaillez <yl@seasonfive.com>
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Revision: 325 $
+ * @version   $Revision: 1.9 $
  * @see       BaseParamFilterReader
  * @package   phing.filters
  */

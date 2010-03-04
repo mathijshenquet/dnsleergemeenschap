@@ -3,39 +3,44 @@
 /**
  * expert form base class.
  *
- * @package    form
- * @subpackage expert
- * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 8508 2008-04-17 17:39:15Z fabien $
+ * @method expert getObject() Returns the current form's model object
+ *
+ * @package    leerling
+ * @subpackage form
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseexpertForm extends BaseFormDoctrine
+abstract class BaseexpertForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'              => new sfWidgetFormInputHidden(),
-      'name'            => new sfWidgetFormInput(),
+      'name'            => new sfWidgetFormInputText(),
       'type'            => new sfWidgetFormChoice(array('choices' => array('leerling' => 'leerling', 'ouder' => 'ouder', 'leraar' => 'leraar', 'anders' => 'anders'))),
-      'profession'      => new sfWidgetFormInput(),
+      'profession'      => new sfWidgetFormInputText(),
       'description'     => new sfWidgetFormTextarea(),
-      'email'           => new sfWidgetFormInput(),
+      'email'           => new sfWidgetFormInputText(),
       'active'          => new sfWidgetFormInputCheckbox(),
-      'kernbegrip_list' => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip')),
+      'kernbegrip_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip')),
     ));
 
     $this->setValidators(array(
-      'id'              => new sfValidatorDoctrineChoice(array('model' => 'expert', 'column' => 'id', 'required' => false)),
+      'id'              => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
       'name'            => new sfValidatorString(array('max_length' => 255)),
-      'type'            => new sfValidatorChoice(array('choices' => array('leerling' => 'leerling', 'ouder' => 'ouder', 'leraar' => 'leraar', 'anders' => 'anders'), 'required' => false)),
+      'type'            => new sfValidatorChoice(array('choices' => array(0 => 'leerling', 1 => 'ouder', 2 => 'leraar', 3 => 'anders'), 'required' => false)),
       'profession'      => new sfValidatorString(array('max_length' => 255)),
       'description'     => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'email'           => new sfValidatorString(array('max_length' => 255)),
       'active'          => new sfValidatorBoolean(array('required' => false)),
-      'kernbegrip_list' => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip', 'required' => false)),
+      'kernbegrip_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('expert[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }
@@ -58,9 +63,9 @@ class BaseexpertForm extends BaseFormDoctrine
 
   protected function doSave($con = null)
   {
-    parent::doSave($con);
-
     $this->saveKernbegripList($con);
+
+    parent::doSave($con);
   }
 
   public function saveKernbegripList($con = null)
@@ -76,7 +81,7 @@ class BaseexpertForm extends BaseFormDoctrine
       return;
     }
 
-    if (is_null($con))
+    if (null === $con)
     {
       $con = $this->getConnection();
     }

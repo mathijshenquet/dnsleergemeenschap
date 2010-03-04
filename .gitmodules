@@ -1,0 +1,3 @@
+[submodule "plugins/sfLessPhpPlugin"]
+	path = plugins/sfLessPhpPlugin
+	url = git://github.com/everzet/sfLessPhpPlugin.git

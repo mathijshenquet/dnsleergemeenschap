@@ -19,7 +19,7 @@ require_once($_test_dir.'/../lib/vendor/lime/lime.php');
 
 sfConfig::set('sf_symfony_lib_dir', realpath($_test_dir.'/../lib'));
 
-$t = new lime_test(8, new lime_output_color());
+$t = new lime_test(8);
 
 // initialize the storage
 try

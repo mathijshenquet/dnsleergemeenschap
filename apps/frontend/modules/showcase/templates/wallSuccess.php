@@ -5,6 +5,13 @@ use_javascript('walloffame');
 use_helper('jQuery'); 
 ?>
 
+<?php
+if($sf_user->hasCredential('showcase_admin')):
+	include_component('user', 'adminBar', array('actions' => array(
+		array('id'=>'list', 'link'=>url_for('@backend.showcase'))
+	))); 
+endif;
+?>
 
 <div id="walloffame">
 	<div class="infobox">

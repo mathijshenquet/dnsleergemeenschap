@@ -1,24 +1,23 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * leerlijnDomein filter form base class.
  *
- * @package    filters
- * @subpackage leerlijnDomein *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnDomeinFormFilter extends BaseFormFilterDoctrine
+abstract class BaseleerlijnDomeinFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'name'        => new sfWidgetFormFilterInput(),
+      'name'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'summary'     => new sfWidgetFormFilterInput(),
       'description' => new sfWidgetFormFilterInput(),
       'image'       => new sfWidgetFormFilterInput(),
-      'vak_id'      => new sfWidgetFormDoctrineChoice(array('model' => 'leerlijnVak', 'add_empty' => true)),
+      'vak_id'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Vak'), 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
@@ -26,12 +25,14 @@ class BaseleerlijnDomeinFormFilter extends BaseFormFilterDoctrine
       'summary'     => new sfValidatorPass(array('required' => false)),
       'description' => new sfValidatorPass(array('required' => false)),
       'image'       => new sfValidatorPass(array('required' => false)),
-      'vak_id'      => new sfValidatorDoctrineChoice(array('required' => false, 'model' => 'leerlijnVak', 'column' => 'id')),
+      'vak_id'      => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Vak'), 'column' => 'id')),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_domein_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

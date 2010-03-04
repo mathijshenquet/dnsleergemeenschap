@@ -3,11 +3,14 @@
 /**
  * leerlijnSleutelinzichtLeerjaar form base class.
  *
- * @package    form
- * @subpackage leerlijn_sleutelinzicht_leerjaar
- * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 8508 2008-04-17 17:39:15Z fabien $
+ * @method leerlijnSleutelinzichtLeerjaar getObject() Returns the current form's model object
+ *
+ * @package    leerling
+ * @subpackage form
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnSleutelinzichtLeerjaarForm extends BaseFormDoctrine
+abstract class BaseleerlijnSleutelinzichtLeerjaarForm extends BaseFormDoctrine
 {
   public function setup()
   {
@@ -17,13 +20,15 @@ class BaseleerlijnSleutelinzichtLeerjaarForm extends BaseFormDoctrine
     ));
 
     $this->setValidators(array(
-      'leerjaar_id'       => new sfValidatorDoctrineChoice(array('model' => 'leerlijnSleutelinzichtLeerjaar', 'column' => 'leerjaar_id', 'required' => false)),
-      'sleutelinzicht_id' => new sfValidatorDoctrineChoice(array('model' => 'leerlijnSleutelinzichtLeerjaar', 'column' => 'sleutelinzicht_id', 'required' => false)),
+      'leerjaar_id'       => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'leerjaar_id', 'required' => false)),
+      'sleutelinzicht_id' => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'sleutelinzicht_id', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_sleutelinzicht_leerjaar[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

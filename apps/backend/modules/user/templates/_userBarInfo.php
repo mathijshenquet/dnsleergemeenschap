@@ -7,7 +7,7 @@
 	  	</li>
 	  	<li class="tosite">
 	  		<label for="tosite">Site</label>
-	  		<?php echo link_to('Terug naar de site', '@frontend.homepage');?>
+	  		<?php echo link_to('Terug naar de site', '@frontend.homepage?referer=backend');?>
 	  	</li>
 	  </ul>
 	</div>

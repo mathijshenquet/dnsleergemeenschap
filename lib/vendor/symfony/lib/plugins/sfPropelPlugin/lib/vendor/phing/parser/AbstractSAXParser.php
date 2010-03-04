@@ -28,7 +28,7 @@
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @author    Hans Lellelid <hans@xmpl.org>
  * @copyright � 2001,2002 THYRELL. All rights reserved
- * @version   $Revision: 322 $
+ * @version   $Revision: 1.13 $
  * @package   phing.parser
  */
 abstract class AbstractSAXParser {

@@ -12,7 +12,7 @@ class expertForm extends BaseexpertForm
   public function configure()
   {
   	$this->widgetSchema['kernbegrip_list']->setOption('renderer_class', 'sfWidgetFormSelectDoubleList');
-  	$this->widgetSchema['zoektermen'] = new sfWidgetFormInput();
+  	$this->widgetSchema['zoektermen'] = new sfWidgetFormInputText();
   	
   	$this->validatorSchema['email'] = new sfValidatorEmail();
   	$this->validatorSchema['name'] = new sfValidatorString(array('min_length'=>2, 'max_length'=>255));

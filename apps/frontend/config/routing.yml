@@ -92,10 +92,10 @@ leerlijn_eindterm:
 leerlijn_kernbegrip:
   url: /leerlijn/kernbegrip/:id/:slug
   param: { action: kernbegrip, module: leerlijn }
-  
-leerlijn_sleutelinzicht:
-  url: /leerlijn/sleutelinzicht/:id/:slug
-  param: { action: sleutelinzicht, module: leerlijn }
+
+leerlijn_sleutelinzicht_mark:
+  url: /leerlijn/sleutelinzicht/mark/:id/as/:state
+  param: { action: sleutelinzichtMark, module: leerlijn }
 
 leerlijn_leerjaar:
   url: /leerlijn/leerjaar/:id/:slug

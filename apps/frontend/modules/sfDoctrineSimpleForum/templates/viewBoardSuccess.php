@@ -56,5 +56,5 @@
 		</tbody>
 </table>
 <?php if($sf_user->isAuthenticated()):?>
-<? echo link_to("Maak een Topic", "sf_doctrine_simple_forum_create_topic", array("id"=>$forum->getId()), array("class"=>"medium awesome"))?>
+<?php echo link_to("Maak een Topic", "sf_doctrine_simple_forum_create_topic", array("id"=>$forum->getId()), array("class"=>"medium awesome"))?>
 <?php endif;?>

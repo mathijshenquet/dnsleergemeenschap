@@ -24,7 +24,7 @@
  * @package    sfFormExtraPlugin
  * @subpackage widget
  * @author     Kris Wallsmith <kris.wallsmith@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormSelectUSState.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfWidgetFormSelectUSState.class.php 15371 2009-02-09 19:19:20Z Kris.Wallsmith $
  */
 class sfWidgetFormSelectUSState extends sfWidgetFormSelect
 {

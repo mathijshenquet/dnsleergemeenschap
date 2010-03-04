@@ -25,7 +25,7 @@
  * 
  * @author Hans Lellelid <hans@velum.net>
  * @package phing.util.regex
- * @version $Revision: 325 $
+ * @version $Revision: 1.4 $
  */
 interface RegexpEngine {
     

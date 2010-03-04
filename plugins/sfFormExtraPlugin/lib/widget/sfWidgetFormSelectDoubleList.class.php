@@ -19,7 +19,7 @@
  * @package    symfony
  * @subpackage widget
  * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormSelectDoubleList.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfWidgetFormSelectDoubleList.class.php 12412 2008-10-29 14:19:06Z fabien $
  */
 class sfWidgetFormSelectDoubleList extends sfWidgetForm
 {

@@ -1,20 +1,19 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * leerlijnLeergebied filter form base class.
  *
- * @package    filters
- * @subpackage leerlijnLeergebied *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnLeergebiedFormFilter extends BaseFormFilterDoctrine
+abstract class BaseleerlijnLeergebiedFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'name'        => new sfWidgetFormFilterInput(),
+      'name'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'description' => new sfWidgetFormFilterInput(),
       'image'       => new sfWidgetFormFilterInput(),
       'image_desc'  => new sfWidgetFormFilterInput(),
@@ -30,6 +29,8 @@ class BaseleerlijnLeergebiedFormFilter extends BaseFormFilterDoctrine
     $this->widgetSchema->setNameFormat('leerlijn_leergebied_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

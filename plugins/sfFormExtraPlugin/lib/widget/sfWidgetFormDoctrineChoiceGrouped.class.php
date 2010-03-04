@@ -6,7 +6,7 @@
  * @package     sfFormExtraPlugin
  * @subpackage  widget
  * @author      Kris Wallsmith <kris.wallsmith@symfony-project.com>
- * @version     SVN: $Id: sfWidgetFormDoctrineChoiceGrouped.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version     SVN: $Id: sfWidgetFormDoctrineChoiceGrouped.class.php 16265 2009-03-12 15:23:41Z Kris.Wallsmith $
  */
 class sfWidgetFormDoctrineChoiceGrouped extends sfWidgetFormDoctrineChoice
 {

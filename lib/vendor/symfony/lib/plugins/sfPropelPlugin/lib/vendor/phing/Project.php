@@ -34,7 +34,7 @@ include_once 'phing/input/DefaultInputHandler.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Revision: 345 $
+ * @version   $Revision: 1.29 $
  * @package   phing
  */
 class Project {

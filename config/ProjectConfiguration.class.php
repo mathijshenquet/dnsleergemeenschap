@@ -7,6 +7,10 @@ class ProjectConfiguration extends sfProjectConfiguration
 {
 	public function setup()
 	{
-	  $this->enableAllPluginsExcept(array('sfPropelPlugin', 'sfCompat10Plugin'));
-	}
+    sfYaml::setSpecVersion('1.1');
+	  $this->enableAllPluginsExcept(array('sfPropelPlugin'));
+	  $this->enablePlugins('sfFormExtraPlugin');
+    $this->enablePlugins('sfDoctrineJCroppablePlugin');
+    $this->enablePlugins('sfThumbnailPlugin');
+  }
 }

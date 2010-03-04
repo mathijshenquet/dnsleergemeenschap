@@ -235,7 +235,7 @@ class sfWebResponse extends sfResponse
   {
     $name = $this->normalizeHeaderName($name);
 
-    if (is_null($value))
+    if (null === $value)
     {
       unset($this->headers[$name]);
 
@@ -320,8 +320,9 @@ class sfWebResponse extends sfResponse
   }
 
   /**
-   * Sends HTTP headers and cookies.
-   *
+   * Sends HTTP headers and cookies. Only the first invocation of this method will send the headers.
+   * Subsequent invocations will silently do nothing. This allows certain actions to send headers early,
+   * while still using the standard controller.
    */
   public function sendHttpHeaders()
   {
@@ -351,7 +352,6 @@ class sfWebResponse extends sfResponse
     {
       $this->setContentType($this->options['content_type']);
     }
-
     foreach ($this->headers as $name => $value)
     {
       header($name.': '.$value);
@@ -372,6 +372,8 @@ class sfWebResponse extends sfResponse
         $this->dispatcher->notify(new sfEvent($this, 'application.log', array(sprintf('Send cookie "%s": "%s"', $cookie['name'], $cookie['value']))));
       }
     }
+    // prevent resending the headers
+    $this->options['send_http_headers'] = false;
   }
 
   /**
@@ -512,7 +514,7 @@ class sfWebResponse extends sfResponse
     // set HTTP header
     $this->setHttpHeader($key, $value, $replace);
 
-    if (is_null($value))
+    if (null === $value)
     {
       unset($this->httpMetas[$key]);
 
@@ -554,7 +556,7 @@ class sfWebResponse extends sfResponse
   {
     $key = strtolower($key);
 
-    if (is_null($value))
+    if (null === $value)
     {
       unset($this->metas[$key]);
 

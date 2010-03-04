@@ -3,31 +3,36 @@
 /**
  * leerlijnLeerjaar form base class.
  *
- * @package    form
- * @subpackage leerlijn_leerjaar
- * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 8508 2008-04-17 17:39:15Z fabien $
+ * @method leerlijnLeerjaar getObject() Returns the current form's model object
+ *
+ * @package    leerling
+ * @subpackage form
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnLeerjaarForm extends BaseFormDoctrine
+abstract class BaseleerlijnLeerjaarForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'         => new sfWidgetFormInputHidden(),
-      'image'      => new sfWidgetFormInput(),
-      'name'       => new sfWidgetFormInput(),
-      'thema_list' => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnThema')),
+      'image'      => new sfWidgetFormInputText(),
+      'name'       => new sfWidgetFormInputText(),
+      'thema_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnThema')),
     ));
 
     $this->setValidators(array(
-      'id'         => new sfValidatorDoctrineChoice(array('model' => 'leerlijnLeerjaar', 'column' => 'id', 'required' => false)),
+      'id'         => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
       'image'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'name'       => new sfValidatorString(array('max_length' => 255)),
-      'thema_list' => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnThema', 'required' => false)),
+      'thema_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnThema', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_leerjaar[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }
@@ -50,9 +55,9 @@ class BaseleerlijnLeerjaarForm extends BaseFormDoctrine
 
   protected function doSave($con = null)
   {
-    parent::doSave($con);
-
     $this->saveThemaList($con);
+
+    parent::doSave($con);
   }
 
   public function saveThemaList($con = null)
@@ -68,7 +73,7 @@ class BaseleerlijnLeerjaarForm extends BaseFormDoctrine
       return;
     }
 
-    if (is_null($con))
+    if (null === $con)
     {
       $con = $this->getConnection();
     }

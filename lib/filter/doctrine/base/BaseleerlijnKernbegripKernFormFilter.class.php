@@ -1,15 +1,14 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * leerlijnKernbegripKern filter form base class.
  *
- * @package    filters
- * @subpackage leerlijnKernbegripKern *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnKernbegripKernFormFilter extends BaseFormFilterDoctrine
+abstract class BaseleerlijnKernbegripKernFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
@@ -22,6 +21,8 @@ class BaseleerlijnKernbegripKernFormFilter extends BaseFormFilterDoctrine
     $this->widgetSchema->setNameFormat('leerlijn_kernbegrip_kern_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

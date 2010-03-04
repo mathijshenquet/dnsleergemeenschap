@@ -38,7 +38,7 @@ include_once 'phing/util/DirectoryScanner.php';
  * @author    Jon S. Stevens <jon@clearink.com> (Ant
  * @author    Stefan Bodewig <stefan.bodewig@epost.de> (Ant)
  * @author    Bruce Atherton <bruce@callenish.com> (Ant)
- * @version   $Revision: 43 $
+ * @version   $Revision: 1.4 $
  * @package   phing.tasks.system
  */
 abstract class MatchingTask extends Task implements SelectorContainer {

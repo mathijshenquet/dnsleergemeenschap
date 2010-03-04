@@ -9,8 +9,8 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [default, prettyPhoto, main]
+  stylesheets:    [default, prettyPhoto, layout]
   javascripts:    [jquery, cookie, prettyPhoto, main]
 
-  has_layout:     on
+  has_layout:     true
   layout:         layout

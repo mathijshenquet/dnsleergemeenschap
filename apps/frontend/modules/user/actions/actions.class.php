@@ -81,6 +81,7 @@ class userActions extends sfActions
   }
   
   public function executeFeedback(sfWebRequest $request){
+  	$this->forward404();
   	$this->forward404Unless($this->getUser()->isAuthenticated());
   	$this->forward404Unless(sfConfig::get('app_feedback_active', false));
   	
@@ -241,7 +242,9 @@ $url"
   public function executeUpdate(sfWebRequest $request)
   {
     $this->forward404Unless($request->isMethod('post') || $request->isMethod('put'));
-    $this->forward404Unless($sf_guard_user = Doctrine::getTable('sfGuardUser')->find(array($request->getParameter('sf_guard_user[id]'))), sprintf('Object sf_guard_user does not exist (%s).', $request->getParameter('id')));
+    $a = $request->getParameter('sf_guard_user');
+    
+    $this->forward404Unless($sf_guard_user = Doctrine::getTable('sfGuardUser')->find(array($a['id'])), sprintf('Object sf_guard_user does not exist (%s).', $request->getParameter('id')));
     $form = new sfGuardUserAdminForm($sf_guard_user);
 
     $form->bind($request->getParameter($form->getName()));

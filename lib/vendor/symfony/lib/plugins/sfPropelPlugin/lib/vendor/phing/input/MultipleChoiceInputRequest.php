@@ -25,7 +25,7 @@ require_once 'phing/input/InputRequest.php';
  * Encapsulates an input request.
  *
  * @author Stefan Bodewig <stefan.bodewig@epost.de>
- * @version $Revision: 123 $
+ * @version $Revision: 1.5 $
  * @package phing.input
  */
 class MultipleChoiceInputRequest extends InputRequest {

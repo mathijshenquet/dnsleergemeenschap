@@ -71,7 +71,7 @@ class sfThumbnail
    */
   public function loadFile($image)
   {
-    if (preg_match('(https?://)', $image))
+    if (preg_match('#http(s)?\://#', $image))
     {
       if (class_exists('sfWebBrowser'))
       {

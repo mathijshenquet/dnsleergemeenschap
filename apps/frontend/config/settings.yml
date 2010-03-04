@@ -1,30 +1,30 @@
 prod:
   .settings:
-    no_script_name:         on
-    logging_enabled:        off
+    no_script_name:         true
+    logging_enabled:        false
 
 dev:
   .settings:
     error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
-    web_debug:              on
-    cache:                  off
-    no_script_name:         off
-    etag:                   off
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
 
 test:
   .settings:
     error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
-    cache:                  off
-    web_debug:              off
-    no_script_name:         off
-    etag:                   off
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
 
 cache:
   .settings:
     error_reporting: <?php echo (E_ALL | E_STRICT)."\n" ?>
-    web_debug:       on
-    cache:           on
-    etag:            off
+    web_debug:       true
+    cache:           true
+    etag:            false
 
 all:
   .settings:
@@ -38,13 +38,13 @@ all:
     # Cache settings
     lazy_cache_key:         on        # Delays creation of a cache key until after checking whether an action or partial is cacheable
     cache:                  on        # Enable the template cache
-    etag:                   on 
-    compressed:             on
+    etag:                   true 
+    compressed:             true
   
     enabled_modules:		[default, sfGuardAuth, nahoWiki]
     
     default_culture:        nl
-    i18n: on
+    i18n: true
     
   .actions:
     error_404_module:       error   # To be called when a 404 error is raised
@@ -106,7 +106,7 @@ all:
 #    max_forwards:           5
 #
 #    # Logging
-#    logging_enabled:        on
+#    logging_enabled:        true
 #
 #    # i18n
 #    default_culture:        en        # Default user culture

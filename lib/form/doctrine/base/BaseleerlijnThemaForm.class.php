@@ -3,41 +3,46 @@
 /**
  * leerlijnThema form base class.
  *
- * @package    form
- * @subpackage leerlijn_thema
- * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 8508 2008-04-17 17:39:15Z fabien $
+ * @method leerlijnThema getObject() Returns the current form's model object
+ *
+ * @package    leerling
+ * @subpackage form
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnThemaForm extends BaseFormDoctrine
+abstract class BaseleerlijnThemaForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'                      => new sfWidgetFormInputHidden(),
-      'name'                    => new sfWidgetFormInput(),
+      'name'                    => new sfWidgetFormInputText(),
       'description_humanics'    => new sfWidgetFormTextarea(),
       'description_arts'        => new sfWidgetFormTextarea(),
       'description_science'     => new sfWidgetFormTextarea(),
       'description_linguistics' => new sfWidgetFormTextarea(),
-      'image'                   => new sfWidgetFormInput(),
-      'leerjaar_list'           => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnLeerjaar')),
-      'kernbegrip_list'         => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip')),
+      'image'                   => new sfWidgetFormInputText(),
+      'leerjaar_list'           => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnLeerjaar')),
+      'kernbegrip_list'         => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip')),
     ));
 
     $this->setValidators(array(
-      'id'                      => new sfValidatorDoctrineChoice(array('model' => 'leerlijnThema', 'column' => 'id', 'required' => false)),
+      'id'                      => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
       'name'                    => new sfValidatorString(array('max_length' => 255)),
       'description_humanics'    => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'description_arts'        => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'description_science'     => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'description_linguistics' => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'image'                   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'leerjaar_list'           => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnLeerjaar', 'required' => false)),
-      'kernbegrip_list'         => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip', 'required' => false)),
+      'leerjaar_list'           => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnLeerjaar', 'required' => false)),
+      'kernbegrip_list'         => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_thema[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }
@@ -65,10 +70,10 @@ class BaseleerlijnThemaForm extends BaseFormDoctrine
 
   protected function doSave($con = null)
   {
-    parent::doSave($con);
-
     $this->saveLeerjaarList($con);
     $this->saveKernbegripList($con);
+
+    parent::doSave($con);
   }
 
   public function saveLeerjaarList($con = null)
@@ -84,7 +89,7 @@ class BaseleerlijnThemaForm extends BaseFormDoctrine
       return;
     }
 
-    if (is_null($con))
+    if (null === $con)
     {
       $con = $this->getConnection();
     }
@@ -122,7 +127,7 @@ class BaseleerlijnThemaForm extends BaseFormDoctrine
       return;
     }
 
-    if (is_null($con))
+    if (null === $con)
     {
       $con = $this->getConnection();
     }

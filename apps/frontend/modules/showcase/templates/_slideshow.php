@@ -1,16 +1,14 @@
 <?php 
-use_javascript('carousel_lib'); 
-use_javascript('carousel'); 
+use_javascript('jquery.cycle.min.js'); 
+use_javascript('cycle'); 
 ?>
 
 <?php if($items->count() > 0): ?>
 <div id="showcase">
-	<ul class="slideshow">
+	<div class="slideshow">
 		<?php foreach($items as $item): ?>
-		<li>
-			<img src="/uploads/showcase/125x125/<?php echo $item->getImage();?>" alt="<?php echo $item->getShortTitle(); ?>" />
-		</li>
+		<img src="/uploads/showcase/125x125/<?php echo $item->getImage();?>" alt="<?php echo $item->getShortTitle(); ?>" />
 		<?php endforeach;?>
-	</ul>
+	</div>
 </div>
 <?php endif; ?>

@@ -26,7 +26,7 @@ include_once 'phing/mappers/FileNameMapper.php';
  * was set for "to".
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
- * @version   $Revision: 123 $
+ * @version   $Revision: 1.8 $
  * @package   phing.mappers
  */
 class MergeMapper implements FileNameMapper {

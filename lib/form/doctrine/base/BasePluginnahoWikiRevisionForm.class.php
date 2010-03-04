@@ -14,10 +14,10 @@ class BasePluginnahoWikiRevisionForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'page_id'    => new sfWidgetFormInputHidden(),
       'revision'   => new sfWidgetFormInputHidden(),
-      'user_name'  => new sfWidgetFormInput(),
-      'comment'    => new sfWidgetFormInput(),
+      'user_name'  => new sfWidgetFormInputText(),
+      'comment'    => new sfWidgetFormInputText(),
       'content'    => new sfWidgetFormTextarea(),
-      'archive'    => new sfWidgetFormInput(),
+      'archive'    => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
       'updated_at' => new sfWidgetFormDateTime(),
     ));

@@ -1,14 +1,14 @@
 _topic:
-  enabled: on
+  enabled: true
 
 _post:
-  enabled: on
+  enabled: true
   
 _author:
-  enabled: on
+  enabled: true
 
 _author_name:
-  enabled: on
+  enabled: true
   
 all:
-  enabled: off
+  enabled: false

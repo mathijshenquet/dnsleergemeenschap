@@ -15,7 +15,7 @@
  * @package    symfony
  * @subpackage widget
  * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormPropelJQueryAutocompleter.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfWidgetFormPropelJQueryAutocompleter.class.php 12130 2008-10-10 14:51:07Z fabien $
  */
 class sfWidgetFormPropelJQueryAutocompleter extends sfWidgetFormJQueryAutocompleter
 {

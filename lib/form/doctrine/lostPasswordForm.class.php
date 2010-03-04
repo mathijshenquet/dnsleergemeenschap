@@ -1,8 +1,8 @@
 <?php
-class lostPasswordForm extends sfForm {
+class lostPasswordForm extends BaseForm {
 	public function setup(){
 		$this->setWidgets(array(
-	      'email' 	=> new sfWidgetFormInput()
+	      'email' 	=> new sfWidgetFormInputText()
 	    ));
 	
 	    $this->setValidators(array(

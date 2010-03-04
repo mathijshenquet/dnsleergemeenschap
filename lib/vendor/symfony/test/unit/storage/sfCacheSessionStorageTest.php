@@ -18,7 +18,7 @@ require_once($_test_dir.'/../lib/vendor/lime/lime.php');
 sfConfig::set('sf_symfony_lib_dir', realpath($_test_dir.'/../lib'));
 
 $plan = 8;
-$t = new lime_test($plan, new lime_output_color());
+$t = new lime_test($plan);
 
 if (!ini_get('apc.enable_cli'))
 {
@@ -53,7 +53,7 @@ $storage->write($key, $oldSessionData);
 $session_id = session_id();
 $storage->regenerate(false);
 $t->is($storage->read($key), $oldSessionData, '->regenerate() regenerated the session with a different session id');
-$t->isnt(session_id(), $session_id, '->regenerate() regenerated the session with a different session id'); 
+$t->isnt(session_id(), $session_id, '->regenerate() regenerated the session with a different session id');
 
 $storage->regenerate(true);
 $t->isnt($storage->read($key), $oldSessionData, '->regenerate() regenerated the session with a different session id and destroyed data');

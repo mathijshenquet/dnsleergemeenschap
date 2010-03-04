@@ -3,6 +3,7 @@ BlogPosts:
   columns:
     title: { type: string(255), notnull: true }
     body: {type: string, notnull: true }
+    private: {type: boolean, default: false}
     
 leerlijnLeergebied:
   columns:
@@ -86,9 +87,30 @@ leerlijnSleutelinzicht:
     Niveau: { class: leerlijnNiveau, local: niveau_id, foreign: id, foreignAlias: Sleutelinzicht }
     Status:
       class: leerlijnStatus
-      foreignType: many
       local: id
       foreign: sleutelinzicht_id
+      foreignAlias: Sleutelinzicht
+
+leerlijnStatus:  
+  columns:
+    sleutelinzicht_id: { type: integer, primary: true }
+    user_id: { type: integer(4), primary: true }
+    state: { type: enum, values: [not_started, in_progress, completed], default: not_started }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreignType: many
+      foreign: id
+      foreignAlias: Status
+      onDelete: CASCADE
+    Sleutelinzicht:
+      class: leerlijnSleutelinzicht
+      local: sleutelinzicht_id
+      foreignType: many
+      foreign: id
+      foreignAlias: Status
+      onDelete: CASCADE
 
 leerlijnKernbegripEindterm:  
   columns:
@@ -124,23 +146,6 @@ sfGuardUserProfile:
       foreignType: one
       foreignAlias: Profile
       onDelete: CASCADE
-
-leerlijnStatus:  
-  columns:
-    sleutelinzicht_id: { type: integer, notnull: true }
-    profile_id: { type: integer, notnull: true }
-    state: { type: integer(2) }
-  relations:
-    User:
-      class: sfGuardUserProfile
-      local: profile_id
-      foreign: id
-      foreignAlias: Status
-    Sleutelinzicht:
-      class: leerlijnSleutelinzicht
-      local: sleutelinzicht_id
-      foreign: id
-      foreignAlias: Status
 
 leerlijnNiveau:
   actAs: [Sortable]
@@ -307,3 +312,38 @@ ideaResponse:
       local: user_id
       foreign: id
       foreignAlias: Idea
+
+###################
+#   Werkgroepen   #
+###################
+
+#werkgroepGroup:
+#  columns:
+#    name: { type: string(255), notnull: true }
+#  relations:
+#    Users:
+#      class: werkgroepGroepUser
+#      local: id
+#      foreign: werkgroep_id
+#      foreignAlias: Werkgroepen
+#
+#werkgroepCurrentProjects:
+#  columns:
+#    name
+#
+#werkgroepProject:
+#  columns:
+#    name: { type: string(255), notnull: true }
+#
+#werkgroupGroupUser:
+#  columns:
+#    werkgroep_id: { type: integer, primary: true }
+#    user_id: { type: integer(4), primary: true }
+#    role: { type: enum, values: [member, contributer, admin], default: member }
+#  relations:
+#    User:
+#      class: sfGuardUser
+#      local: user_id
+#      foreign: id
+#      onDelete: CASCADE
+#      foreignAlias: Werkgroepen

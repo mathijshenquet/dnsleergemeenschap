@@ -24,7 +24,7 @@
  * Plugin to Phing to handle requests for user input.
  *
  * @author Stefan Bodewig <stefan.bodewig@epost.de>
- * @version $Revision: 123 $
+ * @version $Revision: 1.3 $
  * @package phing.input
  */
 interface InputHandler {

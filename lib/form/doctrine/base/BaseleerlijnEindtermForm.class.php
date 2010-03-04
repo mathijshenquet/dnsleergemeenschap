@@ -3,37 +3,42 @@
 /**
  * leerlijnEindterm form base class.
  *
- * @package    form
- * @subpackage leerlijn_eindterm
- * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 8508 2008-04-17 17:39:15Z fabien $
+ * @method leerlijnEindterm getObject() Returns the current form's model object
+ *
+ * @package    leerling
+ * @subpackage form
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnEindtermForm extends BaseFormDoctrine
+abstract class BaseleerlijnEindtermForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'              => new sfWidgetFormInputHidden(),
-      'name'            => new sfWidgetFormInput(),
-      'summary'         => new sfWidgetFormInput(),
+      'name'            => new sfWidgetFormInputText(),
+      'summary'         => new sfWidgetFormInputText(),
       'description'     => new sfWidgetFormTextarea(),
-      'image'           => new sfWidgetFormInput(),
-      'domein_id'       => new sfWidgetFormDoctrineChoice(array('model' => 'leerlijnDomein', 'add_empty' => false)),
-      'kernbegrip_list' => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip')),
+      'image'           => new sfWidgetFormInputText(),
+      'domein_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Domein'), 'add_empty' => false)),
+      'kernbegrip_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip')),
     ));
 
     $this->setValidators(array(
-      'id'              => new sfValidatorDoctrineChoice(array('model' => 'leerlijnEindterm', 'column' => 'id', 'required' => false)),
+      'id'              => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
       'name'            => new sfValidatorString(array('max_length' => 255)),
       'summary'         => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'description'     => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'image'           => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'domein_id'       => new sfValidatorDoctrineChoice(array('model' => 'leerlijnDomein')),
-      'kernbegrip_list' => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip', 'required' => false)),
+      'domein_id'       => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Domein'))),
+      'kernbegrip_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_eindterm[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }
@@ -56,9 +61,9 @@ class BaseleerlijnEindtermForm extends BaseFormDoctrine
 
   protected function doSave($con = null)
   {
-    parent::doSave($con);
-
     $this->saveKernbegripList($con);
+
+    parent::doSave($con);
   }
 
   public function saveKernbegripList($con = null)
@@ -74,7 +79,7 @@ class BaseleerlijnEindtermForm extends BaseFormDoctrine
       return;
     }
 
-    if (is_null($con))
+    if (null === $con)
     {
       $con = $this->getConnection();
     }

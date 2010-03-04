@@ -10,8 +10,8 @@
 
 require_once(dirname(__FILE__).'/../../bootstrap/unit.php');
 
-$plan = 69;
-$t = new lime_test($plan, new lime_output_color());
+$plan = 73;
+$t = new lime_test($plan);
 
 if (!class_exists('Memcache'))
 {

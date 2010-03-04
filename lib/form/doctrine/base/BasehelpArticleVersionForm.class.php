@@ -13,7 +13,7 @@ class BasehelpArticleVersionForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'      => new sfWidgetFormInputHidden(),
-      'title'   => new sfWidgetFormInput(),
+      'title'   => new sfWidgetFormInputText(),
       'body'    => new sfWidgetFormTextarea(),
       'version' => new sfWidgetFormInputHidden(),
     ));

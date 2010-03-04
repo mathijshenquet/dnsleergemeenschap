@@ -1,21 +1,20 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * helpArticle filter form base class.
  *
- * @package    filters
- * @subpackage helpArticle *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BasehelpArticleFormFilter extends BaseFormFilterDoctrine
+abstract class BasehelpArticleFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'title' => new sfWidgetFormFilterInput(),
-      'body'  => new sfWidgetFormFilterInput(),
+      'title' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'body'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
@@ -26,6 +25,8 @@ class BasehelpArticleFormFilter extends BaseFormFilterDoctrine
     $this->widgetSchema->setNameFormat('help_article_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

@@ -6,7 +6,7 @@
     profile_id:   UA-11396238-2
     tracker:      google
   sf_less_php_plugin:
-    check_dates:    false
+    check_dates:    true
 
 prod:
   sf_less_php_plugin:

@@ -29,7 +29,7 @@ include_once 'phing/tasks/system/condition/ConditionBase.php';
  *
  *  @author    Andreas Aderhold <andi@binarycloud.com>
  *  @copyright � 2001,2002 THYRELL. All rights reserved
- *  @version   $Revision: 333 $
+ *  @version   $Revision: 1.11 $
  *  @package   phing.tasks.system
  */
 class AvailableTask extends Task {

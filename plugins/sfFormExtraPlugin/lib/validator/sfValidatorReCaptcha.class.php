@@ -26,7 +26,7 @@
  * @package    symfony
  * @subpackage validator
  * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfValidatorReCaptcha.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfValidatorReCaptcha.class.php 7903 2008-03-15 13:17:41Z fabien $
  */
 class sfValidatorReCaptcha extends sfValidatorBase
 {

@@ -13,8 +13,8 @@ class BasePluginnahoWikiPageForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'              => new sfWidgetFormInputHidden(),
-      'name'            => new sfWidgetFormInput(),
-      'latest_revision' => new sfWidgetFormInput(),
+      'name'            => new sfWidgetFormInputText(),
+      'latest_revision' => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(

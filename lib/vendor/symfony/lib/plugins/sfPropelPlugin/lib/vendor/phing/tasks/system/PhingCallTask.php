@@ -41,7 +41,7 @@ require_once 'phing/Task.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright 2001,2002 THYRELL. All rights reserved
- * @version   $Revision: 299 $
+ * @version   $Revision: 1.9 $
  * @access    public
  * @package   phing.tasks.system
  */

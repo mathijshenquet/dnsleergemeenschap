@@ -27,7 +27,7 @@ require_once 'phing/tasks/system/condition/Condition.php';
  *
  * @author Hans Lellelid <hans@xmpl.org> (Phing)
  * @author Stefan Bodewig <stefan.bodewig@epost.de> (Ant)
- * @version $Revision: 410 $
+ * @version $Revision: 1.3 $
  * @package phing.tasks.system.condition
  */
 class ContainsCondition implements Condition {

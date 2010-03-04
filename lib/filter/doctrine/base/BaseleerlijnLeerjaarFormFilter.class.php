@@ -1,33 +1,34 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * leerlijnLeerjaar filter form base class.
  *
- * @package    filters
- * @subpackage leerlijnLeerjaar *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnLeerjaarFormFilter extends BaseFormFilterDoctrine
+abstract class BaseleerlijnLeerjaarFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'image'      => new sfWidgetFormFilterInput(),
-      'name'       => new sfWidgetFormFilterInput(),
-      'thema_list' => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnThema')),
+      'name'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'thema_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnThema')),
     ));
 
     $this->setValidators(array(
       'image'      => new sfValidatorPass(array('required' => false)),
       'name'       => new sfValidatorPass(array('required' => false)),
-      'thema_list' => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnThema', 'required' => false)),
+      'thema_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnThema', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_leerjaar_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

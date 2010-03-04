@@ -14,10 +14,10 @@ class BaseProfileForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'          => new sfWidgetFormInputHidden(),
       'user_id'     => new sfWidgetFormDoctrineChoice(array('model' => 'sfGuardUser', 'add_empty' => false)),
-      'email'       => new sfWidgetFormInput(),
-      'first_name'  => new sfWidgetFormInput(),
-      'last_name'   => new sfWidgetFormInput(),
-      'preposition' => new sfWidgetFormInput(),
+      'email'       => new sfWidgetFormInputText(),
+      'first_name'  => new sfWidgetFormInputText(),
+      'last_name'   => new sfWidgetFormInputText(),
+      'preposition' => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(

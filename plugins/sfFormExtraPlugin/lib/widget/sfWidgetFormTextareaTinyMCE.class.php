@@ -16,7 +16,7 @@
  * @package    symfony
  * @subpackage widget
  * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormTextareaTinyMCE.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfWidgetFormTextareaTinyMCE.class.php 17192 2009-04-10 07:58:29Z fabien $
  */
 class sfWidgetFormTextareaTinyMCE extends sfWidgetFormTextarea
 {

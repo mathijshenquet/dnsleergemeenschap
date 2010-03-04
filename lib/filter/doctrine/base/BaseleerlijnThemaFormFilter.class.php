@@ -1,27 +1,26 @@
 <?php
 
-require_once(sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php');
-
 /**
  * leerlijnThema filter form base class.
  *
- * @package    filters
- * @subpackage leerlijnThema *
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 11675 2008-09-19 15:21:38Z fabien $
+ * @package    leerling
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24051 2009-11-16 21:08:08Z Kris.Wallsmith $
  */
-class BaseleerlijnThemaFormFilter extends BaseFormFilterDoctrine
+abstract class BaseleerlijnThemaFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'name'                    => new sfWidgetFormFilterInput(),
+      'name'                    => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'description_humanics'    => new sfWidgetFormFilterInput(),
       'description_arts'        => new sfWidgetFormFilterInput(),
       'description_science'     => new sfWidgetFormFilterInput(),
       'description_linguistics' => new sfWidgetFormFilterInput(),
       'image'                   => new sfWidgetFormFilterInput(),
-      'leerjaar_list'           => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnLeerjaar')),
-      'kernbegrip_list'         => new sfWidgetFormDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip')),
+      'leerjaar_list'           => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnLeerjaar')),
+      'kernbegrip_list'         => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip')),
     ));
 
     $this->setValidators(array(
@@ -31,13 +30,15 @@ class BaseleerlijnThemaFormFilter extends BaseFormFilterDoctrine
       'description_science'     => new sfValidatorPass(array('required' => false)),
       'description_linguistics' => new sfValidatorPass(array('required' => false)),
       'image'                   => new sfValidatorPass(array('required' => false)),
-      'leerjaar_list'           => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnLeerjaar', 'required' => false)),
-      'kernbegrip_list'         => new sfValidatorDoctrineChoiceMany(array('model' => 'leerlijnKernbegrip', 'required' => false)),
+      'leerjaar_list'           => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnLeerjaar', 'required' => false)),
+      'kernbegrip_list'         => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'leerlijnKernbegrip', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('leerlijn_thema_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
 
     parent::setup();
   }

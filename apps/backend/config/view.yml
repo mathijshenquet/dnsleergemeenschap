@@ -9,9 +9,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [default.css, main.css, admin.css]
+  stylesheets:    [default, layout, admin]
 
   javascripts:    [jquery, checkboxes, admin]
 
-  has_layout:     on
+  has_layout:     true
   layout:         layout

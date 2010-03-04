@@ -27,7 +27,7 @@ include_once 'phing/parser/ExpatParseException.php';
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @copyright © 2001,2002 THYRELL. All rights reserved
- * @version   $Revision: 123 $
+ * @version   $Revision: 1.6 $
  * @package   phing.parser
  */
 abstract class AbstractHandler {

@@ -30,7 +30,7 @@ include_once 'phing/lib/Zip.php';
  * and included with Phing).
  *
  * @author    Michiel Rook <michiel.rook@gmail.com>
- * @version   $Revision: 240 $
+ * @version   $Revision: 1.2 $
  * @package   phing.tasks.ext
  * @since     2.1.0
  */

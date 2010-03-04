@@ -6,7 +6,7 @@
  * @package     sfFormExtraPlugin
  * @subpackage  widget
  * @author      Kris Wallsmith <kris.wallsmith@symfony-project.com>
- * @version     SVN: $Id: sfWidgetFormPropelChoiceGrouped.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version     SVN: $Id: sfWidgetFormPropelChoiceGrouped.class.php 16067 2009-03-06 16:57:46Z Kris.Wallsmith $
  */
 class sfWidgetFormPropelChoiceGrouped extends sfWidgetFormPropelChoice
 {

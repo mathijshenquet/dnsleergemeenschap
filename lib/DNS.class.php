@@ -13,7 +13,7 @@ class DNS
     {
         if (!$newdir) $newdir = $olddir;
         
-        $thumbnail = new sfThumbnail($mx, $my);
+        $thumbnail = new sfThumbnail($mx, $my, false, true, 100, 'sfImageMagickAdapter', array('method' => 'shave_all'));
         $thumbnail->loadFile($olddir.$filename);
         $thumbnail->save($newdir.$filename, 'image/png');
     }

@@ -38,4 +38,8 @@ class showcase extends Baseshowcase
 		}
 		parent::set($field, $data, $load);
 	}
+	
+	public function getContent(){
+		return sfMarkdown::doConvert($this->getDescription());
+	}
 }

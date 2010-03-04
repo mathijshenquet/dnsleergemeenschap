@@ -31,7 +31,7 @@
  * @package    symfony
  * @subpackage widget
  * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormReCaptcha.class.php 24473 2009-11-27 15:56:49Z fabien $
+ * @version    SVN: $Id: sfWidgetFormReCaptcha.class.php 7285 2008-02-03 09:50:35Z fabien $
  */
 class sfWidgetFormReCaptcha extends sfWidgetForm
 {

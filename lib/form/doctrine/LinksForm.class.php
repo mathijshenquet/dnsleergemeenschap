@@ -21,7 +21,7 @@ class LinksForm extends BaseLinksForm
   	  'template'  	=> 	'<div>%file%%input%</div>'
   	));
   	
-  	$this->widgetSchema['url'] = new sfWidgetFormInput();
+  	$this->widgetSchema['url'] = new sfWidgetFormInputText();
   	
   	$this->validatorSchema['url'] = new sfValidatorUrl();
   	

@@ -1,7 +1,7 @@
 <tr>
   <td class="forum_name">
   
-	<?php echo image_tag("/images/discussion.png", array("style"=>"vertical-align: 50px; float: left; padding-bottom: 20px; margin-right: 10px;"))?>    
+	<?php echo image_tag("/images/discussion.png", array("style"=>"vertical-align: 50px; float: left; padding-bottom: 20px; margin-right: 10px; display: block;"))?>    
 	<?php echo link_to($forum->getName(), 'sf_doctrine_simple_forum_view_board', array("id"=>$forum->getId(), "slug"=>$forum->getSlug())) ?><br />
     <?php echo $forum->getDescription() ?>
   </td>

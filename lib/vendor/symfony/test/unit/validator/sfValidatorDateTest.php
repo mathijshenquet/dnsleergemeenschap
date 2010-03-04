@@ -10,7 +10,7 @@
 
 require_once(dirname(__FILE__).'/../../bootstrap/unit.php');
 
-$t = new lime_test(45, new lime_output_color());
+$t = new lime_test(52);
 
 $v = new sfValidatorDate();
 
@@ -88,6 +88,7 @@ catch (sfValidatorError $e)
 $t->diag('validate regex');
 $v->setOption('date_format', '~(?P<day>\d{2})/(?P<month>\d{2})/(?P<year>\d{4})~');
 $t->is($v->clean('18/10/2005'), '2005-10-18', '->clean() accepts a regular expression to match dates');
+$t->is($v->clean(array('year' => '2005', 'month' => '10', 'day' => '18')), '2005-10-18', '->clean() accepts a regular expression when cleaning an array');
 
 try
 {
@@ -196,6 +197,33 @@ try
 catch (sfValidatorError $e)
 {
   $t->pass('->clean() throws an exception if the date is not within the range provided by the min/max options');
+}
+
+// max and min options out off timestamp range
+$t->diag('max and min options out off timestamp range');
+$v->setOption('min', '1805-12-31 10:00:00');
+$v->setOption('max', '2107-12-31 10:50:00');
+$t->is($v->clean('18 october 2105'), '2105-10-18', '->clean() can accept a max/min option string');
+$t->is($v->clean(array('year' => 1906, 'month' => 2, 'day' => 13)), '1906-02-13', '->clean() can accept a max/min option array');
+try
+{
+  $v->clean('18 october 1804');
+  $t->fail('->clean() throws an exception if the date is not within the range provided by the min/max options');
+}
+catch (sfValidatorError $e)
+{
+  $t->pass('->clean() throws an exception if the date is not within the range provided by the min/max options');
+  $t->is($e->getMessage(), 'The date must be after 31/12/1805 10:00:00.', '->clean() check exception message');
+}
+try
+{
+  $v->clean('18 october 2108');
+  $t->fail('->clean() throws an exception if the date is not within the range provided by the min/max options');
+}
+catch (sfValidatorError $e)
+{
+  $t->pass('->clean() throws an exception if the date is not within the range provided by the min/max options');
+  $t->is($e->getMessage(), 'The date must be before 31/12/2107 10:50:00.', '->clean() check exception message');
 }
 
 // timezones

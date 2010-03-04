@@ -33,7 +33,7 @@ class sfCacheSessionStorage extends sfStorage
    *                        session_cookie_secure [required] send only if secure connection
    *                        session_cookie_http_only [required] accessible only via http protocol
    *
-   * @return bool true, when initialization completes successfully, otherwise false.
+   * @return bool true, when initialization completes successfully.
    *
    * @throws <b>sfInitializationException</b> If an error occurs while initializing this Storage.
    */

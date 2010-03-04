@@ -26,7 +26,7 @@ include_once 'phing/types/FileSet.php';
  * Task that changes the permissions on a file/directory.
  *
  * @author	  Mehmet Emre Yilmaz <mehmety@gmail.com>
- * @version   $Revision: 353 $
+ * @version   $Revision$
  * @package   phing.tasks.system
  */
 class ChownTask extends Task {

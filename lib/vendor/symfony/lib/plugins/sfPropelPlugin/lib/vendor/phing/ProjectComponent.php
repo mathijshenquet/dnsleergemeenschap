@@ -25,7 +25,7 @@
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @author    Hans Lellelid <hans@xmpl.org> 
- * @version   $Revision: 176 $
+ * @version   $Revision: 1.5 $
  * @package   phing
  */
 abstract class ProjectComponent {

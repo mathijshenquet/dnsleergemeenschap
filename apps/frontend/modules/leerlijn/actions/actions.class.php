@@ -75,7 +75,33 @@ class leerlijnActions extends sfActions
     	->orderBy('q.Sleutelinzicht.Niveau.position ASC')
     	->fetchOne()
     ;
+    
+    $mijn_sleutelinzichten = Doctrine_Query::create()
+		->from('leerlijnKernbegrip kernbegrip, kernbegrip.Sleutelinzicht sleutel, sleutel.Status.User user')
+		->where('kernbegrip.id = ?', $request->getParameter('id'))
+		->addWhere('user.id = ?', $this->getUser()->getGuardUser()->getId())
+    	->orderBy('sleutel.Niveau.position ASC')
+    	->fetchOne()
+    ;
+    
+    if($mijn_sleutelinzichten){
+    	$this->kernbegrip->merge($mijn_sleutelinzichten);
+    }
   }
+  public function executeSleutelinzichtMark(sfWebRequest $request){
+  	$sleutelinzicht = Doctrine::getTable('leerlijnSleutelinzicht')
+  		->createQuery('q')
+  		->where('q.id = ?', $request->getParameter('id'))
+  		->fetchOne()
+  	;
+  	
+  	$sleutelinzicht->Status->state = $request->getParameter('state');
+  	$sleutelinzicht->Status->User = $this->getUser()->getGuardUser();
+  	$sleutelinzicht->save();
+  	
+  	return sfView::NONE;
+  }
+  
   public function executeLeergebiedOverview(sfWebRequest $request){
   	$this->leergebied = Doctrine::getTable('leerlijnLeergebied')
       ->find($request->getParameter('id'));

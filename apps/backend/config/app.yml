@@ -33,7 +33,7 @@ all:
               cache: dns.loc/backend_dev.php   # define the full path for the dev environnement
               prod: beheer.dnsleerroutes.net      # define the full path for the prod environnement
       backend:
-        enabled: on
+        enabled: true
         load:
           frontend:
             routes: ~

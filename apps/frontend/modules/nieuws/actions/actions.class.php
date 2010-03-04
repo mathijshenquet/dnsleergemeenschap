@@ -25,17 +25,24 @@ class nieuwsActions extends sfActions
   	$this->posts = Doctrine::getTable('BlogPosts')
   	  ->createQuery()
   	  ->limit($request->getParameter('amount'))
+  	  ->orderBy('n.created_at DESC')
   	  ->execute();
   }
   public function executePage(sfWebRequest $request)
   {
-  	$this->posts = Doctrine::getTable('BlogPosts')
+  	$posts = Doctrine::getTable('BlogPosts')
   	  ->createQuery('n')
   	  ->offset(sfConfig::get('app_posts_op_nieuwspagina') * ($request->getParameter('page')-1))
   	  ->limit(sfConfig::get('app_posts_op_nieuwspagina'))
-  	  ->orderBy('n.created_at DESC')
-  	  ->execute();
+  	  ->orderBy('n.created_at DESC');
+  	  
+  	if(!$this->getUser()->isAuthenticated()){
+  		$posts->where('n.private = ?', false);
+  	}
+  	
+  	$this->posts = $posts->execute();
   	$this->page = $request->getParameter('page');
+  	$this->more_items = sfConfig::get('app_posts_op_nieuwspagina') == $this->posts->count();
   	  
   	if($this->getRequest()->isXmlHttpRequest()){
   		return 'AjaxSuccess';

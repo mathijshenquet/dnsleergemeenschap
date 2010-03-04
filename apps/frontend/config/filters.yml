@@ -4,7 +4,9 @@ security:
 
 invite:
   class: inviteFilter
-
+returnToSite:                 
+  class: returnToSiteFilter
+  
 # insert your own filters here
 sf_google_analytics_plugin:
   class: sfGoogleAnalyticsFilter

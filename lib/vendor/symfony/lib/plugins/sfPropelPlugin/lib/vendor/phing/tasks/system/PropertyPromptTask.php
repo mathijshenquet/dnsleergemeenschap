@@ -31,7 +31,7 @@ include_once 'phing/system/io/ConsoleReader.php';
  * 
  * @author    Hans Lellelid <hans@xmpl.org> (Phing)
  * @author    Anthony J. Young-Garner <ajyoung@alum.mit.edu> (Ant)
- * @version   $Revision: 272 $
+ * @version   $Revision: 1.4 $
  * @package   phing.tasks.system
  * @deprecated - in favor of the more capable InputTask
  */ 

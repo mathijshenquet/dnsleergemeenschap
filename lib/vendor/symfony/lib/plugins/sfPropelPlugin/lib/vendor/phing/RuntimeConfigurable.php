@@ -28,7 +28,7 @@
  *
  * @author    Andreas Aderhold <andi@binarycloud.com>
  * @author    Hans Lellelid <hans@xmpl.org>
- * @version   $Revision: 123 $
+ * @version   $Revision: 1.6 $
  * @package   phing
  */
 class RuntimeConfigurable {

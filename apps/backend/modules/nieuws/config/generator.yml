@@ -35,15 +35,17 @@ generator:
           label: Aangemaakt op
         updated_at:
           label: Laatst aangepast op
+        private:
+          label: Privé
+          help: Alleen zichtbaar voor ingelogde gebruikers
       list:    
         title: Beheer van de Nieuwspagina's
-        display: [=title, created_at]
+        display: [=title, _private, created_at]
         max_per_page: 10
       filter: ~
-      form:    ~
+      form:
+        display: [title, private, body]
       edit:    
         title: Bewerken van nieuwsbericht "%%title%%"
-        display: [title, body]
       new:
         title: Maak een nieuw nieuwsbericht aan
-        display: [title, body]

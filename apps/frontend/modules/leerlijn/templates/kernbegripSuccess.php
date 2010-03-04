@@ -55,6 +55,17 @@
 	<ul class="block">
 	<?php foreach($kernbegrip->getSleutelinzicht() as $sleutelinzicht):?>
 		<li class="item sleutelinzicht">
+			<?php if($sf_user->hasCredential('leerlijn_beta')): ?>
+				<?php if($sleutelinzicht->getStatus()->getState()==='complete'): ?>
+					<?php print($sleutelinzicht->getStatus()->getUserId()); ?>
+				<?php endif;?>
+			
+				<input type="checkbox" <?php if($sleutelinzicht->getStatus()->getState()==='complete'): ?>checked="checked"<?php endif;?> />
+				<?php 
+				use_helper('jQuery');
+				echo jq_link_to_remote('Af', array('url'=>sprintf('@leerlijn_sleutelinzicht_mark?id=%s&state=complete', $sleutelinzicht->getId())));
+				?>
+			<?php endif; ?>
 			<?php if($sleutelinzicht->getNiveau()->getImage()): ?>
 			<div class="img">
 				<img src="<?php echo sprintf('/uploads/leerlijn/tiny/%s', $sleutelinzicht->getNiveau()->getImage()); ?>" alt="Sleutelinzicht" />

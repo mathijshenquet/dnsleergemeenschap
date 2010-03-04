@@ -24,7 +24,7 @@ require_once 'phing/Task.php';
 /**
  * Deletes a file or directory, or set of files defined by a fileset.
  * 
- * @version   $Revision: 321 $
+ * @version   $Revision: 1.13 $
  * @package   phing.tasks.system
  */
 class DeleteTask extends Task {

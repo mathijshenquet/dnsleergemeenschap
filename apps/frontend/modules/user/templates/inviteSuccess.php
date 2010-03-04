@@ -3,11 +3,11 @@
 	<form action="" method="post">
 		<tr>
 			<th>Email</th>
-			<th><?php echo textarea_tag('email'); ?></th>
+			<th><textarea name="email" rows="10" cols="10"></textarea></th>
 		</tr>
 		<tr>
 			<th></th>
-			<th><?php echo submit_tag('Verstuur'); ?></th>
+			<th><input type="submit" value="Verstuur »" name="commit" /></th>
 		</tr>
 	</form>
 </table>
