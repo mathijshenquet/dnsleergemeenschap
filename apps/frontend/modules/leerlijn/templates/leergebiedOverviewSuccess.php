@@ -1,4 +1,4 @@
-<?php slot('title', sprintf('%s overzicht', $leergebied->getName())); ?>
+<?php slot('title', sprintf('Leergebied %s', $leergebied->getName())); ?>
 <?php 
 if($sf_user->hasCredential('leerlijn_admin')){
 	include_component('user', 'adminBar', array('actions' => array(

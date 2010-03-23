@@ -1,6 +1,8 @@
 <?php use_javascript('walloffame'); 
 use_stylesheet('content');?>
 
+<?php slot('title', $item->getTitle().' door '.$item->getUser()->getFullname()); ?>
+
 <?php 
 if($sf_user->hasCredential('showcase_admin')):
 	include_component('user', 'adminBar', array('actions' => array(

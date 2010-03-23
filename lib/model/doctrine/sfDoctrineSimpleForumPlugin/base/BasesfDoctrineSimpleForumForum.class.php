@@ -99,7 +99,7 @@ abstract class BasesfDoctrineSimpleForumForum extends sfDoctrineRecord
              'onDelete' => 'cascade'));
 
         $this->hasOne('sfDoctrineSimpleForumPost as LastPost', array(
-             'local' => 'latest_post_Id',
+             'local' => 'latest_post_id',
              'foreign' => 'id'));
 
         $this->hasMany('sfDoctrineSimpleForumTopic', array(

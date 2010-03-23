@@ -1,5 +1,5 @@
 <?php 
-slot('title', 'Expertbank overzicht'); 
+slot('title', 'Expertisebank'); 
 use_helper('jQuery');
 use_javascript('jqueryui/effects.core.min.js');
 use_javascript('jqueryui/effects.highlight.min.js');

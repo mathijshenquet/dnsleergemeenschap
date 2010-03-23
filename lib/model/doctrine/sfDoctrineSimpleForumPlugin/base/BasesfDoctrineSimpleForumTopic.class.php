@@ -17,6 +17,7 @@
  * @property integer $nb_views
  * @property sfDoctrineSimpleForumForum $Forum
  * @property sfGuardUser $User
+ * @property sfDoctrineSimpleForumPost $LastPost
  * @property Doctrine_Collection $Posts
  * @property Doctrine_Collection $sfDoctrineSimpleForumTopicView
  * 
@@ -32,6 +33,7 @@
  * @method integer                    getNbViews()                        Returns the current record's "nb_views" value
  * @method sfDoctrineSimpleForumForum getForum()                          Returns the current record's "Forum" value
  * @method sfGuardUser                getUser()                           Returns the current record's "User" value
+ * @method sfDoctrineSimpleForumPost  getLastPost()                       Returns the current record's "LastPost" value
  * @method Doctrine_Collection        getPosts()                          Returns the current record's "Posts" collection
  * @method Doctrine_Collection        getSfDoctrineSimpleForumTopicView() Returns the current record's "sfDoctrineSimpleForumTopicView" collection
  * @method sfDoctrineSimpleForumTopic setId()                             Sets the current record's "id" value
@@ -46,6 +48,7 @@
  * @method sfDoctrineSimpleForumTopic setNbViews()                        Sets the current record's "nb_views" value
  * @method sfDoctrineSimpleForumTopic setForum()                          Sets the current record's "Forum" value
  * @method sfDoctrineSimpleForumTopic setUser()                           Sets the current record's "User" value
+ * @method sfDoctrineSimpleForumTopic setLastPost()                       Sets the current record's "LastPost" value
  * @method sfDoctrineSimpleForumTopic setPosts()                          Sets the current record's "Posts" collection
  * @method sfDoctrineSimpleForumTopic setSfDoctrineSimpleForumTopicView() Sets the current record's "sfDoctrineSimpleForumTopicView" collection
  * 
@@ -115,6 +118,10 @@ abstract class BasesfDoctrineSimpleForumTopic extends sfDoctrineRecord
 
         $this->hasOne('sfGuardUser as User', array(
              'local' => 'user_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('sfDoctrineSimpleForumPost as LastPost', array(
+             'local' => 'latest_post_id',
              'foreign' => 'id'));
 
         $this->hasMany('sfDoctrineSimpleForumPost as Posts', array(

@@ -1,4 +1,0 @@
-all:
-  stylesheets: [forum]
-createTopicSuccess:
-  javascripts: [hint]

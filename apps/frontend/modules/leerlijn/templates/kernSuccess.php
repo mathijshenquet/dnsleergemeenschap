@@ -1,4 +1,4 @@
-<?php slot('title', $kern->getName()); ?>
+<?php slot('title', 'Kern '.$kern->getName()); ?>
 
 <div class="leerlijn">
 	<?php include_partial('breadcrumb', array('items'=>array(

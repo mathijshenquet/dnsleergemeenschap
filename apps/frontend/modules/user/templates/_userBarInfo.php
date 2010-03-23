@@ -4,7 +4,7 @@
   <ul>
   	<?php //* ?><li class="username">
   		<label for="user">Gebruiker</label>
-  		<?php echo link_to($sf_user->getProfile()->getFullName()?$sf_user->getProfile()->getFullName():'Niet Bekent', '@profile', $sf_user->getProfile()->getFullName()?array('id'=>'user'):array('id'=>'user', 'class'=>'unknown')); ?>
+  		<?php echo link_to($sf_user->getGuardUser()->getDisplayName()?$sf_user->getGuardUser()->getDisplayName():'Niet Bekent', '@profile', $sf_user->getProfile()->getFullName()?array('id'=>'user'):array('id'=>'user', 'class'=>'unknown')); ?>
   	</li><?php // */ ?>
   	<?php /* ?><li class="mailbox">
   		<label for="mailbox">Mailbox</label>

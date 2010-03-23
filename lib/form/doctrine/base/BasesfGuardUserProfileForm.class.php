@@ -21,6 +21,7 @@ abstract class BasesfGuardUserProfileForm extends BaseFormDoctrine
       'first_name'  => new sfWidgetFormInputText(),
       'last_name'   => new sfWidgetFormInputText(),
       'preposition' => new sfWidgetFormInputText(),
+      'image'       => new sfWidgetFormInputText(),
       'is_invite'   => new sfWidgetFormInputCheckbox(),
     ));
 
@@ -31,6 +32,7 @@ abstract class BasesfGuardUserProfileForm extends BaseFormDoctrine
       'first_name'  => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'last_name'   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'preposition' => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'image'       => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'is_invite'   => new sfValidatorBoolean(array('required' => false)),
     ));
 

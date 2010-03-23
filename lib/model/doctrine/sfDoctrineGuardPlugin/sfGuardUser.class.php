@@ -20,6 +20,9 @@ class sfGuardUser extends PluginsfGuardUser
 	public function getEmail(){
 		return $this->getProfile()->getEmail();
 	}
+	public function getDisplayName(){
+		return sprintf('%s (%s)', $this->getFullname(), $this->getUsername());
+	}
 	public function getInformation($classes=''){
 		ob_start();
 		?>

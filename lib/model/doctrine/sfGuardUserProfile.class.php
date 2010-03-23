@@ -16,4 +16,11 @@ class sfGuardUserProfile extends BasesfGuardUserProfile
 			return false;
 		}
 	}
+	public function save(Doctrine_Connection $con = null){		
+		if(($fileName = $this->getImage())){			
+			DNS::resizeImage(80, 80, $fileName, sfConfig::get('sf_upload_dir').'/avatars/', sfConfig::get('sf_upload_dir').'/avatars/');
+		}
+		
+		parent::save($con);
+	}
 }

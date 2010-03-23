@@ -18,6 +18,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterDoctrine
       'first_name'  => new sfWidgetFormFilterInput(),
       'last_name'   => new sfWidgetFormFilterInput(),
       'preposition' => new sfWidgetFormFilterInput(),
+      'image'       => new sfWidgetFormFilterInput(),
       'is_invite'   => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
     ));
 
@@ -27,6 +28,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterDoctrine
       'first_name'  => new sfValidatorPass(array('required' => false)),
       'last_name'   => new sfValidatorPass(array('required' => false)),
       'preposition' => new sfValidatorPass(array('required' => false)),
+      'image'       => new sfValidatorPass(array('required' => false)),
       'is_invite'   => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
     ));
 
@@ -53,6 +55,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterDoctrine
       'first_name'  => 'Text',
       'last_name'   => 'Text',
       'preposition' => 'Text',
+      'image'       => 'Text',
       'is_invite'   => 'Boolean',
     );
   }

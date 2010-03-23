@@ -11,5 +11,6 @@ class sfDoctrineSimpleForumPostForm extends PluginsfDoctrineSimpleForumPostForm
 {
   public function configure()
   {
+  	parent::configure();
   }
 }

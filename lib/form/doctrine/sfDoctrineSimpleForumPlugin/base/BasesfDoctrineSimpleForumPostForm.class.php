@@ -17,7 +17,8 @@ abstract class BasesfDoctrineSimpleForumPostForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'                  => new sfWidgetFormInputHidden(),
       'title'               => new sfWidgetFormInputText(),
-      'content'             => new sfWidgetFormTextarea(),
+      'body'                => new sfWidgetFormTextarea(),
+      'markdown_source'     => new sfWidgetFormTextarea(),
       'topic_id'            => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Topic'), 'add_empty' => true)),
       'is_reply_to_comment' => new sfWidgetFormInputText(),
       'reply_id'            => new sfWidgetFormInputText(),
@@ -31,7 +32,8 @@ abstract class BasesfDoctrineSimpleForumPostForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'                  => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
       'title'               => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'content'             => new sfValidatorString(array('required' => false)),
+      'body'                => new sfValidatorString(array('required' => false)),
+      'markdown_source'     => new sfValidatorString(array('required' => false)),
       'topic_id'            => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Topic'), 'required' => false)),
       'is_reply_to_comment' => new sfValidatorInteger(array('required' => false)),
       'reply_id'            => new sfValidatorInteger(array('required' => false)),

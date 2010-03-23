@@ -41,10 +41,10 @@ all:
     etag:                   true 
     compressed:             true
   
-    enabled_modules:		[default, sfGuardAuth, nahoWiki]
+    enabled_modules:		[default, sfGuardAuth, nahoWiki, sfDoctrineSimpleForum]
     
     default_culture:        nl
-    i18n: true
+    i18n:					true
     
   .actions:
     error_404_module:       error   # To be called when a 404 error is raised

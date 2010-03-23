@@ -12,7 +12,9 @@ class showcaseActions extends sfActions
 {
   public function preExecute(){
   	$this->getResponse()->setSlot('logo', 'Wall of Fame');
-  	$this->getResponse()->setSlot('copyright', 'Wall of Fame: Alle rechten voorbehouden aan rechtmatige eigenaars van werken.');
+  	$this->getResponse()->setSlot('copyright', '
+  	<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/nl/80x15.png" /></a><br />Op de werken in de Wall of Fame is een <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/">Creative Commons Licentie</a> van toepassing.
+  	');
   	
   }
   function executeWall(){

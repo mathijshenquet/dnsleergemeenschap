@@ -12,7 +12,7 @@ class leerlijnActions extends sfActions
 {
   public function preExecute(){
     $this->getResponse()->setSlot('logo', 'Leerlijn');
-    $this->getResponse()->setSlot('copyright', 'Leerlijn: Alle rechten voorbehouden <span class="gravity">&copy;</span> <a href="http://www.denieuwsteschool.nl/">De Nieuwste School</a>');
+    $this->getResponse()->setSlot('copyright', '<span class="gravity">&copy;</span> <a href="http://www.denieuwsteschool.nl/">De Nieuwste School</a>');
   }
   public function executeOverview()
   {

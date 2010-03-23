@@ -5,3 +5,5 @@ all:
       dsn: 'mysql:host=localhost;dbname=dns'
       username: root
       password: ''
+      attributes:
+        use_dql_callbacks: true    

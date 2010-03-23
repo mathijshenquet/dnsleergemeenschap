@@ -136,6 +136,7 @@ sfGuardUserProfile:
     first_name: { type: string(255) }
     last_name: { type: string(255) }
     preposition: { type: string(255) }
+    image: { type: string(255) }
     is_invite: { type: boolean, default: false }
   relations:
     User:

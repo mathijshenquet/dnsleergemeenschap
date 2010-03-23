@@ -1,4 +1,0 @@
-all:
-  stylesheets: [/sfDoctrineSimpleForumPlugin/css/default.css]
-createTopicSuccess:
-  javascripts: [/sfDoctrineSimpleForumPlugin/js/hint.js]

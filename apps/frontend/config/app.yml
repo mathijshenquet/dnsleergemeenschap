@@ -1,4 +1,4 @@
-﻿dev:
+dev:
   sfCombinePlugin:
     enabled:		false
   sf_google_analytics_plugin:
@@ -13,6 +13,11 @@ prod:
     compile:  false
     
 all:
+  sfDoctrineSimpleForumPlugin:
+    use_markdown: true
+    sort_order: ASC
+    include_jquery: false # Only if hints are enabled
+    use_hints: true
   sf_less_php_plugin:
     use_compression:    true
   posts_op_nieuwspagina: 5

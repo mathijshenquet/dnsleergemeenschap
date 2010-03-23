@@ -53,15 +53,6 @@ $(function(){
 	}else{
 		$('#admin_bar').addClass('hidden');
 	}
-	
-	$('#header #showcase .slideshow img, #walloffame li img').each(function(){
-		var el = $(this);
-		el.css('padding-top', (el.parent().height()-el.height())/2);
-		el.css('padding-bottom', (el.parent().height()-el.height())/2);
-		
-		el.css('padding-left', (el.parent().width()-el.width())/2);
-		el.css('padding-right', (el.parent().width()-el.width())/2);
-	});
 });
 $(window).unload( function () {
 	$.cookie('admin_bar', adminBarState, {path: '/'});

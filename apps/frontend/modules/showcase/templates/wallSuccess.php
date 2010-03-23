@@ -5,6 +5,8 @@ use_javascript('walloffame');
 use_helper('jQuery'); 
 ?>
 
+<?php slot('title', 'Wall of Fame') ?>
+
 <?php
 if($sf_user->hasCredential('showcase_admin')):
 	include_component('user', 'adminBar', array('actions' => array(

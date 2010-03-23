@@ -14,7 +14,8 @@ abstract class BasesfDoctrineSimpleForumPostFormFilter extends BaseFormFilterDoc
   {
     $this->setWidgets(array(
       'title'               => new sfWidgetFormFilterInput(),
-      'content'             => new sfWidgetFormFilterInput(),
+      'body'                => new sfWidgetFormFilterInput(),
+      'markdown_source'     => new sfWidgetFormFilterInput(),
       'topic_id'            => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Topic'), 'add_empty' => true)),
       'is_reply_to_comment' => new sfWidgetFormFilterInput(),
       'reply_id'            => new sfWidgetFormFilterInput(),
@@ -27,7 +28,8 @@ abstract class BasesfDoctrineSimpleForumPostFormFilter extends BaseFormFilterDoc
 
     $this->setValidators(array(
       'title'               => new sfValidatorPass(array('required' => false)),
-      'content'             => new sfValidatorPass(array('required' => false)),
+      'body'                => new sfValidatorPass(array('required' => false)),
+      'markdown_source'     => new sfValidatorPass(array('required' => false)),
       'topic_id'            => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Topic'), 'column' => 'id')),
       'is_reply_to_comment' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'reply_id'            => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
@@ -57,7 +59,8 @@ abstract class BasesfDoctrineSimpleForumPostFormFilter extends BaseFormFilterDoc
     return array(
       'id'                  => 'Number',
       'title'               => 'Text',
-      'content'             => 'Text',
+      'body'                => 'Text',
+      'markdown_source'     => 'Text',
       'topic_id'            => 'ForeignKey',
       'is_reply_to_comment' => 'Number',
       'reply_id'            => 'Number',

@@ -1,3 +1,5 @@
+<?php slot('title', 'Uitnodigen'); ?>
+
 <?php use_helper('Form'); ?>
 <table class="form">
 	<form action="" method="post">
@@ -7,7 +9,7 @@
 		</tr>
 		<tr>
 			<th></th>
-			<th><input type="submit" value="Verstuur Â»" name="commit" /></th>
+			<th><input type="submit" value="Verstuur »" name="commit" /></th>
 		</tr>
 	</form>
 </table>

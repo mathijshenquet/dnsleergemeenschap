@@ -1,12 +1,12 @@
-<?php setlocale(LC_ALL, 'nl_NL'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
 <head>
-	<title><?php include_slot('title'); ?> - Leerlingensite De Nieuwste School</title>
+	<title><?php include_slot('title'); ?> - DNS Leergemeenschap</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="De leerlingenwebsite van De Nieuwste School; Tilburg" />
 	<meta name="copyright" content="Copyright 2009 De Nieuwste School. Alle Rechten Voorbehouden." />
 	<meta name="author" content="Mathijs Henquet, Cas Cornelissen en Robin Kanters" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
 	<meta name="language" content="nl" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
@@ -74,11 +74,10 @@
 		<hr/>
 		<div class="copyright">
 			<p class="credits"><a href="http://www.youtube.com/watch?v=oOMmsyN3nM8">Mathijs Henquet</a> - <a href="http://rawox.deviantart.com">Cas Cornelissen</a> - <a href="http://www.chalk-webdesign.nl">Robin Kanters</a></p>
-			<p class="small">Site: Alle rechten voorbehouden tenzij anders vermeld <span class="gravity">&copy;</span> <a href="http://www.youtube.com/watch?v=oOMmsyN3nM8">Mathijs Henquet</a> - <a href="http://rawox.deviantart.com">Cas Cornelissen</a> - <a href="http://www.chalk-webdesign.nl">Robin Kanters</a></p>
 			<?php if(has_slot('copyright')): ?>
 			<p class="small"><?php echo get_slot('copyright'); ?></p>
 			<?php else: ?>
-			<p class="small">Inhoud: Alle rechten voorbehouden tenzij anders vermeld <span class="gravity">&copy;</span> <a href="http://www.denieuwsteschool.nl/">De Nieuwste School</a></p>
+			<p class="small">Alle rechten voorbehouden tenzij anders vermeld <span class="gravity">&copy;</span> <a href="http://www.denieuwsteschool.nl/">De Nieuwste School</a></p>
 			<?php endif; ?>		
 		</div>
 	</div>

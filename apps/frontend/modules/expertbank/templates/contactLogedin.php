@@ -1,4 +1,4 @@
-<?php slot('title', 'Contact opnemen'); ?>
+<?php slot('title', 'Contact opnemen met '.$expert->getName()); ?>
 <?php 
 if($sf_user->hasCredential('expertbank')){
 	include_component('user', 'adminBar', array('actions' => array(

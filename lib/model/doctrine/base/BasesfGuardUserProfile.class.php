@@ -11,6 +11,7 @@
  * @property string $first_name
  * @property string $last_name
  * @property string $preposition
+ * @property string $image
  * @property boolean $is_invite
  * @property sfGuardUser $User
  * 
@@ -20,6 +21,7 @@
  * @method string             getFirstName()   Returns the current record's "first_name" value
  * @method string             getLastName()    Returns the current record's "last_name" value
  * @method string             getPreposition() Returns the current record's "preposition" value
+ * @method string             getImage()       Returns the current record's "image" value
  * @method boolean            getIsInvite()    Returns the current record's "is_invite" value
  * @method sfGuardUser        getUser()        Returns the current record's "User" value
  * @method sfGuardUserProfile setId()          Sets the current record's "id" value
@@ -28,6 +30,7 @@
  * @method sfGuardUserProfile setFirstName()   Sets the current record's "first_name" value
  * @method sfGuardUserProfile setLastName()    Sets the current record's "last_name" value
  * @method sfGuardUserProfile setPreposition() Sets the current record's "preposition" value
+ * @method sfGuardUserProfile setImage()       Sets the current record's "image" value
  * @method sfGuardUserProfile setIsInvite()    Sets the current record's "is_invite" value
  * @method sfGuardUserProfile setUser()        Sets the current record's "User" value
  * 
@@ -63,6 +66,10 @@ abstract class BasesfGuardUserProfile extends sfDoctrineRecord
              'length' => '255',
              ));
         $this->hasColumn('preposition', 'string', 255, array(
+             'type' => 'string',
+             'length' => '255',
+             ));
+        $this->hasColumn('image', 'string', 255, array(
              'type' => 'string',
              'length' => '255',
              ));

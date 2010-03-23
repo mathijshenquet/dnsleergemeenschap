@@ -7,7 +7,8 @@
  * 
  * @property integer $id
  * @property string $title
- * @property string $content
+ * @property string $body
+ * @property string $markdown_source
  * @property integer $topic_id
  * @property integer $is_reply_to_comment
  * @property integer $reply_id
@@ -15,30 +16,32 @@
  * @property integer $forum_id
  * @property sfDoctrineSimpleForumTopic $Topic
  * @property sfGuardUser $User
- * @property Doctrine_Collection $Forum
+ * @property Doctrine_Collection $sfDoctrineSimpleForumForum
  * 
- * @method integer                    getId()                  Returns the current record's "id" value
- * @method string                     getTitle()               Returns the current record's "title" value
- * @method string                     getContent()             Returns the current record's "content" value
- * @method integer                    getTopicId()             Returns the current record's "topic_id" value
- * @method integer                    getIsReplyToComment()    Returns the current record's "is_reply_to_comment" value
- * @method integer                    getReplyId()             Returns the current record's "reply_id" value
- * @method integer                    getUserId()              Returns the current record's "user_id" value
- * @method integer                    getForumId()             Returns the current record's "forum_id" value
- * @method sfDoctrineSimpleForumTopic getTopic()               Returns the current record's "Topic" value
- * @method sfGuardUser                getUser()                Returns the current record's "User" value
- * @method Doctrine_Collection        getForum()               Returns the current record's "Forum" collection
- * @method sfDoctrineSimpleForumPost  setId()                  Sets the current record's "id" value
- * @method sfDoctrineSimpleForumPost  setTitle()               Sets the current record's "title" value
- * @method sfDoctrineSimpleForumPost  setContent()             Sets the current record's "content" value
- * @method sfDoctrineSimpleForumPost  setTopicId()             Sets the current record's "topic_id" value
- * @method sfDoctrineSimpleForumPost  setIsReplyToComment()    Sets the current record's "is_reply_to_comment" value
- * @method sfDoctrineSimpleForumPost  setReplyId()             Sets the current record's "reply_id" value
- * @method sfDoctrineSimpleForumPost  setUserId()              Sets the current record's "user_id" value
- * @method sfDoctrineSimpleForumPost  setForumId()             Sets the current record's "forum_id" value
- * @method sfDoctrineSimpleForumPost  setTopic()               Sets the current record's "Topic" value
- * @method sfDoctrineSimpleForumPost  setUser()                Sets the current record's "User" value
- * @method sfDoctrineSimpleForumPost  setForum()               Sets the current record's "Forum" collection
+ * @method integer                    getId()                         Returns the current record's "id" value
+ * @method string                     getTitle()                      Returns the current record's "title" value
+ * @method string                     getBody()                       Returns the current record's "body" value
+ * @method string                     getMarkdownSource()             Returns the current record's "markdown_source" value
+ * @method integer                    getTopicId()                    Returns the current record's "topic_id" value
+ * @method integer                    getIsReplyToComment()           Returns the current record's "is_reply_to_comment" value
+ * @method integer                    getReplyId()                    Returns the current record's "reply_id" value
+ * @method integer                    getUserId()                     Returns the current record's "user_id" value
+ * @method integer                    getForumId()                    Returns the current record's "forum_id" value
+ * @method sfDoctrineSimpleForumTopic getTopic()                      Returns the current record's "Topic" value
+ * @method sfGuardUser                getUser()                       Returns the current record's "User" value
+ * @method Doctrine_Collection        getSfDoctrineSimpleForumForum() Returns the current record's "sfDoctrineSimpleForumForum" collection
+ * @method sfDoctrineSimpleForumPost  setId()                         Sets the current record's "id" value
+ * @method sfDoctrineSimpleForumPost  setTitle()                      Sets the current record's "title" value
+ * @method sfDoctrineSimpleForumPost  setBody()                       Sets the current record's "body" value
+ * @method sfDoctrineSimpleForumPost  setMarkdownSource()             Sets the current record's "markdown_source" value
+ * @method sfDoctrineSimpleForumPost  setTopicId()                    Sets the current record's "topic_id" value
+ * @method sfDoctrineSimpleForumPost  setIsReplyToComment()           Sets the current record's "is_reply_to_comment" value
+ * @method sfDoctrineSimpleForumPost  setReplyId()                    Sets the current record's "reply_id" value
+ * @method sfDoctrineSimpleForumPost  setUserId()                     Sets the current record's "user_id" value
+ * @method sfDoctrineSimpleForumPost  setForumId()                    Sets the current record's "forum_id" value
+ * @method sfDoctrineSimpleForumPost  setTopic()                      Sets the current record's "Topic" value
+ * @method sfDoctrineSimpleForumPost  setUser()                       Sets the current record's "User" value
+ * @method sfDoctrineSimpleForumPost  setSfDoctrineSimpleForumForum() Sets the current record's "sfDoctrineSimpleForumForum" collection
  * 
  * @package    leerling
  * @subpackage model
@@ -60,7 +63,10 @@ abstract class BasesfDoctrineSimpleForumPost extends sfDoctrineRecord
              'type' => 'string',
              'length' => '255',
              ));
-        $this->hasColumn('content', 'string', null, array(
+        $this->hasColumn('body', 'string', null, array(
+             'type' => 'string',
+             ));
+        $this->hasColumn('markdown_source', 'string', null, array(
              'type' => 'string',
              ));
         $this->hasColumn('topic_id', 'integer', 4, array(
@@ -99,9 +105,9 @@ abstract class BasesfDoctrineSimpleForumPost extends sfDoctrineRecord
              'foreign' => 'id',
              'onDelete' => 'cascade'));
 
-        $this->hasMany('sfDoctrineSimpleForumForum as Forum', array(
+        $this->hasMany('sfDoctrineSimpleForumForum', array(
              'local' => 'id',
-             'foreign' => 'latest_post_Id'));
+             'foreign' => 'latest_post_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $softdelete0 = new Doctrine_Template_SoftDelete();
