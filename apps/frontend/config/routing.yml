@@ -1,4 +1,8 @@
 # default rules
+ballgame:
+  url: /ballgame/submit/:user/:score/:hash
+  param: { action: index, module: ballgame }
+
 homepage:
   url: /
   param: { action: overview, module: leerlijn }
